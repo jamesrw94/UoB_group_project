@@ -21,6 +21,6 @@ We have produced a survey for users to complete once they used the app: https://
  - angular - contains the code for our app
  - JIRA screenshots - screenshots of our JIRA board
  - Data Model - how we envisage our Data schema and data model
- - Twitter API - technical documentation regarding the API we intend to use and a sample of the headlines we can get back from Twitter
+ - Twitter API - contains the script we intend to use to retrieve headlines from twitter
  - Ideas - Contains all ideas that for the Serious Play app which we have considered.
  - Meet notes - contains minutes from our meetings
