@@ -1,0 +1,24 @@
+General discussion:
+
+- To include the protoype in the readMe
+- We have discussed how we need to include instructions to our app somewhere
+- We have organised a stand up for 19.03.21 to discuss what we think we need to learn
+  as a group in order to build this app from a technical perspective
+
+
+Scoping:
+
+Conceptual scope:
+
+- A key challenge will be getting this app in front of people who might need it most 
+(i.e. potentially older people who consume the same form of media from the same outlet on a regular basis) 
+vs younger, politically engaged people more likely to use the app
+
+Technical Scoping:
+
+- MVP will have no user session ID or individual user data persisted. 
+- Instead, we will hold overall data in our database.
+
+Evaluation scope:
+- We can use our survey for evaluation
+- Additionally, we can use our database statistics to show how popular the app is
