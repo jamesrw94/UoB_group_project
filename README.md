@@ -12,10 +12,10 @@ We have produced a survey for users to complete once they used the app: https://
 
 # Group Members
 * Philip Sloan
-* Joseph Hedin\n
-* Daniel Chow\n
-* Harry Field\n
-* James Wilson\n
+* Joseph Hedin
+* Daniel Chow
+* Harry Field
+* James Wilson
 
 # Project Structure
  - angular - contains the code for our app
