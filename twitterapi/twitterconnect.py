@@ -3,7 +3,7 @@ import requests
 import os
 import json
 import pandas as pd
-
+from datetime import datetime
 
 def main():
 
@@ -42,10 +42,10 @@ def main():
 		for newspaper in newspapers:
 			search_q = f' "{search_term}" from:{newspaper}'
 			if newspaper in news_dict.keys():
-		  		news_dict[newspaper][search_term] = connect_to_endpoint(create_url(search_q,tweet_fields),headers)
+				news_dict[newspaper][search_term] = connect_to_endpoint(create_url(search_q,tweet_fields),headers)
 			else:
-		  		news_dict[newspaper]={}
-		  		news_dict[newspaper][search_term] = connect_to_endpoint(create_url(search_q,tweet_fields),headers)
+				news_dict[newspaper]={}
+				news_dict[newspaper][search_term] = connect_to_endpoint(create_url(search_q,tweet_fields),headers)
 
 	#get results of api query into dataframe format
 	df_dict ={'paper':[],'term':[],'text':[]}
@@ -69,28 +69,23 @@ def main():
 
 	filter_words=['Guardian','Daily Mail', 'FT', 'Sun', 'Telegraph']
 	for word in filter_words:
-	  df_refine=df_refine[~ df_refine['text'].str.contains(word)]
+		df_refine=df_refine[~ df_refine['text'].str.contains(word)]
 
 
 
-        #save to csv
-        df_refine.to_csv(path="twitter_info.csv", index=False)
-        
-        
-        #below if we want to put straight into a mongo db server
-        
+	#save to csv
+	df_refine.to_csv(f"twitter_info{datetime.now()}.csv", index=False)
+
+
+		#below if we want to put straight into a mongo db server
+
 	#turn the data into record format
 	#records = json.loads(df_refine.T.to_json()).values()
 	#link to Mongodb server and insert records - eventually will want to check for duplicates
 	#client = MongoClient()
 	#db =client.test_db
-	#db.test_collection.insert(records)
+		#db.test_collection.insert(records)
 
 
 if __name__ == '__main__':
 	main();
-
-
-
-
-
