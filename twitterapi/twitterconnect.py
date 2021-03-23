@@ -3,7 +3,7 @@ import requests
 import os
 import json
 import pandas as pd
-from pymongo import MongoClient
+
 
 def main():
 
@@ -32,12 +32,12 @@ def main():
 	headers = create_headers(bearer_token)
 
 
-	search_terms =['Military', 'Climate', 'Politics','Brexit','Boris','Covid','America','Black Lives Matter']
+	search_terms =['Military', 'Climate', 'Politics','Brexit','Boris','Covid','America','Racism']
 	newspapers = ['Guardian','DailyMailUK','FT','TheSun','Telegraph']
 	tweet_fields = "tweet.fields=text"
 
 	news_dict = {}
-
+	#query the twitter api for selected search terms
 	for search_term in search_terms:
 		for newspaper in newspapers:
 			search_q = f' "{search_term}" from:{newspaper}'
@@ -47,7 +47,7 @@ def main():
 		  		news_dict[newspaper]={}
 		  		news_dict[newspaper][search_term] = connect_to_endpoint(create_url(search_q,tweet_fields),headers)
 
-
+	#get results of api query into dataframe format
 	df_dict ={'paper':[],'term':[],'text':[]}
 
 	for search_term in search_terms:
@@ -58,7 +58,7 @@ def main():
 					df_dict['term'].append(search_term)
 					df_dict['text'].append(story['text'])
 
-
+	#clean the data
 	df=pd.DataFrame(df_dict)
 	df['link']=df['text'].map(lambda x : x.split('https')[1] if len(x.split('https'))>1 else x)
 	df['link']='https'+df['link']
@@ -73,13 +73,24 @@ def main():
 
 
 
-	records = json.loads(df_refine.T.to_json()).values()
-
-	client = MongoClient()
-	db =client.test_db
-	db.test_collection.insert(records)
+        #save to csv
+        df_refine.to_csv(path="twitter_info.csv", index=False)
+        
+        
+        #below if we want to put straight into a mongo db server
+        
+	#turn the data into record format
+	#records = json.loads(df_refine.T.to_json()).values()
+	#link to Mongodb server and insert records - eventually will want to check for duplicates
+	#client = MongoClient()
+	#db =client.test_db
+	#db.test_collection.insert(records)
 
 
 if __name__ == '__main__':
 	main();
+
+
+
+
 
