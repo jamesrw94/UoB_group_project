@@ -11,7 +11,7 @@ Please find our wireframe at this link: https://marvelapp.com/prototype/144665he
 We have produced a survey for users to complete once they used the app: https://docs.google.com/forms/d/e/1FAIpQLScVcWFPNb6wUZRy36ce8UjPXqiRm6ioFgZKw1wM78h9gpyTsw/viewform
 
 # Group Members
-* Philip Sloan
+* Phillip Sloan
 * Joseph Hedin
 * Daniel Chow
 * Harry Field
