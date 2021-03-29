@@ -1,5 +1,7 @@
 import {BrowserModule} from '@angular/platform-browser';
+import {HttpClientModule} from '@angular/common/http';
 import {NgModule} from '@angular/core';
+import {DataService} from './data.service';
 
 import {ChartsModule} from 'ng2-charts';
 
@@ -20,10 +22,11 @@ import {PieChartComponent} from './pie-chart/pie-chart.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     ChartsModule
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule {
