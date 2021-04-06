@@ -11,6 +11,12 @@ function find (name, query, cb) {
 }
 
 
+function find_random (name, query, cb) {
+    mongoose.connection.db.collection(name, function (err, collection) {
+       collection.aggregate([{$sample:{size:1}}]).toArray(cb);
+   });
+}
+
 const db = mongoose.connection;
 const tweetSchema = new mongoose.Schema({paper:String,term:String,text:String,link:String});
 const Tweets = mongoose.model('tweets',tweetSchema,'test_collection');
