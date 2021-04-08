@@ -11,5 +11,4 @@ export class HomescreenComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
