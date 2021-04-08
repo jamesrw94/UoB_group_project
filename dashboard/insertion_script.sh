@@ -17,6 +17,5 @@ echo $user
 
 docker-compose up -d
 
-docker exec -i db sh -c 'mongoimport -u myUserAdmin -p abc123 --authenticationDatabase admin -c test_collection -d db --jsonArray' < twitter_test.json
 
-docker exec -i db sh  -c 'mongoimport -u $user -p $password --authenticationDatabase \"admin\" -c test_collection -d db --jsonArray' < twitter_test.json
+docker exec -i db sh  -c "mongoimport -u $user -p $password --authenticationDatabase admin -c test_collection -d db --jsonArray" < twitter_test.json
