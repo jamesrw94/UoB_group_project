@@ -4,13 +4,15 @@ import {BarChartComponent} from './bar-chart/bar-chart.component';
 import {DoughnutChartComponent} from './doughnut-chart/doughnut-chart.component';
 import {RadarChartComponent} from './radar-chart/radar-chart.component';
 import {PieChartComponent} from './pie-chart/pie-chart.component';
+import {HomescreenComponent} from './homescreen/homescreen.component';
+import {TopicpageComponent} from './topicpage/topicpage.component';
+import {ResultspageComponent} from './resultspage/resultspage.component';
 
 const routes: Routes = [
-  {path: 'bar-chart', component: BarChartComponent},
-  {path: 'doughnut-chart', component: DoughnutChartComponent},
-  {path: 'radar-chart', component: RadarChartComponent},
-  {path: 'pie-chart', component: PieChartComponent},
-  {path: '**', component: BarChartComponent}
+  {path: 'homepage', component: HomescreenComponent},
+  {path: 'topicpage', component: TopicpageComponent},
+  {path: 'resultspage', component: ResultspageComponent},
+  {path: '**', component: HomescreenComponent}
 ];
 
 @NgModule({

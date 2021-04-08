@@ -1,0 +1,33 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+.heading {
+    position: relative;
+    text-align: center;
+}
+.first text{
+    position: relative;
+    text-align: center;
+}
+  h2 {
+    background-color: #3f525c;
+    padding: 1rem;
+    font-size: 3rem;
+    text-decoration: underline;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    min-width: 70px;
+    margin: .5rem auto;
+    box-sizing: border-box;
+  }
+  h1{
+      text-align: center;
+      font-size: 1.5rem;
+      padding: 1rem;
+      color: black;
+      background-color: springgreen;
+  }
