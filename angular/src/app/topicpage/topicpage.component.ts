@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './topicpage.component.html',
   styleUrls: ['./topicpage.component.css']
 })
-export class TopicpageComponent implements OnInit {
+export class TopicPageComponent implements OnInit {
   topicPageUrl = '../../assets/homepage.jpeg';
   constructor() { }
 
