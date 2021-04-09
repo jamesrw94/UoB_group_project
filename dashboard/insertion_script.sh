@@ -12,8 +12,7 @@ while IFS='='  read -r first second ; do
 	fi
 done < .env
 
-echo $user
-echo $password
+
 
 docker-compose up -d
 
