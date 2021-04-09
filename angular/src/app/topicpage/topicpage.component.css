@@ -1,4 +1,8 @@
-/* h2 {
+h1 {
+    color: white;
+    font-size: 2rem;
+}
+h2 {
     background-color: #3f525c;
     padding: 1rem;
     font-size: 3rem;
@@ -14,4 +18,163 @@
 .image-container {
   display: flex;
   justify-content: center;
-} */
+}
+.brexitButton {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    background-color: #00a2fa;
+    text-align: center;
+    top: 25%;
+    left: 10%;
+    padding: 15px 75px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 15%;
+    transition-duration: 0.5s;
+}
+.brexitButton:hover {
+    background-color: #18628a;
+  }
+  .climateButton {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    background-color: #00a2fa;
+    text-align: center;
+    top: 25%;
+    left: 43%;
+    padding: 15px 70px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 15%;
+    transition-duration: 0.5s;
+}
+.climateButton:hover {
+    background-color: #18628a;
+  }
+
+  .covidButton {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    background-color: #00a2fa;
+    text-align: center;
+    top: 25%;
+    left: 75%;
+    padding: 15px 75px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 15%;
+    transition-duration: 0.5s;
+}
+.covidButton:hover {
+    background-color: #18628a;
+  }
+  .politicsButton {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    background-color: #00a2fa;
+    text-align: center;
+    top: 42%;
+    left: 10%;
+    padding: 15px 65px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 15%;
+    transition-duration: 0.5s;
+}
+.politicsButton:hover {
+    background-color: #18628a;
+  }
+  .educationButton {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    background-color: #00a2fa;
+    text-align: center;
+    top: 42%;
+    left: 43%;
+    padding: 15px 55px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 15%;
+    transition-duration: 0.5s;
+}
+.educationButton:hover {
+    background-color: #18628a;
+  }
+
+  .worldButton {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    background-color: #00a2fa;
+    text-align: center;
+    top: 42%;
+    left: 75%;
+    padding: 15px 75px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 15%;
+    transition-duration: 0.5s;
+}
+.worldButton:hover {
+    background-color: #18628a;
+  }
+  .healthButton {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    background-color: #00a2fa;
+    text-align: center;
+    top: 60%;
+    left: 10%;
+    padding: 15px 68px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 15%;
+    transition-duration: 0.5s;
+}
+.healthButton:hover {
+    background-color: #18628a;
+  }
+  .buisnessButton {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    background-color: #00a2fa;
+    text-align: center;
+    top: 60%;
+    left: 43%;
+    padding: 15px 63px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 15%;
+    transition-duration: 0.5s;
+}
+.buisnessButton:hover {
+    background-color: #18628a;
+  }
+
+  .randomButton {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    background-color: #00a2fa;
+    text-align: center;
+    top: 60%;
+    left: 75%;
+    padding: 15px 60px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 15%;
+    transition-duration: 0.5s;
+}
+.randomButton:hover {
+    background-color: #18628a;
+  }
+  
+  
+  
