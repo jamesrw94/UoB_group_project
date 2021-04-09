@@ -13,6 +13,7 @@ import {RadarChartComponent} from './radar-chart/radar-chart.component';
 import {PieChartComponent} from './pie-chart/pie-chart.component';
 import { HomescreenComponent } from './homescreen/homescreen.component';
 import { ResultspageComponent } from './resultspage/resultspage.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ResultspageComponent } from './resultspage/resultspage.component';
     RadarChartComponent,
     PieChartComponent,
     HomescreenComponent,
-    ResultspageComponent
+    ResultspageComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

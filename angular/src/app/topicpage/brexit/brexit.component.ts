@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./brexit.component.css']
 })
 export class BrexitComponent implements OnInit {
-
+  brexitPageUrl = '../../assets/brexit.jpeg';
   constructor() { }
 
   ngOnInit(): void {
