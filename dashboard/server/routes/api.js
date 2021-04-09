@@ -11,9 +11,9 @@ function find (name, query, cb) {
    });
 }
 
-function find_random (name, query, cb) {
+function find_random (name,newspaper,topic, cb) {
     mongoose.connection.db.collection(name, function (err, collection) {
-       collection.aggregate([{$sample:{size:1}}]).toArray(cb);
+       collection.aggregate([{$match:{"paper":newspaper,"term":topic}},{$sample:{size:1}}]).toArray(cb);
    });
 }
 
@@ -43,7 +43,7 @@ const Tweets = mongoose.model('tweets',tweetSchema,'test_collection');
 router.get('/', (req, res) => {
   res.header("Content-Type",'application/json');
   update_newspaper_wrong("newspaper_results", "DailyMail")
-  find_random('test_collection',{}, function(err,mdata){  
+  find_random('test_collection',"Guardian","Politics", function(err,mdata){  
  	 res.send(JSON.stringify(mdata))});
 });
 
