@@ -6,7 +6,7 @@ import { BrexitComponent } from './brexit/brexit.component';
 
 const topicRoutes: Routes = [
   { path: '', component: TopicPageComponent },
-  {path: 'topicpage/brexit', component: BrexitComponent}
+  {path: 'brexit', component: BrexitComponent}
 ]
 
 @NgModule({
