@@ -3,8 +3,6 @@ import {Routes, RouterModule} from '@angular/router';
 
 import {HomescreenComponent} from './homescreen/homescreen.component';
 import {ResultspageComponent} from './resultspage/resultspage.component';
-import { BrexitComponent } from './topicpage/brexit/brexit.component';
-import { TopicPageComponent } from './topicpage/topicpage.component';
 
 const routes: Routes = [
   {path: 'homepage', component: HomescreenComponent},
@@ -14,7 +12,7 @@ const routes: Routes = [
   },
   {path: 'resultspage', component: ResultspageComponent},
   {path: '', redirectTo: '/homepage', pathMatch: 'full'},
-  {path: '**', component: ResultspageComponent} // need to add 404 not found
+  {path: '**', component: HomescreenComponent} // need to add 404 not found
 ];
 
 @NgModule({
