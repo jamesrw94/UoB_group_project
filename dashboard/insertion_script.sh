@@ -2,11 +2,11 @@
 
 while IFS='='  read -r first second ; do
 	
-	if [ "$first" == "MONGO_USERNAME" ]
+	if [ "$first" = "MONGO_USERNAME" ]
 	then
 		user="$second"
 	fi
-	if [ "$first" == "MONGO_PASSWORD" ]
+	if [ "$first" = "MONGO_PASSWORD" ]
 	then
 		password="$second"
 	fi
