@@ -10,16 +10,11 @@ const routes: Routes = [
   {path: 'homepage', component: HomescreenComponent},
   {
     path: 'topicpage',
-    component: TopicPageComponent,
-    children: [
-      {
-        path: 'topicpage/brexit',
-        component: BrexitComponent
-      }
-    ]
+    loadChildren: () => import('./topicpage/topicpage.module').then(m => m.TopicPageModule)
   },
   {path: 'resultspage', component: ResultspageComponent},
-  {path: '**', component: HomescreenComponent}
+  {path: '', redirectTo: '/homepage', pathMatch: 'full'},
+  {path: '**', component: ResultspageComponent} // need to add 404 not found
 ];
 
 @NgModule({

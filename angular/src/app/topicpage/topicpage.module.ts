@@ -2,13 +2,13 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 
-// import { TopicPageRoutingModule } from './topicpage-routing.module';
+import { TopicPageRoutingModule } from './topicpage-routing.module';
 import { TopicPageComponent } from './topicpage.component';
 
 @NgModule({
   imports: [
     CommonModule,
-    // TopicPageRoutingModule
+    TopicPageRoutingModule
   ],
   declarations: [
     TopicPageComponent

@@ -12,9 +12,7 @@ import {DoughnutChartComponent} from './doughnut-chart/doughnut-chart.component'
 import {RadarChartComponent} from './radar-chart/radar-chart.component';
 import {PieChartComponent} from './pie-chart/pie-chart.component';
 import { HomescreenComponent } from './homescreen/homescreen.component';
-import { TopicPageComponent } from './topicpage/topicpage.component';
 import { ResultspageComponent } from './resultspage/resultspage.component';
-import { BrexitComponent } from './topicpage/brexit/brexit.component';
 
 @NgModule({
   declarations: [
@@ -24,9 +22,7 @@ import { BrexitComponent } from './topicpage/brexit/brexit.component';
     RadarChartComponent,
     PieChartComponent,
     HomescreenComponent,
-    ResultspageComponent,
-    BrexitComponent,
-    TopicPageComponent
+    ResultspageComponent
   ],
   imports: [
     BrowserModule,

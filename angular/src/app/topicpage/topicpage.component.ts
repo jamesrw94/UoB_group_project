@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, RouterModule, Routes } from '@angular/router';
+
 @Component({
   selector: 'app-topicpage',
   templateUrl: './topicpage.component.html',
@@ -7,7 +7,7 @@ import { Router, RouterModule, Routes } from '@angular/router';
 })
 export class TopicPageComponent implements OnInit {
   topicPageUrl = '../../assets/homepage.jpeg';
-  constructor(private router: Router) { }
+  constructor() { }
 
   ngOnInit(): void {
     
