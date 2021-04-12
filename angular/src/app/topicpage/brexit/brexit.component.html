@@ -1,16 +1,42 @@
 <html>
+
 <head>
-    <style>
-        body {
+  <style>
+    body {
       background-color: rgb(86, 52, 119);
     }
-    </style>
+  </style>
 </head>
+
 <body>
-    <div class="image-container">
-      <img class="center-fit" [src]="brexitPageUrl">
-      <h2 class="title">Brexit</h2>
-      <h1 class="first-txt">Can you place the tweet with its owner?</h1>
+
+  <div class="image-container">
+    <div class="tweet1">
+      <p>EU'RE JOKING Ten countries including France and Germany
+      <br>NOT extradite criminals to the UK after Brexit
+      </p>
     </div>
+
+    <div class="empty"><h3>Drag here</h3></div>
+    <div class="empty1"><h3>Drag here</h3></div>
+
+    <div class="tweet2">
+      <p>Small-time dealers fear Brexit could
+      <br>decimate antiques trade in UK
+      </p>
+    </div>
+    <img class="center-fit" [src]="brexitPageUrl">
+    
+      <div class="paper1" draggable="true">
+        <img class="paper1img" [src]="theSunUrl">
+      </div>
+
+      <div class="paper2" draggable="false">
+        <img class="paper2img" [src]="theGuardianUrl">
+      </div>
+    <h2 class="title">Brexit</h2>
+    <h1 class="first-txt">Can you place the tweet with its owner?</h1>
+  </div>
 </body>
+
 </html>
