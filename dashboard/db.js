@@ -19,8 +19,6 @@ const options = {
 
 const url = 'mongodb+srv://your_username:your_password@cluster0.qxju2.mongodb.net/Cluster0?retryWrites=true&w=majority';
 
-//`mongodb://${MONGO_USERNAME}:${MONGO_PASSWORD}@${MONGO_HOSTNAME}:${MONGO_PORT}/${MONGO_DB}?authSource=admin`
-
 mongoose.connect(url, options).then(function () {
   console.log('MongoDB is connected');
 })
