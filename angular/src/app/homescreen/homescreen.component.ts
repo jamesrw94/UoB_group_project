@@ -10,5 +10,6 @@ export class HomescreenComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log("hello from homescreen");
   }
 }

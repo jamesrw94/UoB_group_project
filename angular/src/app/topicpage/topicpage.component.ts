@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopicPageComponent implements OnInit {
   topicPageUrl = '../../assets/homepage.jpeg';
-  constructor() { }
+  constructor() {
+    console.log("hello from topic component");
+   }
 
   ngOnInit(): void {
+    console.log("hello from topic component");
     
   }
 }
