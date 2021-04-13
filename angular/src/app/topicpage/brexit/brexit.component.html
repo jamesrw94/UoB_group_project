@@ -18,7 +18,7 @@
     </div>
 
     <div class="emptylistcontainer1">
-      <h3>Drag heres</h3>
+      <h3>Drag logo into box</h3>
       <div cdkDropList #emptyList1="cdkDropList" [cdkDropListData]="emptybox1" [cdkDropListConnectedTo]="[emptyList1, emptyList2]"
         class="list" (cdkDropListDropped)="drop($event)">
         <div *ngFor="let item of emptybox1" cdkDrag>
@@ -28,7 +28,7 @@
     </div>
     
     <div class="emptylistcontainer2">
-      <h3>Drag here</h3>
+      <h3>Drag logo into box</h3>
       <div cdkDropList #emptyList2="cdkDropList" [cdkDropListData]="emptybox2" [cdkDropListConnectedTo]="[emptyList1, emptyList2]"
         class="list" (cdkDropListDropped)="drop($event)">
         <div *ngFor="let item of emptybox2" cdkDrag>
@@ -63,7 +63,7 @@
     </div>
 
     <h2 class="title">Brexit</h2>
-    <h1 class="first-txt">Can you place the tweet with its owner?</h1>
+    <h1 class="first-txt">Can you place the paper with the tweet?</h1>
   </div>
 </body>
 
