@@ -14,6 +14,8 @@ import {PieChartComponent} from './pie-chart/pie-chart.component';
 import { HomescreenComponent } from './homescreen/homescreen.component';
 import { ResultspageComponent } from './resultspage/resultspage.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import {DragDropModule} from '@angular/cdk/drag-drop';
+import {BrexitComponent} from './topicpage/brexit/brexit.component';
 
 @NgModule({
   declarations: [
@@ -24,13 +26,15 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     PieChartComponent,
     HomescreenComponent,
     ResultspageComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    BrexitComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    ChartsModule
+    ChartsModule,
+    DragDropModule
   ],
   providers: [DataService],
   bootstrap: [AppComponent]

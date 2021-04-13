@@ -108,3 +108,8 @@ p{
   width: 260px;
   aspect-ratio: 16/10;
 }
+.box{
+  position: absolute;
+  background: yellow;
+  top: 50%;
+}
