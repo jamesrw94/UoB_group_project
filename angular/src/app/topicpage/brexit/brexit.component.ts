@@ -14,19 +14,18 @@ export class BrexitComponent implements OnInit {
   brexitPageUrl = '../../assets/brexit.jpeg';
   theSunUrl = '../../assets/theSun.png';
   theGuardianUrl = '../../assets/theGuardian.png';
+
+  stats: any = [];
+  currentdata:String = '';
   
   constructor(private dataService: DataService) { 
-
   }
 
   retrieveData() {
-    this.dataService.getAll().subscribe(
+    this.dataService.getBrexit().subscribe(
       data => {
-        // need this instead to return a tweet. maybe i need to amend the data service method with find_random...
-        // this.stats = data;
-        // now let's update the fields
-        // this.radarChartLabels = this.stats.radarChartLabels;
-        // this.radarChartData = this.stats.radarChartData;
+        this.stats=data;
+        this.currentdata = this.stats.text;
       },
       error => {
         console.log(error);
@@ -34,6 +33,6 @@ export class BrexitComponent implements OnInit {
   }
   
   ngOnInit(): void {
-    console.log("hello from brexit component");
+    this.retrieveData();
   }
 }

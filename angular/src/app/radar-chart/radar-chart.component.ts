@@ -24,20 +24,20 @@ export class RadarChartComponent implements OnInit {
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
-    this.retrieveData();
+    // this.retrieveData();
   }
 
-  retrieveData() {
-    this.dataService.getAll().subscribe(
-        data => {
-          this.stats = data;
-          // now let's update the fields
-          this.radarChartLabels = this.stats.radarChartLabels;
-          this.radarChartData = this.stats.radarChartData;
-        },
-        error => {
-          console.log(error);
-        });
-  }
+  // retrieveData() {
+  //   this.dataService.getAll().subscribe(
+  //       data => {
+  //         this.stats = data;
+  //         // now let's update the fields
+  //         this.radarChartLabels = this.stats.radarChartLabels;
+  //         this.radarChartData = this.stats.radarChartData;
+  //       },
+  //       error => {
+  //         console.log(error);
+  //       });
+  // }
 
 }
