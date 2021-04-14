@@ -15,7 +15,7 @@ export class RadarChartComponent implements OnInit {
   ];
 
   stats: any = [];
-  currentdata = null;
+  currentdata:String = '';
   currentIndex = -1;
   title = '';
 
@@ -28,12 +28,13 @@ export class RadarChartComponent implements OnInit {
   }
 
   retrieveData() {
-    this.dataService.getAll().subscribe(
+    this.dataService.getPolitics().subscribe(
         data => {
-          this.stats = data;
-          // now let's update the fields
-          this.radarChartLabels = this.stats.radarChartLabels;
-          this.radarChartData = this.stats.radarChartData;
+
+            this.stats=data;
+
+            this.currentdata = this.stats.text;
+            
         },
         error => {
           console.log(error);

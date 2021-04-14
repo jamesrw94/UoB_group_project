@@ -40,10 +40,18 @@ const tweetSchema = new mongoose.Schema({paper:String,term:String,text:String,li
 const Tweets = mongoose.model('tweets',tweetSchema,'test_collection');
 
 /* GET api listing. */
-router.get('/', (req, res) => {
+router.get('/politics', (req, res) => {
   res.header("Content-Type",'application/json');
-  update_newspaper_wrong("newspaper_results", "DailyMail")
-  find_random('test_collection',"Guardian","Politics", function(err,mdata){  
+  //add check in here to see if the array length is greater than 0 else send 404
+  find_random('test_collection',"Guardian","Politics", function(err,mdata){
+     // console.log(JSON.stringify(mdata));
+ 	 res.send(JSON.stringify(mdata[0]))});
+});
+
+
+router.get('/brexit', (req, res) => {
+  res.header("Content-Type",'application/json');
+  find_random('test_collection',"Guardian","Brexit", function(err,mdata){
  	 res.send(JSON.stringify(mdata))});
 });
 
