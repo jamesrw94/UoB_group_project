@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
-import * as mongoose from "mongoose";
+import { DataService } from 'src/app/data.service';
 
 @Component({
   selector: 'app-brexit',
@@ -9,27 +8,32 @@ import * as mongoose from "mongoose";
 })
 export class BrexitComponent implements OnInit {
 
-
-  find_random (name: any,newspaper: any, cb: any) {
-    mongoose.connection.db.collection(name, function (err: any, collection: any) {
-       collection.aggregate([{$match:{"paper":newspaper,"term":"Brexit"}},{$sample:{size:1}}]).toArray(cb);
-   });
-  }
-
-  tweet: any;
- 
+  firstQuestion = null;
+  secondQuestion = null;
 
   brexitPageUrl = '../../assets/brexit.jpeg';
   theSunUrl = '../../assets/theSun.png';
   theGuardianUrl = '../../assets/theGuardian.png';
   
-  constructor() { }
+  constructor(private dataService: DataService) { 
+
+  }
+
+  retrieveData() {
+    this.dataService.getAll().subscribe(
+      data => {
+        // need this instead to return a tweet. maybe i need to amend the data service method with find_random...
+        // this.stats = data;
+        // now let's update the fields
+        // this.radarChartLabels = this.stats.radarChartLabels;
+        // this.radarChartData = this.stats.radarChartData;
+      },
+      error => {
+        console.log(error);
+      });
+  }
   
   ngOnInit(): void {
-    this.find_random('test_collection',"Guardian", (err: any,mdata: any) =>{
-      this.tweet = mdata.text;
-      console.log("mdata.text = " + this.tweet);
-    });
-    console.log("outside function, tweet = " + this.tweet);
+    console.log("hello from brexit component");
   }
 }

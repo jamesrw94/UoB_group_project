@@ -13,6 +13,5 @@ export class TopicPageComponent implements OnInit {
 
   ngOnInit(): void {
     console.log("hello from topic component");
-    
   }
 }
