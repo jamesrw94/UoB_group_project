@@ -9,12 +9,16 @@ import { map, filter, switchMap } from 'rxjs/operators';
 })
 export class DataService {
 
-  private REST_API_SERVER = "http://localhost:3000/api";
+  private REST_API_SERVER_POLITICS = "http://localhost:3000/api/politics";
+  private REST_API_SERVER_BREXIT = "http://localhost:3000/api/brexit";
 
   constructor(private httpClient: HttpClient) { }
 
-  public getAll(){
-    // i think you should pass in parameters to this function which then hit the find random.
-    return this.httpClient.get(this.REST_API_SERVER)
+  public getPolitics(){
+    return this.httpClient.get(this.REST_API_SERVER_POLITICS)
+  }
+
+  public getBrexit(){
+      return this.httpClient.get(this.REST_API_SERVER_BREXIT)
   }
 }
