@@ -16,8 +16,8 @@ export class BrexitComponent implements OnInit {
   theSunUrl = '../../assets/theSun.png';
   theGuardianUrl = '../../assets/theGuardian.png';
 
-  stats: any = [];
-  currentdata:String = '';
+  tweet: any = [];
+  headline:String = '';
 
   emptybox1 = [
   ];
@@ -52,8 +52,8 @@ export class BrexitComponent implements OnInit {
   retrieveData() {
     this.dataService.getBrexit().subscribe(
       data => {
-        this.stats=data;
-        this.currentdata = this.stats.text;
+        this.tweet=data;
+        this.headline = this.tweet.text;
       },
       error => {
         console.log(error);

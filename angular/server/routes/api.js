@@ -52,7 +52,7 @@ router.get('/politics', (req, res) => {
 router.get('/brexit', (req, res) => {
   res.header("Content-Type",'application/json');
   find_random('test_collection',"Guardian","Brexit", function(err,mdata){
- 	 res.send(JSON.stringify(mdata))});
+ 	 res.send(JSON.stringify(mdata[0]))});
 });
 
 module.exports = router;
