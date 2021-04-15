@@ -1,6 +1,7 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {HttpClientModule} from '@angular/common/http';
 import {NgModule} from '@angular/core';
+import {DragDropModule} from '@angular/cdk/drag-drop';
 import {DataService} from './data.service';
 
 import {ChartsModule} from 'ng2-charts';
@@ -15,6 +16,8 @@ import { HomescreenComponent } from './homescreen/homescreen.component';
 import { ResultspageComponent } from './resultspage/resultspage.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
+import {BrexitComponent} from './topicpage/brexit/brexit.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,13 +27,15 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     PieChartComponent,
     HomescreenComponent,
     ResultspageComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    BrexitComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    ChartsModule
+    ChartsModule,
+    DragDropModule
   ],
   providers: [DataService],
   bootstrap: [AppComponent]

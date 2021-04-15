@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {CdkDragDrop, moveItemInArray, transferArrayItem} from '@angular/cdk/drag-drop';
 import { DataService } from 'src/app/data.service';
 
 @Component({
@@ -17,10 +18,37 @@ export class BrexitComponent implements OnInit {
 
   stats: any = [];
   currentdata:String = '';
-  
+
+  emptybox1 = [
+  ];
+  emptybox2 = [
+
+  ];
+  paperbox1 = [
+    this.theSunUrl,
+  ];
+  paperbox2 = [
+    this.theGuardianUrl,
+  ];
+
   constructor(private dataService: DataService) { 
   }
 
+  ngOnInit(): void {
+    this.retrieveData();
+  }
+  
+  drop(event: CdkDragDrop<string[]>) {
+    if (event.previousContainer === event.container) {
+      moveItemInArray(event.container.data, event.previousIndex, event.currentIndex);
+    } else {
+      transferArrayItem(event.previousContainer.data,
+                        event.container.data,
+                        event.previousIndex,
+                        event.currentIndex);
+    }
+  }
+  
   retrieveData() {
     this.dataService.getBrexit().subscribe(
       data => {
@@ -30,9 +58,5 @@ export class BrexitComponent implements OnInit {
       error => {
         console.log(error);
       });
-  }
-  
-  ngOnInit(): void {
-    this.retrieveData();
   }
 }
