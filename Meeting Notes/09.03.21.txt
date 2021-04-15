@@ -1,0 +1,18 @@
+Attendees: Dan, Harry, James
+
+Actions:
+
+- James to raise JIRA ticket for Data Model 
+- Dan to upload his API script and spreadsheet to github
+- James to investigate use of CRON jobs to automatically schedule Twitter API calls.
+
+
+Notes:
+
+- We discussed producing a data model for our app and the team will work on this on Thursday when everyone will be present
+- Dan shared the work he has already done on the API. He has set up a python script hitting the 
+  Twitter API and has a spreadsheet with the results from a multiple newspapers and multiple news categories.
+  Results very promising so far!
+- Also discussed the use of a CRON job to schedule the Twitter API calls, so as not to go over the free limit.
+  James has experience using CRONs so will help with this part.
+
