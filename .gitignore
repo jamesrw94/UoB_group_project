@@ -8,8 +8,9 @@
 /bazel-out
 
 # dependencies
+/angular/.env
 /node_modules
-/angular
+/angular/node_modules
 # profiling files
 chrome-profiler-events*.json
 speed-measure-plugin*.json
