@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {CdkDragDrop, moveItemInArray, transferArrayItem} from '@angular/cdk/drag-drop';
+import {CdkDrag, CdkDragDrop, moveItemInArray, transferArrayItem} from '@angular/cdk/drag-drop';
 
 @Component({
   selector: 'app-brexit',
@@ -14,7 +14,6 @@ export class BrexitComponent implements OnInit {
   emptybox1 = [
   ];
   emptybox2 = [
-
   ];
   paperbox1 = [
     this.theSunUrl,
@@ -32,6 +31,14 @@ export class BrexitComponent implements OnInit {
                         event.previousIndex,
                         event.currentIndex);
     }
+  }
+
+  moveFrom1Predicate() {
+      console.log(this.paperbox1)
+      return true;
+  }
+  moveFrom2Predicate() {
+      return true;
   }
 
   constructor() { }
