@@ -34,7 +34,7 @@ export class BrexitComponent implements OnInit {
   }
 
   moveFrom1Predicate() {
-      console.log(this.paperbox1)
+      console.log(this.paperbox1.length)
       return true;
   }
   moveFrom2Predicate() {
