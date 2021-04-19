@@ -28,4 +28,14 @@ async function get_both_random(topic,res){
 ```
 
 
+When updating the correct/incorrect newspapers it did not make sense to create different api routes for each of the newspaper and correct/incorrect combination. Instead we used two routes and used the HttpParams module to insert the newspaper into request. This allows for the code to be much more scalable and flexible. Below we have included the function that facillitates this flexibility. 
+
+```
+public update_paper_correct(newspaper: string){
+    let params = new HttpParams();
+    params = params.append('paper', newspaper);
+    return this.httpClient.get(this.REST_API_SERVER_TEST,{params: params});
+}
+```
+
 
