@@ -24,6 +24,10 @@
       color: black;
       background-color: springgreen;
   }
+  h3{
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: white;
+  }
   .title{
     position: absolute;
     text-align: center;
