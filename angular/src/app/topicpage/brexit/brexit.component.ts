@@ -6,11 +6,11 @@ import {CdkDrag, CdkDragDrop, moveItemInArray, transferArrayItem} from '@angular
   templateUrl: './brexit.component.html',
   styleUrls: ['./brexit.component.css']
 })
+
 export class BrexitComponent implements OnInit {
   brexitPageUrl = '../../assets/brexit.jpeg';
   theSunUrl = '../../assets/theSun.png';
   theGuardianUrl = '../../assets/theGuardian.png';
-
   emptybox1 = [
   ];
   emptybox2 = [
@@ -33,16 +33,21 @@ export class BrexitComponent implements OnInit {
     }
   }
 
-  moveFrom1Predicate() {
-      console.log(this.paperbox1.length)
-      
-      return true;
+  moveFrom1Predicate=()=>{
+      if(this.emptybox1.length > 0){
+        return false;
+      }
+      return this
   }
-  moveFrom2Predicate() {
-      return true;
+  moveFrom2Predicate=()=> {
+    if(this.emptybox2.length > 0){
+      return false;
+    }
+    return this
   }
 
-  constructor() { }
+  constructor() {
+   }
   
   ngOnInit(): void {
   }
