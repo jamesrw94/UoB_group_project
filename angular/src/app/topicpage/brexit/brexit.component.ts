@@ -10,6 +10,7 @@ export class BrexitComponent implements OnInit {
   brexitPageUrl = '../../assets/brexit.jpeg';
   theSunUrl = '../../assets/theSun.png';
   theGuardianUrl = '../../assets/theGuardian.png';
+
   emptybox1 = [
   ];
   emptybox2 = [
@@ -22,10 +23,10 @@ export class BrexitComponent implements OnInit {
     this.theGuardianUrl,
   ];
   
-  drop(event: CdkDragDrop<string[]>) {
-    if (event.previousContainer === event.container) {
+  drop(event: CdkDragDrop<string[]>){
+    if(event.previousContainer === event.container){
       moveItemInArray(event.container.data, event.previousIndex, event.currentIndex);
-    } else {
+    }else{
       transferArrayItem(event.previousContainer.data,
                         event.container.data,
                         event.previousIndex,
@@ -36,6 +37,5 @@ export class BrexitComponent implements OnInit {
   constructor() { }
   
   ngOnInit(): void {
-
   }
 }
