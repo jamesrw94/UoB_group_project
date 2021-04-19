@@ -34,7 +34,7 @@ When updating the correct/incorrect newspapers it did not make sense to create d
 public update_paper_correct(newspaper: string){
     let params = new HttpParams();
     params = params.append('paper', newspaper);
-    return this.httpClient.get(this.REST_API_SERVER_TEST,{params: params});
+    return this.httpClient.get(this.REST_API_SERVER_UPDATE_CORRECT,{params: params});
 }
 ```
 
