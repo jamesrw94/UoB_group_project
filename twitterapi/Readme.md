@@ -1,0 +1,1 @@
+- For our project we needed tweets from different newspapers twitter feeds as they often post headlines as tweets. To do this we created a python script that connected to the twitter api and searched for tweets regarding certain topics (this can be found [here](https://github.com/jamesrw94/UoB_group_project/blob/main/twitterapi/twitterconnect.py))
