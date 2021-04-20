@@ -32,13 +32,13 @@ export class BrexitComponent implements OnInit {
     this.theGuardianUrl,
   ];
 
-  constructor(private dataService: DataService) { 
+  constructor(private dataService: DataService) {
   }
 
   ngOnInit(): void {
     this.retrieveData();
   }
-  
+
   drop(event: CdkDragDrop<string[]>) {
     if (event.previousContainer === event.container) {
       moveItemInArray(event.container.data, event.previousIndex, event.currentIndex);
@@ -49,13 +49,13 @@ export class BrexitComponent implements OnInit {
                         event.currentIndex);
     }
   }
-  
+
   retrieveData() {
     this.dataService.getBrexit().subscribe(
       data => {
         this.tweet=data;
-        this.headline = this.tweet[0].text;
-        this.headline = this.tweet[1].text;
+        this.headline_1 = this.tweet[0].text;
+        this.headline_2 = this.tweet[1].text;
       },
       error => {
         console.log(error);
