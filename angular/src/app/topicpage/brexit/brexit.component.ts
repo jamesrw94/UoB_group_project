@@ -54,8 +54,8 @@ export class BrexitComponent implements OnInit {
     this.dataService.getBrexit().subscribe(
       data => {
         this.tweet=data;
-        this.headline = this.tweet[0].text;
-        this.headline = this.tweet[1].text;
+        this.headline_1 = this.tweet[0].text;
+        this.headline_2= this.tweet[1].text;
       },
       error => {
         console.log(error);

@@ -57,11 +57,6 @@ async function update_newspaper_wrong(name,paper){
 }
 
 
-const db = mongoose.connection;
-const tweetSchema = new mongoose.Schema({paper:String,term:String,text:String,link:String});
-const Tweets = mongoose.model('tweets',tweetSchema,'test_collection');
-
-
 
 /* GET api listing. */
 router.get('/politics', (req, res) => {
