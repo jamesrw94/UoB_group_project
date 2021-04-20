@@ -8,7 +8,7 @@
   </style>
 </head>
 
-<body>  
+<body>
 
 
   <div class="image-container">
@@ -27,7 +27,7 @@
       </div>
     </div>
   </div>
-    
+
   <div class="emptylistcontainer2">
     <h3>Drag logo into box</h3>
     <div cdkDropList #emptyList2="cdkDropList" [cdkDropListData]="emptybox2" [cdkDropListConnectedTo]="[emptyList1, emptyList2]"
@@ -39,7 +39,9 @@
   </div>
 
     <div class="tweet2">
-      <p>Placeholder for second tweet
+        <p>
+          {{headline_2}}
+    
         <br>
       </p>
     </div>

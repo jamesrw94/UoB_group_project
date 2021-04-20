@@ -58,6 +58,7 @@ async function update_newspaper_wrong(name,paper){
 
 
 
+
 /* GET api listing. */
 router.get('/politics', (req, res) => {
   res.header("Content-Type",'application/json');
