@@ -37,13 +37,13 @@ export class BrexitComponent implements OnInit {
       if(this.emptybox1.length > 0){
         return false;
       }
-      return this
+      return true
   }
   moveFrom2Predicate=()=> {
     if(this.emptybox2.length > 0){
       return false;
     }
-    return this
+    return true
   }
 
   constructor() {
