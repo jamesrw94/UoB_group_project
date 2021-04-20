@@ -1,0 +1,41 @@
+<html>
+<head>
+    <style>
+        body {
+      background-color: rgba(143, 105, 180);
+    }
+    </style>
+</head>
+<body>
+  <div><h2>Pick a topic</h2></div>
+    <div class="image-container">
+      <img [src]="topicPageUrl">
+      <button class="brexitButton" routerLink="brexit">Brexit</button>
+      <button class="climateButton" routerLink="topicpage">Climate</button>
+      <button class="covidButton" routerLink="topicpage">Covid</button>
+      <button class="politicsButton" routerLink="topicpage">Politics</button>
+      <button class="educationButton" routerLink="topicpage">Education</button>
+      <button class="worldButton" routerLink="topicpage">World</button>
+      <button class="healthButton" routerLink="topicpage">Health</button>
+      <button class="buisnessButton" routerLink="topicpage">business</button>
+      <button class="randomButton" routerLink="topicpage">Random</button>
+      <router-outlet></router-outlet>
+    </div>
+    <!-- <div class="center">
+      <ul class="nav nav-tabs">
+          <li class="nav-item">
+              <a class="nav-link" routerLink="topicpage/brexit"><h1>Brexit (try me, I work!)</h1></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="."><h1>Placeholder</h1></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="."><h1>Placeholder</h1></a>
+      </li>
+      </ul>
+      <div>
+          <router-outlet></router-outlet>
+      </div>
+  </div> -->
+</body>
+</html>
