@@ -10,7 +10,7 @@ need to add in stuff with data models and how it interacts with front end!!
 
 
 
-For our restful api originally we were having problems coordinating two callbacks to arrive at the front end at the same time as we needed each of the api calls to be for different newspapers. We managed to get around this problem by using a Promise which allowed us to make seperate calls to mongoose in the backend but package them up into a list for the frontend before sending back the request. This function can be seen below.
+Due to the user moderated test we needed two tweets to be called from our database to appear at the same time. For our restful api originally we were having problems coordinating two callbacks to arrive at the front end at the same time as we needed each of the api calls to be for different newspapers. We managed to get around this problem by using a Promise which allowed us to make seperate calls to mongoose in the backend but package them up into a list for the frontend before sending back the request. This function can be seen below.
 
 ```
 async function get_both_random(topic,res){
