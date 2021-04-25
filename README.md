@@ -9,7 +9,7 @@ Our application hopes to show people how well they really know the voice of news
 How does it work?
 The user selects from a list of pre-defined categories believed to be politically divisive, after which the user is taken to the quiz page. The quiz page displays random tweets on the selected topic from a database which regularly updates through contacting the Twitter API. The tweets are displayed on screen, and users must click-and-drag them to the correct newspaper logo they belong to. 
 
-Project Objectives:
+# Project Objectives:
     1. Design and build a functioning single page web application with quiz game functionality
     2. Populate database using Twitter API
     3. Present information back to the user on how accurately they Know the News
