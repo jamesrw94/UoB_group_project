@@ -2,7 +2,7 @@
 
 We chose to use the Scrum format of Agile because we wanted to work towards bitsesize, weekly targets rather than a longer term Kanban approach. As our technical experience developed over time, it made sense to use Scrum Sprint cycles as our expertise increased and we could set realistic targets.
 
-To help us manage the Sprint cycles, we used a JIRA workflow. You can view screenshots of our JIRA backlog board, and Sprint boards, in the [JIRA screenshots](JIRA\ Screenshots) folder.
+To help us manage the Sprint cycles, we used a JIRA workflow. You can view screenshots of our JIRA backlog board, and Sprint boards, in the [JIRA screenshots](JIRA_Screenshots) folder.
 
 Every Monday, the team came together to perform Sprint Review and Sprint Planning. It was felt that we did not need 2 separate meetings for this. Using the JIRA board as the guide, we discussed what had been achieved, what had gone well, what could be improved for next time. We also discussed what tickets we wanted to play in the upcoming sprint. We felt that weekly sprints worked well, and we could adapt the workload each week as needed and due to other course commitments.
 
@@ -26,7 +26,7 @@ James programmed the front-end component routing, and integrated our components 
 
 # Sprints
 
-Please see the [Meeting Notes](../Meeting Notes/) folder.
+Please see the [Meeting Notes](../Meeting_Notes) folder.
 Please see the [Sprint Log](Sprint_Logs/) folder
 
 # Git and CI/CD
