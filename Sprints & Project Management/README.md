@@ -10,24 +10,25 @@ Additionally, we were flexible in our approach to Stand-Ups and held them as and
 
 We had two communication channels - primarily a discord server, but also the 'Desk 05' channel in the in the grp-MSc Software Engineering Teams. Team members often held individual calls / pair programming sessions with one another. The VS Code extension for sharing code was found to be an extremely useful tool when pair programming.
 
-#Team roles
+# Team roles
 
 We did not specifically define Scrum roles because we agreed as a group that each member wanted experience of the different roles across the team. For the large part, however, we fulfilled the following roles:
 
 
 **Everyone to provide brief description of what they did**
-######Phillip Sloan - UX researcher
-######Dan Chow - Backend developer / system integration
-######Harry Field - Backend Developer / UI developer
-######Joe Hedin - Frontend developer
-######James Wilson - Frontend developer / system integration
+
+###### Phillip Sloan - UX researcher
+###### Dan Chow - Backend developer / system integration
+###### Harry Field - Backend Developer / UI developer
+###### Joe Hedin - Frontend developer
+###### James Wilson - Frontend developer / system integration
 James programmed the front-end component routing, and integrated our components with the api call. He also set up the JIRA sprints and maneged the Git workflows.
 
-#Sprints
+# Sprints
 
 Please see the [Meeting Notes](../Meeting\ Notes) folder
 
-#Git and CI/CD
+# Git and CI/CD
 
 Our 2 most used branches were 'main' and 'dev'.
 
