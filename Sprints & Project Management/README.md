@@ -27,6 +27,7 @@ James programmed the front-end component routing, and integrated our components 
 # Sprints
 
 Please see the [Meeting Notes](../Meeting\ Notes) folder
+Please see the [Sprint Log](Sprint_Logs/README.md) folder
 
 # Git and CI/CD
 
