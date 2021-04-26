@@ -37,3 +37,7 @@ We have produced a survey for users to complete once they used the app: https://
  - Twitter API - contains the script we intend to use to retrieve headlines from twitter
  - Ideas - Contains all ideas that for the Serious Play app which we have considered.
  - Meet notes - contains minutes from our meetings
+ 
+# Acknowledgements
+Special thanks to all the lecturers on the Software Engineering unit at University of Bristol 2021 for all their help and support. 
+ 
