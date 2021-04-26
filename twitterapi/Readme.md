@@ -8,7 +8,7 @@
 
 need to add in stuff with data models and how it interacts with front end!!
 
-Additionally you can see our data model below. This model was created by the front end team and the backend team in tandem with significant input from Phillip to ensure that our data model reflected the needs of our end users. Further as this data model was decided before most of the actual coding was started, it made sure that the frontend and backend teams had the same vision of the end product which prevented friction when intergrating. 
+Additionally our data model was created by the front end team and the backend team in tandem with significant input from Phillip to ensure that our data model reflected the needs of our end users. Further as this data model was decided before most of the actual coding was started, it made sure that the frontend and backend teams had the same vision of the end product which prevented friction when intergrating. This data model can be seen below.
 
 ![model diagram](https://github.com/jamesrw94/UoB_group_project/blob/main/DataModel/Data%20Model.png)
 
