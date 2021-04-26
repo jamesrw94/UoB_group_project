@@ -40,23 +40,30 @@ async function get_both_random(topic,res){
 
 }
 
-const paperSchema = new mongoose.Schema({newspaper:String,correct_answers:Number, incorrect_answers:Number});
-const paperModel = mongoose.model('paper',paperSchema,"newspaper_results")
+const paperSchema = new mongoose.Schema({paper:String,correct_answers:Number, incorrect_answers:Number});
+const paperModel = mongoose.model('paper',paperSchema,"paper_answer_collection")
 
 async function update_newspaper_correct(name,paper) {
-	var doc = await paperModel.findOne({newspaper:paper}).exec();
+	var doc = await paperModel.findOne({paper:paper}).exec();
 	doc.correct_answers=doc.correct_answers+1;
 	await doc.save();
 
 }
 
 async function update_newspaper_wrong(name,paper){
-	var doc = await paperModel.findOne({newspaper:paper}).exec();
+	var doc = await paperModel.findOne({paper:paper}).exec();
 	doc.incorrect_answers=doc.incorrect_answers+1;
 	await doc.save();
 }
 
-
+async function get_newspaper_info(paper1,paper2,res){
+    console.log(paper1)
+    var paper_info1 = await paperModel.findOne({paper:paper1}).exec();
+    console.log(paper_info1);
+    var paper_info2 = await paperModel.findOne({paper:paper2}).exec();
+    var paper_list = [paper_info1,paper_info2];
+    res.send(paper_list);
+}
 
 
 /* GET api listing. */
@@ -74,13 +81,18 @@ router.get('/brexit', (req, res) => {
 
 
 router.get('/correct', (req, res) => {
-  console.log(req.query.paper);
   update_newspaper_correct(req.query.paper);
 });
 
 router.get('/incorrect', (req, res) => {
-  console.log(req.query.paper);
   update_newspaper_wrong(req.query.paper);
 });
+
+router.get('/newssources',(req,res)=>{
+    res.header("Content-Type",'application/json');
+    get_newspaper_info('Guardian','DailyMailUK',res);
+})
+
+
 
 module.exports = router;
