@@ -49,6 +49,19 @@ export class BrexitComponent implements OnInit {
 
   }
 
+  moveFrom1Predicate = () => {
+    if (this.emptybox1.length > 0) {
+      return false;
+    }
+    return this
+  }
+  moveFrom2Predicate = () => {
+    if (this.emptybox2.length > 0) {
+      return false;
+    }
+    return this
+  }
+
   drop(event: CdkDragDrop<string[]>) {
     if (event.previousContainer === event.container) {
       moveItemInArray(event.container.data, event.previousIndex, event.currentIndex);
