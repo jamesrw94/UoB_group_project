@@ -1,4 +1,5 @@
 For the backend part of our project we used the predefined data model to set clear tasks for the backend, then from these tasks we set out a list of objectives. These objectives were:
+
  1 ) creating a dataset of tweets from major news sources
 
 
