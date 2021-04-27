@@ -14,6 +14,7 @@ export class DataService {
   private REST_API_SERVER_BREXIT = "http://localhost:3000/api/brexit";
   private REST_API_SERVER_UPDATE_CORRECT = "http://localhost:3000/api/correct";
   private REST_API_SERVER_UPDATE_INCORRECT = "http://localhost:3000/api/incorrect";
+  private REST_API_SERVER_PAPER_INFO = "http://localhost:3000/api/newssources";
 
   constructor(private httpClient: HttpClient) { }
 
@@ -35,6 +36,14 @@ public update_paper_incorrect(newspaper: string){
     params = params.append('paper', newspaper);
     return this.httpClient.get(this.REST_API_SERVER_UPDATE_INCORRECT,{params: params});
 }
+
+public get_paper_stats(newspaper1: string,newspaper2:string){
+    let params = new HttpParams();
+    params = params.append('paper1', newspaper1);
+    params = params.append('paper2', newspaper2);
+    return this.httpClient.get(this.REST_API_SERVER_PAPER_INFO,{params: params});
+}
+
 
 
 }

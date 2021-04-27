@@ -16,6 +16,15 @@ export class BrexitComponent implements OnInit {
   theSunUrl = '../../assets/theSun.png';
   theGuardianUrl = '../../assets/theGuardian.png';
 
+  paper_image_dict = {DailyMailUK:'',
+                      FT:'',
+                      Guardian:'../../assets/theGuardian.png',
+                      Telegraph:'',
+                      TheSun:'../../assets/theSun.png'};
+  paper_url1 ='';
+  paper_url2='';
+  
+  test:any = [];
   tweet: any = [];
   headline_1:String = '';
   headline_2:String = '';
@@ -26,10 +35,10 @@ export class BrexitComponent implements OnInit {
 
   ];
   paperbox1 = [
-    this.theSunUrl,
+    this.paper_url1,
   ];
   paperbox2 = [
-    this.theGuardianUrl,
+    this.paper_url2,
   ];
 
   constructor(private dataService: DataService) {
@@ -37,6 +46,7 @@ export class BrexitComponent implements OnInit {
 
   ngOnInit(): void {
     this.retrieveData();
+
   }
 
   drop(event: CdkDragDrop<string[]>) {
@@ -56,10 +66,34 @@ export class BrexitComponent implements OnInit {
         this.tweet=data;
         this.headline_1 = this.tweet[0].text;
         this.headline_2 = this.tweet[1].text;
+        this.paper_url1  = this.paper_image_dict['TheSun'];
+        this.paper_url2 = this.paper_image_dict['Guardian'];
+        const paper1_picture = document.getElementById("paperimage1")
+        if (paper1_picture != null){
+            paper1_picture.setAttribute( 'src',this.paper_url1);
+        }
+        const paper2_picture = document.getElementById("paperimage2")
+        if (paper2_picture != null){
+            paper2_picture.setAttribute( 'src',this.paper_url2);
+        }
 
       },
       error => {
         console.log(error);
       });
+
+      this.dataService.get_paper_stats('Guardian','TheSun').subscribe(
+          data=>{
+
+              this.test = data;
+              console.log(this.test[0].paper);
+              console.log(this.test[1].paper);
+
+          },error=>{
+              console.log(error);
+          }
+      )
   }
+
+
 }
