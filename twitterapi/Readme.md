@@ -1,14 +1,14 @@
 For the backend part of our project we used the predefined data model to set clear tasks for the backend, then from these tasks we set out a list of objectives. These objectives were:
- 1) creating a dataset of tweets from major news sources
+ 1 ) creating a dataset of tweets from major news sources
 
 
- 2)provide the frontend with a supply of tweets from random newspapers
+ 2 )provide the frontend with a supply of tweets from random newspapers
 
 
- 3)track the performance of players in the quiz
+ 3 )track the performance of players in the quiz
 
 
- 4)provide the frontend with information on how players perform, with the ability to group the performance data by newspaper. 
+ 4 )provide the frontend with information on how players perform, with the ability to group the performance data by newspaper. 
 
 Firstly our data model was created by the front end team and the backend team in tandem with significant input from Phillip to ensure that our data model reflected the needs of our end users. This data model was derived from user moderated testing that Philip did with our wireframe design of the website.  Further as this data model was decided before most of the actual coding was started, it made sure that the frontend and backend teams had the same vision of the end product which prevented friction when intergrating. This data model can be seen below.
 
