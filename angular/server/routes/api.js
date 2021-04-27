@@ -57,9 +57,7 @@ async function update_newspaper_wrong(name,paper){
 }
 
 async function get_newspaper_info(paper1,paper2,res){
-    console.log(paper1)
     var paper_info1 = await paperModel.findOne({paper:paper1}).exec();
-    console.log(paper_info1);
     var paper_info2 = await paperModel.findOne({paper:paper2}).exec();
     var paper_list = [paper_info1,paper_info2];
     res.send(paper_list);
@@ -89,8 +87,10 @@ router.get('/incorrect', (req, res) => {
 });
 
 router.get('/newssources',(req,res)=>{
+    console.log(req.query.paper1);
+    console.log(req.query.paper2);
     res.header("Content-Type",'application/json');
-    get_newspaper_info('Guardian','DailyMailUK',res);
+    get_newspaper_info(req.query.paper1,req.query.paper2,res);
 })
 
 
