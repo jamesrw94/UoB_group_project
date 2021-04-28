@@ -19,5 +19,4 @@ export class ResultspageComponent implements OnInit {
       document.getElementById("answer")!.innerHTML = "Wrong"
     }
   }
-
 }
