@@ -7,7 +7,7 @@ Items discussed:
 * Testing approach
 * Remaining programming work
 
-###### Testing Approach
+##### Testing Approach
 Agreed that Phillip would take on the manual testing as it ties in with his work already on user testing. His friends and family would be willing to try our app on multiple different browsers, etc.
 
 For automatic testing, we agreed to test 3 different things:
@@ -15,14 +15,14 @@ For automatic testing, we agreed to test 3 different things:
 * Check the results button gives the correct answer when clicked
 * check the results page reflects the actual results
 
-###### Approach to remaining work
+##### Approach to remaining work
 Hoping to get all programming completed by end of this week - then can focus on tidying up documentation during final week before submission.
 
 Agreed for Dan / Joe to catch up this afternoon to finalise the Brexit compomenent which can then be replicated across all other topic pages.
 
 Dan and James to meet on Friday to implement the automatic testing.
 
-###### Other issues discussed
+##### Other issues discussed
 * Images for each newspaper are loading onto the front end, but not being moved around correctly during the drag and drop. Joe and Dan therefore will meet this afternoon to attempt to resolve it.
 * Harry has completeed the background pictures for each topic - they are in the UX folder.
 * Phillip waiting for E2E Brexit page completion before running it past users
