@@ -15,12 +15,6 @@ The user selects from a list of pre-defined categories believed to be politicall
     3. Present information back to the user on how accurately they Know the News
     4. Demonstrate that this application can be used to improve one’s awareness of their own bias towards the media
 
-# Project Objectives:
-    1. Design and build a functioning single page web application with quiz game functionality
-    2. Populate database using Twitter API
-    3. Present information back to the user on how accurately they Know the News
-    4. Demonstrate that this application can be used to improve one’s awareness of their own bias towards the media
-
 # Prototype
 
 Please find our wireframe at this link: https://marvelapp.com/prototype/144665he/screen/77129293
