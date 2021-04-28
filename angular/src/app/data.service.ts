@@ -10,6 +10,7 @@ import { HttpParams } from "@angular/common/http";
 })
 export class DataService {
 
+  private result:any;
   private REST_API_SERVER_POLITICS = "http://localhost:3000/api/politics";
   private REST_API_SERVER_BREXIT = "http://localhost:3000/api/brexit";
   private REST_API_SERVER_UPDATE_CORRECT = "http://localhost:3000/api/correct";
@@ -34,6 +35,13 @@ public update_paper_incorrect(newspaper: string){
     let params = new HttpParams();
     params = params.append('paper', newspaper);
     return this.httpClient.get(this.REST_API_SERVER_UPDATE_INCORRECT,{params: params});
+}
+
+public setResult(result: any){
+  this.result = result;
+}
+public getResult(){
+  return this.result;
 }
 
 
