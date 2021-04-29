@@ -4,18 +4,18 @@ import { DataService } from 'src/app/data.service';
 import {Router} from "@angular/router";
 
 @Component({
-  selector: 'app-brexit',
-  templateUrl: './brexit.component.html',
-  styleUrls: ['./brexit.component.css']
+  selector: 'app-climate',
+  templateUrl: './climate.component.html',
+  styleUrls: ['./climate.component.css']
 })
-export class BrexitComponent implements OnInit {
+export class ClimateComponent implements OnInit {
 
   firstQuestion = null;
   secondQuestion = null;
 
   popUpText = "Make sure you have filled both drop boxes";
 
-  brexitPageUrl = '../../assets/brexit.png';
+  climatePageUrl = '../../assets/climate.png';
   theSunUrl = '../../assets/TheSun.png';
   theGuardianUrl = '../../assets/Guardian.png';
 
@@ -35,14 +35,11 @@ export class BrexitComponent implements OnInit {
   paperbox2 = [
     this.theGuardianUrl,
   ];
-
-  constructor(private dataService: DataService, private router: Router) {
-  }
+  constructor(private dataService: DataService, private router: Router) { }
 
   ngOnInit(): void {
     this.retrieveData();
   }
-
   moveFrom1Predicate = () => {
     if (this.emptybox1.length > 0) {
       return false;
@@ -87,7 +84,7 @@ export class BrexitComponent implements OnInit {
   }
 
   retrieveData() {
-    this.dataService.getBrexit().subscribe(
+    this.dataService.getClimate().subscribe(
       data => {
         this.tweet=data;
         this.headline_1 = this.tweet[0].text;
