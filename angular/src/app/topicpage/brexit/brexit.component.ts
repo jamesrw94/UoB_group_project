@@ -49,30 +49,30 @@ export class BrexitComponent implements OnInit {
 
   getimagepb1(){
     if(this.paperbox1[0] == "PAPER1"){
-      return this.theSunUrl;
+      return this.paper_url1;
     }
-    return this.theGuardianUrl;
+    return this.paper_url2;
   }
 
   getimagepb2(){
     if(this.paperbox2[0] == "PAPER1"){
-      return this.theSunUrl;
+      return this.paper_url1;
     }
-    return this.theGuardianUrl;
+    return this.paper_url2;
   }
 
   getEmpty1(){
     if(this.emptybox1[0] == "PAPER1"){
-      return this.theSunUrl;
+      return this.paper_url1;
     }
-    return this.theGuardianUrl;
+    return this.paper_url2;
   }
   
   getEmpty2(){
     if(this.emptybox2[0] == "PAPER1"){
-      return this.theSunUrl;
+      return this.paper_url1;
     }
-    return this.theGuardianUrl;
+    return this.paper_url2;
   }
 
   moveFrom1Predicate = () => {
@@ -101,20 +101,26 @@ export class BrexitComponent implements OnInit {
 
   public submitPredicate() {
     this.result;
+    
     if (this.emptybox1.length != 1 || this.emptybox2.length != 1) {
         document.getElementById("popupreminder")!.innerHTML = this.popUpText;
     }else{
-    const str:string = this.emptybox1[0];
-    const words = str.split("/");
-    const words1 = words[3].split(".");
-    const paperLogo_1 = words1[0];
-    if(this.paperName_1 == paperLogo_1){
-      this.result = true;
-    }else{
-      this.result = false;
+    
+    if(this.emptybox1[0] == "PAPER1"){
+      const str:string = this.paper_url1;
+      const words = str.split("/");
+      const words1 = words[3].split(".");
+      const paperLogo_1 = words1[0];
+      if(this.paperName_1 == paperLogo_1){
+        this.result = true;
+      }else{
+        this.result = false;
+      }
     }
+    
     this.dataService.setResult(this.result);
-    this.router.navigate(['../climate']);
+    console.log("here")
+    this.router.navigate(['../../resultspage']);
     }
   }
 
