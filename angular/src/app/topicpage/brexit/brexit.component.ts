@@ -109,18 +109,34 @@ export class BrexitComponent implements OnInit {
       const words = str.split("/");
       const words1 = words[3].split(".");
       const paperLogo_1 = words1[0];
-      
       if(this.paperName_1 == paperLogo_1){
         this.dataService.setResult(true);
-        this.router.navigate(['../../resultspage']);
-        return;
+        
+        
       }else{
         this.dataService.setResult(false);
-        this.router.navigate(['../../resultspage']);
-        return;
+        
+        
+      }
+    }
+
+    if(this.emptybox1[0] != "PAPER2"){
+      const str:string = this.paper_url1;
+      const words = str.split("/");
+      const words1 = words[3].split(".");
+      const paperLogo_1 = words1[0];
+      if(this.paperName_1 != paperLogo_1){
+        this.result = true;
+        
+        
+      }else{
+        this.result = false;
+        
+        
       }
     }
     }
+    this.router.navigate(['../../resultspage']);
   }
 
   retrieveData() {
@@ -130,14 +146,12 @@ export class BrexitComponent implements OnInit {
         const num = Math.random() % 2;
         const point5 = 0.5;
         if(num < point5){
-          console.log("number 1")
-          this.headline_1 = this.tweet[0].text;
-          this.headline_2 = this.tweet[1].text;
+          this.headline_1 = this.tweet[0].text + this.tweet[0].paper + " !this time its diffrent";
+          this.headline_2 = this.tweet[1].text + this.tweet[1].paper + " !this time its diffrent again";
           this.paperName_1 = this.tweet[0].paper;
         }else{
-          console.log("number 2")
-          this.headline_1 = this.tweet[1].text;
-          this.headline_2 = this.tweet[0].text;
+          this.headline_1 = this.tweet[1].text + this.tweet[1].paper;
+          this.headline_2 = this.tweet[0].text + + this.tweet[0].paper;
           this.paperName_1 = this.tweet[1].paper;
         }
         this.paper_url1  = this.paper_image_dict[this.tweet[1].paper];

@@ -26,7 +26,7 @@
       class="list" (cdkDropListDropped)="drop($event)"
       [cdkDropListEnterPredicate]="moveFrom1Predicate">
       <div *ngFor="let item of emptybox1" cdkDrag>
-        <img [src]="item" width="250" height="auto">
+        <img [src]="getEmpty1()" width="250" height="auto">
       </div>
     </div>
   </div>
@@ -39,7 +39,7 @@
       class="list" (cdkDropListDropped)="drop($event)"
       [cdkDropListEnterPredicate]="moveFrom2Predicate">
       <div *ngFor="let item of emptybox2" cdkDrag>
-        <img [src]="item" width="250" height="auto">
+        <img [src]="getEmpty2()" width="250" height="auto">
       </div>
     </div>
   </div>
@@ -59,7 +59,7 @@
         [cdkDropListConnectedTo]="[emptyList1, emptyList2]"
         (cdkDropListDropped)="drop($event)">
         <div *ngFor="let item of paperbox1" cdkDrag>
-          <img [src]="item" width="250" height="auto">
+          <img [src]="getimagepb1()" width="250" height="auto">
         </div>
       </div>
     </div>
@@ -70,7 +70,7 @@
         [cdkDropListConnectedTo]="[emptyList1, emptyList2]"
         (cdkDropListDropped)="drop($event)">
         <div *ngFor="let item of paperbox2" cdkDrag>
-          <img [src]="item" width="250" height="auto">
+          <img [src]="getimagepb2()" width="250" height="auto">
         </div>
       </div>
     </div>
