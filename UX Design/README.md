@@ -1,5 +1,5 @@
-#User Experience Design
+# User Experience Design
 
-##Design Phases
+## Design Phases
 
-###Initial Ideation
+### Initial Ideation
