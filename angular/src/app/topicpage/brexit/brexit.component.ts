@@ -16,10 +16,8 @@ export class BrexitComponent implements OnInit {
   popUpText = "Make sure you have filled both drop boxes";
 
   brexitPageUrl = '../../assets/brexit.png';
-  theSunUrl = '../../assets/TheSun.png';
-  theGuardianUrl = '../../assets/Guardian.png';
 
-  paper_image_dict = {DailyMailUK:'../../assets/DailyMailUK.png',
+  paper_image_dict: { [key:string]:string } = {DailyMailUK: '../../assets/DailyMailUK.png',
                       FT:'../../assets/FT.jpg',
                       Guardian:'../../assets/Guardian.png',
                       Telegraph:'../../assets/Telegraph.jpg',
@@ -105,22 +103,23 @@ export class BrexitComponent implements OnInit {
     if (this.emptybox1.length != 1 || this.emptybox2.length != 1) {
         document.getElementById("popupreminder")!.innerHTML = this.popUpText;
     }else{
-    
+
     if(this.emptybox1[0] == "PAPER1"){
       const str:string = this.paper_url1;
       const words = str.split("/");
       const words1 = words[3].split(".");
       const paperLogo_1 = words1[0];
+      
       if(this.paperName_1 == paperLogo_1){
-        this.result = true;
+        this.dataService.setResult(true);
+        this.router.navigate(['../../resultspage']);
+        return;
       }else{
-        this.result = false;
+        this.dataService.setResult(false);
+        this.router.navigate(['../../resultspage']);
+        return;
       }
     }
-    
-    this.dataService.setResult(this.result);
-    console.log("here")
-    this.router.navigate(['../../resultspage']);
     }
   }
 
@@ -128,11 +127,22 @@ export class BrexitComponent implements OnInit {
     this.dataService.getBrexit().subscribe(
       data => {
         this.tweet=data;
-        this.headline_1 = this.tweet[0].text;
-        this.headline_2 = this.tweet[1].text;
-        this.paper_url1  = this.paper_image_dict['TheSun'];
-        this.paper_url2 = this.paper_image_dict['Guardian'];
-        this.paperName_1 = this.tweet[0].paper;
+        const num = Math.random() % 2;
+        const point5 = 0.5;
+        if(num < point5){
+          console.log("number 1")
+          this.headline_1 = this.tweet[0].text;
+          this.headline_2 = this.tweet[1].text;
+          this.paperName_1 = this.tweet[0].paper;
+        }else{
+          console.log("number 2")
+          this.headline_1 = this.tweet[1].text;
+          this.headline_2 = this.tweet[0].text;
+          this.paperName_1 = this.tweet[1].paper;
+        }
+        this.paper_url1  = this.paper_image_dict[this.tweet[1].paper];
+        this.paper_url2 = this.paper_image_dict[this.tweet[0].paper];
+        
       },
       error => {
         console.log(error);
