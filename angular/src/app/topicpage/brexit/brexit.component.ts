@@ -9,6 +9,8 @@ import { DataService } from 'src/app/data.service';
 })
 export class BrexitComponent implements OnInit {
 
+
+
   firstQuestion = null;
   secondQuestion = null;
 
@@ -21,9 +23,10 @@ export class BrexitComponent implements OnInit {
                       Guardian:'../../assets/theGuardian.png',
                       Telegraph:'',
                       TheSun:'../../assets/theSun.png'};
-  paper_url1 ='';
-  paper_url2='';
-  
+
+  paper_url1 ='../../assets/theGuardian.png';
+  paper_url2='../../assets/theGuardian.png';
+
   test:any = [];
   tweet: any = [];
   headline_1:String = '';
@@ -34,14 +37,15 @@ export class BrexitComponent implements OnInit {
   emptybox2 = [
 
   ];
-  paperbox1 = [
-    this.paper_url1,
+  paperbox1:string [] = [
+    this.paper_url1
   ];
-  paperbox2 = [
-    this.paper_url2,
+  paperbox2:string[] = [
+      this.paper_url2
   ];
 
   constructor(private dataService: DataService) {
+
   }
 
   ngOnInit(): void {
@@ -63,6 +67,7 @@ export class BrexitComponent implements OnInit {
   }
 
   drop(event: CdkDragDrop<string[]>) {
+
     if (event.previousContainer === event.container) {
       moveItemInArray(event.container.data, event.previousIndex, event.currentIndex);
     } else {
@@ -81,14 +86,16 @@ export class BrexitComponent implements OnInit {
         this.headline_2 = this.tweet[1].text;
         this.paper_url1  = this.paper_image_dict['TheSun'];
         this.paper_url2 = this.paper_image_dict['Guardian'];
-        const paper1_picture = document.getElementById("paperimage1")
-        if (paper1_picture != null){
-            paper1_picture.setAttribute( 'src',this.paper_url1);
-        }
-        const paper2_picture = document.getElementById("paperimage2")
-        if (paper2_picture != null){
-            paper2_picture.setAttribute( 'src',this.paper_url2);
-        }
+    
+        // const paper1_picture = document.getElementById("paperimage1")
+        // if (paper1_picture != null){
+        //     paper1_picture.setAttribute( 'src',this.paper_url1);
+        //
+        // }
+        // const paper2_picture = document.getElementById("paperimage2")
+        // if (paper2_picture != null){
+        //     paper2_picture.setAttribute( 'src',this.paper_url2);
+        // }
 
       },
       error => {

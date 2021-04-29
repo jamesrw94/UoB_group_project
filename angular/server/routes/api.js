@@ -67,7 +67,7 @@ async function get_newspaper_info(paper1,paper2,res){
 /* GET api listing. */
 router.get('/politics', (req, res) => {
   res.header("Content-Type",'application/json');
-  //add check in here to see if the array length is greater than 0 else send 404
+
   get_both_random("Politics",res);
 });
 
@@ -77,6 +77,40 @@ router.get('/brexit', (req, res) => {
   get_both_random("Brexit",res);
 });
 
+
+
+router.get('/america', (req, res) => {
+  res.header("Content-Type",'application/json');
+  get_both_random("America",res);
+});
+
+
+router.get('/boris', (req, res) => {
+  res.header("Content-Type",'application/json');
+  get_both_random("Boris",res);
+});
+
+router.get('/climate', (req, res) => {
+  res.header("Content-Type",'application/json');
+  get_both_random("Climate",res);
+});
+
+
+router.get('/covid', (req, res) => {
+  res.header("Content-Type",'application/json');
+  get_both_random("Covid",res);
+});
+
+router.get('/military', (req, res) => {
+  res.header("Content-Type",'application/json');
+  get_both_random("Military",res);
+});
+
+
+router.get('/racism', (req, res) => {
+  res.header("Content-Type",'application/json');
+  get_both_random("Racism",res);
+});
 
 router.get('/correct', (req, res) => {
   update_newspaper_correct(req.query.paper);
