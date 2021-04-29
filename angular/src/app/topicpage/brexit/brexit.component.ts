@@ -19,22 +19,26 @@ export class BrexitComponent implements OnInit {
   theSunUrl = '../../assets/TheSun.png';
   theGuardianUrl = '../../assets/Guardian.png';
 
+  paper_image_dict = {DailyMailUK:'../../assets/DailyMailUK.png',
+                      FT:'../../assets/FT.jpg',
+                      Guardian:'../../assets/Guardian.png',
+                      Telegraph:'../../assets/Telegraph.jpg',
+                      TheSun:'../../assets/TheSun.png'};
+
+  paper_url1 ='';
+  paper_url2='';
+
+  test:any = [];
   result: any;
   tweet: any = [];
   headline_1:String = '';
   headline_2:String = '';
   paperName_1:String = '';
 
-  emptybox1 = [
-  ];
-  emptybox2 = [
-  ];
-  paperbox1 = [
-    this.theSunUrl,
-  ];
-  paperbox2 = [
-    this.theGuardianUrl,
-  ];
+  emptybox1 = [];
+  emptybox2 = [];
+  paperbox1 = ["PAPER1"];
+  paperbox2 = ["PAPER2"];
 
   constructor(private dataService: DataService, private router: Router) {
   }
@@ -43,17 +47,45 @@ export class BrexitComponent implements OnInit {
     this.retrieveData();
   }
 
+  getimagepb1(){
+    if(this.paperbox1[0] == "PAPER1"){
+      return this.theSunUrl;
+    }
+    return this.theGuardianUrl;
+  }
+
+  getimagepb2(){
+    if(this.paperbox2[0] == "PAPER1"){
+      return this.theSunUrl;
+    }
+    return this.theGuardianUrl;
+  }
+
+  getEmpty1(){
+    if(this.emptybox1[0] == "PAPER1"){
+      return this.theSunUrl;
+    }
+    return this.theGuardianUrl;
+  }
+  
+  getEmpty2(){
+    if(this.emptybox2[0] == "PAPER1"){
+      return this.theSunUrl;
+    }
+    return this.theGuardianUrl;
+  }
+
   moveFrom1Predicate = () => {
     if (this.emptybox1.length > 0) {
       return false;
     }
-    return this
+    return true;
   }
   moveFrom2Predicate = () => {
     if (this.emptybox2.length > 0) {
       return false;
     }
-    return this
+    return true;
   }
 
   drop(event: CdkDragDrop<string[]>) {
@@ -82,7 +114,7 @@ export class BrexitComponent implements OnInit {
       this.result = false;
     }
     this.dataService.setResult(this.result);
-    this.router.navigate(['../../resultspage']);
+    this.router.navigate(['../climate']);
     }
   }
 
@@ -92,10 +124,24 @@ export class BrexitComponent implements OnInit {
         this.tweet=data;
         this.headline_1 = this.tweet[0].text;
         this.headline_2 = this.tweet[1].text;
+        this.paper_url1  = this.paper_image_dict['TheSun'];
+        this.paper_url2 = this.paper_image_dict['Guardian'];
         this.paperName_1 = this.tweet[0].paper;
       },
       error => {
         console.log(error);
       });
-  }
+
+      this.dataService.get_paper_stats('Guardian','TheSun').subscribe(
+          data=>{
+
+              this.test = data;
+              console.log(this.test[0].paper);
+              console.log(this.test[1].paper);
+
+          },error=>{
+              console.log(error);
+          }
+      )
+    }
 }
