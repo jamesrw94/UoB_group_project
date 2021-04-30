@@ -4,24 +4,26 @@ import { DataService } from 'src/app/data.service';
 import {Router} from "@angular/router";
 
 @Component({
-  selector: 'app-climate',
-  templateUrl: './climate.component.html',
-  styleUrls: ['./climate.component.css']
+  selector: 'app-covid',
+  templateUrl: './covid.component.html',
+  styleUrls: ['./covid.component.css']
 })
-export class ClimateComponent implements OnInit {
-
+export class CovidComponent implements OnInit {
   firstQuestion = null;
   secondQuestion = null;
 
   popUpText = "Make sure you have filled both drop boxes";
 
-  climatePageUrl = '../../assets/brexit.png';
+  covidPageUrl = '../../assets/politics.png';
 
   paper_image_dict: { [key:string]:string } = {DailyMailUK: '../../assets/DailyMailUK.png',
                       FT:'../../assets/FT.jpg',
                       Guardian:'../../assets/Guardian.png',
                       Telegraph:'../../assets/Telegraph.jpg',
                       TheSun:'../../assets/TheSun.png'};
+  
+                  
+                    
 
   paper_url1 ='';
   paper_url2='';
@@ -37,6 +39,8 @@ export class ClimateComponent implements OnInit {
   emptybox2 = [];
   paperbox1 = ["PAPER1"];
   paperbox2 = ["PAPER2"];
+
+
   constructor(private dataService: DataService, private router: Router) { }
 
   ngOnInit(): void {
@@ -121,7 +125,7 @@ export class ClimateComponent implements OnInit {
   }
 
   retrieveData() {
-    this.dataService.getClimate().subscribe(
+    this.dataService.getCovid().subscribe(
       data => {
         this.tweet=data;
         const num = Math.random() % 2;
@@ -156,4 +160,5 @@ export class ClimateComponent implements OnInit {
           }
       )
     }
+
 }

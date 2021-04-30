@@ -4,24 +4,26 @@ import { DataService } from 'src/app/data.service';
 import {Router} from "@angular/router";
 
 @Component({
-  selector: 'app-climate',
-  templateUrl: './climate.component.html',
-  styleUrls: ['./climate.component.css']
+  selector: 'app-america',
+  templateUrl: './america.component.html',
+  styleUrls: ['./america.component.css']
 })
-export class ClimateComponent implements OnInit {
-
+export class AmericaComponent implements OnInit {
   firstQuestion = null;
   secondQuestion = null;
 
   popUpText = "Make sure you have filled both drop boxes";
 
-  climatePageUrl = '../../assets/brexit.png';
+  americaPageUrl = '../../assets/climate.png';
 
   paper_image_dict: { [key:string]:string } = {DailyMailUK: '../../assets/DailyMailUK.png',
                       FT:'../../assets/FT.jpg',
                       Guardian:'../../assets/Guardian.png',
                       Telegraph:'../../assets/Telegraph.jpg',
                       TheSun:'../../assets/TheSun.png'};
+  
+                  
+                    
 
   paper_url1 ='';
   paper_url2='';
@@ -121,7 +123,7 @@ export class ClimateComponent implements OnInit {
   }
 
   retrieveData() {
-    this.dataService.getClimate().subscribe(
+    this.dataService.getAmerica().subscribe(
       data => {
         this.tweet=data;
         const num = Math.random() % 2;
@@ -156,4 +158,5 @@ export class ClimateComponent implements OnInit {
           }
       )
     }
+
 }

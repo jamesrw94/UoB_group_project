@@ -106,7 +106,7 @@ h2 {
     background-color: #18628a;
   }
 
-  .worldButton {
+  .borisButton {
     display: inline-block;
     position: absolute;
     color: white;
@@ -114,16 +114,16 @@ h2 {
     text-align: center;
     top: 42%;
     left: 75%;
-    padding: 15px 75px;
+    padding: 15px 80px;
     font-size: 30px;
     cursor: pointer;
     border-radius: 15%;
     transition-duration: 0.5s;
 }
-.worldButton:hover {
+.borisButton:hover {
     background-color: #18628a;
   }
-  .healthButton {
+  .militaryButton {
     display: inline-block;
     position: absolute;
     color: white;
@@ -137,7 +137,7 @@ h2 {
     border-radius: 15%;
     transition-duration: 0.5s;
 }
-.healthButton:hover {
+.militaryButton:hover {
     background-color: #18628a;
   }
   .buisnessButton {

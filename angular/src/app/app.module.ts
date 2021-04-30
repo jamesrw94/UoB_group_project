@@ -17,9 +17,12 @@ import { ResultspageComponent } from './resultspage/resultspage.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 import {BrexitComponent} from './topicpage/brexit/brexit.component';
-import {EducationComponent} from './topicpage/education/education.component';
 import {ClimateComponent} from './topicpage/climate/climate.component';
 import {PoliticsComponent} from './topicpage/politics/politics.component';
+import {CovidComponent} from './topicpage/covid/covid.component';
+import {AmericaComponent} from './topicpage/america/america.component';
+import { BorisComponent } from './topicpage/boris/boris.component';
+import { MilitaryComponent } from './topicpage/military/military.component';
 
 @NgModule({
   declarations: [
@@ -32,9 +35,12 @@ import {PoliticsComponent} from './topicpage/politics/politics.component';
     ResultspageComponent,
     PageNotFoundComponent,
     BrexitComponent,
-    EducationComponent,
     ClimateComponent,
-    PoliticsComponent
+    PoliticsComponent,
+    CovidComponent,
+    AmericaComponent,
+    BorisComponent,
+    MilitaryComponent
   ],
   imports: [
     BrowserModule,

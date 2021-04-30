@@ -133,8 +133,8 @@ export class BrexitComponent implements OnInit {
         this.tweet=data;
         const num = Math.random() % 2;
         const point5 = 0.5;
-        this.headline_1 = this.tweet[0].text + this.tweet[0].paper + " !this time its diffrent";
-        this.headline_2 = this.tweet[1].text + this.tweet[1].paper + " !this time its diffrent again";
+        this.headline_1 = this.tweet[0].text;
+        this.headline_2 = this.tweet[1].text;
         this.paperName_1 = this.tweet[0].paper;
         if(num < point5){
           this.paper_url1  = this.paper_image_dict[this.tweet[0].paper];
