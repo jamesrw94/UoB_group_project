@@ -13,6 +13,7 @@ export class DataService {
   private result:any;
   private REST_API_SERVER_POLITICS = "http://localhost:3000/api/politics";
   private REST_API_SERVER_BREXIT = "http://localhost:3000/api/brexit";
+
   private REST_API_SERVER_AMERICA = "http://localhost:3000/api/america";
   private REST_API_SERVER_BORIS = "http://localhost:3000/api/boris";
 
@@ -24,6 +25,7 @@ export class DataService {
   private REST_API_SERVER_UPDATE_CORRECT = "http://localhost:3000/api/correct";
   private REST_API_SERVER_UPDATE_INCORRECT = "http://localhost:3000/api/incorrect";
   private REST_API_SERVER_PAPER_INFO = "http://localhost:3000/api/newssources";
+
 
 
   
@@ -45,7 +47,6 @@ export class DataService {
   public getBoris(){
       return this.httpClient.get(this.REST_API_SERVER_BORIS)
   }
-
   public getClimate(){
     return this.httpClient.get(this.REST_API_SERVER_CLIMATE)
   }
@@ -61,6 +62,7 @@ export class DataService {
   public getRacism(){
       return this.httpClient.get(this.REST_API_SERVER_RACISM)
   }
+
 
   public update_paper_correct(newspaper: string){
     let params = new HttpParams();
@@ -87,6 +89,5 @@ public setResult(result: any){
 public getResult(){
   return this.result;
 }
-
 
 }
