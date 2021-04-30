@@ -25,9 +25,9 @@ export class BrexitComponent implements OnInit {
                       Guardian:'../../assets/Guardian.png',
                       Telegraph:'../../assets/Telegraph.jpg',
                       TheSun:'../../assets/TheSun.png'};
-  
-                  
-                    
+
+
+  test_2:boolean= false;
 
   paper_url1 ='';
   paper_url2='';
@@ -39,8 +39,8 @@ export class BrexitComponent implements OnInit {
   headline_2:String = '';
   paperName_1:String = '';
 
-  emptybox1 = [];
-  emptybox2 = [];
+  emptybox1:string[] = [];
+  emptybox2:string[] = [];
   paperbox1 = ["PAPER1"];
   paperbox2 = ["PAPER2"];
 
@@ -74,7 +74,7 @@ export class BrexitComponent implements OnInit {
     }
     return this.paper_url2;
   }
-  
+
   getEmpty2(){
     if(this.emptybox2[0] == "PAPER1"){
       return this.paper_url1;
@@ -109,28 +109,35 @@ export class BrexitComponent implements OnInit {
 
   public submitPredicate() {
     this.result;
-    
+
     if (this.emptybox1.length != 1 || this.emptybox2.length != 1) {
+
         document.getElementById("popupreminder")!.innerHTML = this.popUpText;
     }else{
             let str: string;
             if(this.emptybox1[0]=="PAPER1"){
               str = this.paper_url1;
-              
+
             }else{
               str= this.paper_url2;
             }
             const words = str.split("/")[3].split(".");
             const paperLogo = words[0];
-            
+
             if(this.paperName_1== paperLogo){
+        
               this.dataService.setResult(true);
               this.router.navigate(['../../resultspage']);
             }else{
+
               this.dataService.setResult(false);
               this.router.navigate(['../../resultspage']);
             }
     }
+  }
+
+  getDataService(){
+      return this.dataService;
   }
 
   retrieveData() {
@@ -140,19 +147,19 @@ export class BrexitComponent implements OnInit {
 
         const num = Math.random() % 2;
         const point5 = 0.5;
-        this.headline_1 = this.tweet[0].text + this.tweet[0].paper + " !this time its diffrent";
-        this.headline_2 = this.tweet[1].text + this.tweet[1].paper + " !this time its diffrent again";
+        this.headline_1 = this.tweet[0].text;
+        this.headline_2 = this.tweet[1].text;
         this.paperName_1 = this.tweet[0].paper;
         if(num < point5){
           this.paper_url1  = this.paper_image_dict[this.tweet[0].paper];
           this.paper_url2 = this.paper_image_dict[this.tweet[1].paper];
-          
+
         }else{
           this.paper_url1  = this.paper_image_dict[this.tweet[1].paper];
           this.paper_url2 = this.paper_image_dict[this.tweet[0].paper];
         }
-        
-        
+
+
 
       },
       error => {
@@ -173,4 +180,3 @@ export class BrexitComponent implements OnInit {
 
     }
 }
-

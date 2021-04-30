@@ -26,10 +26,10 @@ export class DataService {
   private REST_API_SERVER_UPDATE_INCORRECT = "http://localhost:3000/api/incorrect";
   private REST_API_SERVER_PAPER_INFO = "http://localhost:3000/api/newssources";
 
-  private REST_API_SERVER_PAPER_INFO = "http://localhost:3000/api/newssources";
 
 
-  
+
+
 
   constructor(private httpClient: HttpClient) { }
 
@@ -87,7 +87,12 @@ public get_paper_stats(newspaper1: string,newspaper2:string){
     return this.httpClient.get(this.REST_API_SERVER_PAPER_INFO,{params: params});
 }
 
-
+public setResult(result: any){
+  this.result = result;
+}
+public getResult(){
+  return this.result;
+}
 
 
 }
