@@ -107,7 +107,7 @@ export class PoliticsComponent implements OnInit {
       const words = str.split("/");
       const words1 = words[3].split(".");
       const paperLogo_1 = words1[0];
-      
+      console.log(paperLogo_1 + " paper logo")
       if(this.paperName_1 == paperLogo_1){
         this.dataService.setResult(true);
         this.router.navigate(['../../resultspage']);
@@ -118,11 +118,12 @@ export class PoliticsComponent implements OnInit {
         return;
       }
     }
-    if(this.emptybox1[0] == "PAPER2"){
+    if(this.emptybox2[0] == "PAPER1"){
       const str:string = this.paper_url1;
       const words = str.split("/");
       const words1 = words[3].split(".");
       const paperLogo_1 = words1[0];
+      console.log(paperLogo_1 + " paper logo")
       if(this.paperName_1 == paperLogo_1){
         this.result = true;
         this.router.navigate(['../../resultspage']);
@@ -143,12 +144,10 @@ export class PoliticsComponent implements OnInit {
         const num = Math.random() % 2;
         const point5 = 0.5;
         if(num < point5){
-          
           this.headline_1 = this.tweet[0].text;
           this.headline_2 = this.tweet[1].text;
           this.paperName_1 = this.tweet[0].paper;
         }else{
-          
           this.headline_1 = this.tweet[1].text;
           this.headline_2 = this.tweet[0].text;
           this.paperName_1 = this.tweet[1].paper;

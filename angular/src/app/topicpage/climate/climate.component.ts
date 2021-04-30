@@ -146,14 +146,17 @@ export class ClimateComponent implements OnInit {
           this.headline_1 = this.tweet[0].text;
           this.headline_2 = this.tweet[1].text;
           this.paperName_1 = this.tweet[0].paper;
+          
+
         }else{
           
           this.headline_1 = this.tweet[1].text;
           this.headline_2 = this.tweet[0].text;
           this.paperName_1 = this.tweet[1].paper;
         }
-        this.paper_url1  = this.paper_image_dict[this.tweet[1].paper];
-        this.paper_url2 = this.paper_image_dict[this.tweet[0].paper];
+        
+        this.paper_url1  = this.paper_image_dict[this.tweet[0].paper];
+        this.paper_url2 = this.paper_image_dict[this.tweet[1].paper];
         
       },
       error => {

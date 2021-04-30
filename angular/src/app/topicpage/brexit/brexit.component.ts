@@ -3,6 +3,7 @@ import {CdkDragDrop, moveItemInArray, transferArrayItem} from '@angular/cdk/drag
 import { DataService } from 'src/app/data.service';
 import {Router} from "@angular/router";
 
+
 @Component({
   selector: 'app-brexit',
   templateUrl: './brexit.component.html',
@@ -22,6 +23,9 @@ export class BrexitComponent implements OnInit {
                       Guardian:'../../assets/Guardian.png',
                       Telegraph:'../../assets/Telegraph.jpg',
                       TheSun:'../../assets/TheSun.png'};
+  
+                  
+                    
 
   paper_url1 ='';
   paper_url2='';
@@ -103,40 +107,24 @@ export class BrexitComponent implements OnInit {
     if (this.emptybox1.length != 1 || this.emptybox2.length != 1) {
         document.getElementById("popupreminder")!.innerHTML = this.popUpText;
     }else{
-
-    if(this.emptybox1[0] == "PAPER1"){
-      const str:string = this.paper_url1;
-      const words = str.split("/");
-      const words1 = words[3].split(".");
-      const paperLogo_1 = words1[0];
-      if(this.paperName_1 == paperLogo_1){
-        this.dataService.setResult(true);
-        
-        
-      }else{
-        this.dataService.setResult(false);
-        
-        
-      }
+            let str: string;
+            if(this.emptybox1[0]=="PAPER1"){
+              str = this.paper_url1;
+              
+            }else{
+              str= this.paper_url2;
+            }
+            const words = str.split("/")[3].split(".");
+            const paperLogo = words[0];
+            
+            if(this.paperName_1== paperLogo){
+              this.dataService.setResult(true);
+              this.router.navigate(['../../resultspage']);
+            }else{
+              this.dataService.setResult(false);
+              this.router.navigate(['../../resultspage']);
+            }
     }
-
-    if(this.emptybox1[0] != "PAPER2"){
-      const str:string = this.paper_url1;
-      const words = str.split("/");
-      const words1 = words[3].split(".");
-      const paperLogo_1 = words1[0];
-      if(this.paperName_1 != paperLogo_1){
-        this.result = true;
-        
-        
-      }else{
-        this.result = false;
-        
-        
-      }
-    }
-    }
-    this.router.navigate(['../../resultspage']);
   }
 
   retrieveData() {
@@ -145,17 +133,18 @@ export class BrexitComponent implements OnInit {
         this.tweet=data;
         const num = Math.random() % 2;
         const point5 = 0.5;
+        this.headline_1 = this.tweet[0].text + this.tweet[0].paper + " !this time its diffrent";
+        this.headline_2 = this.tweet[1].text + this.tweet[1].paper + " !this time its diffrent again";
+        this.paperName_1 = this.tweet[0].paper;
         if(num < point5){
-          this.headline_1 = this.tweet[0].text + this.tweet[0].paper + " !this time its diffrent";
-          this.headline_2 = this.tweet[1].text + this.tweet[1].paper + " !this time its diffrent again";
-          this.paperName_1 = this.tweet[0].paper;
+          this.paper_url1  = this.paper_image_dict[this.tweet[0].paper];
+          this.paper_url2 = this.paper_image_dict[this.tweet[1].paper];
+          
         }else{
-          this.headline_1 = this.tweet[1].text + this.tweet[1].paper;
-          this.headline_2 = this.tweet[0].text + + this.tweet[0].paper;
-          this.paperName_1 = this.tweet[1].paper;
+          this.paper_url1  = this.paper_image_dict[this.tweet[1].paper];
+          this.paper_url2 = this.paper_image_dict[this.tweet[0].paper];
         }
-        this.paper_url1  = this.paper_image_dict[this.tweet[1].paper];
-        this.paper_url2 = this.paper_image_dict[this.tweet[0].paper];
+        
         
       },
       error => {
