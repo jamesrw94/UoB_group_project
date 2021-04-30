@@ -5,7 +5,7 @@ The main goal of our first Sprint was for everyone to get up to date with the te
 
 We also aimed to distribute our user survey, perform moderated user tests, and to start scraping data from Twitter and importing into MongoDB.
 
-[Sprint 1 JIRA board](JIRA_Screenshots/Sprint 1 kanban.png)
+[Sprint 1 JIRA board](JIRA_Screenshots/Sprint1.png)
 
 
 The sprint was successful and all our tickets were completed.
