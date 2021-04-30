@@ -11,6 +11,8 @@ import {Router} from "@angular/router";
 })
 export class BrexitComponent implements OnInit {
 
+
+
   firstQuestion = null;
   secondQuestion = null;
 
@@ -42,11 +44,14 @@ export class BrexitComponent implements OnInit {
   paperbox1 = ["PAPER1"];
   paperbox2 = ["PAPER2"];
 
+
   constructor(private dataService: DataService, private router: Router) {
+
   }
 
   ngOnInit(): void {
     this.retrieveData();
+
   }
 
   getimagepb1(){
@@ -91,6 +96,7 @@ export class BrexitComponent implements OnInit {
   }
 
   drop(event: CdkDragDrop<string[]>) {
+
     if (event.previousContainer === event.container) {
       moveItemInArray(event.container.data, event.previousIndex, event.currentIndex);
     } else {
@@ -131,6 +137,7 @@ export class BrexitComponent implements OnInit {
     this.dataService.getBrexit().subscribe(
       data => {
         this.tweet=data;
+
         const num = Math.random() % 2;
         const point5 = 0.5;
         this.headline_1 = this.tweet[0].text + this.tweet[0].paper + " !this time its diffrent";
@@ -146,6 +153,7 @@ export class BrexitComponent implements OnInit {
         }
         
         
+
       },
       error => {
         console.log(error);
@@ -162,5 +170,7 @@ export class BrexitComponent implements OnInit {
               console.log(error);
           }
       )
+
     }
 }
+
