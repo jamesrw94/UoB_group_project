@@ -10,8 +10,10 @@ import { HttpParams } from "@angular/common/http";
 })
 export class DataService {
 
+  private result:any;
   private REST_API_SERVER_POLITICS = "http://localhost:3000/api/politics";
   private REST_API_SERVER_BREXIT = "http://localhost:3000/api/brexit";
+
   private REST_API_SERVER_AMERICA = "http://localhost:3000/api/america";
   private REST_API_SERVER_BORIS = "http://localhost:3000/api/boris";
 
@@ -24,7 +26,13 @@ export class DataService {
   private REST_API_SERVER_UPDATE_INCORRECT = "http://localhost:3000/api/incorrect";
   private REST_API_SERVER_PAPER_INFO = "http://localhost:3000/api/newssources";
 
+  private REST_API_SERVER_PAPER_INFO = "http://localhost:3000/api/newssources";
+
+
+  
+
   constructor(private httpClient: HttpClient) { }
+
 
   public getPolitics(){
     return this.httpClient.get(this.REST_API_SERVER_POLITICS)
@@ -33,6 +41,7 @@ export class DataService {
   public getBrexit(){
       return this.httpClient.get(this.REST_API_SERVER_BREXIT)
   }
+
 
   public getAmerica(){
     return this.httpClient.get(this.REST_API_SERVER_AMERICA)
@@ -58,6 +67,7 @@ export class DataService {
       return this.httpClient.get(this.REST_API_SERVER_RACISM)
   }
 
+
   public update_paper_correct(newspaper: string){
     let params = new HttpParams();
     params = params.append('paper', newspaper);
@@ -70,11 +80,13 @@ public update_paper_incorrect(newspaper: string){
 }
 
 public get_paper_stats(newspaper1: string,newspaper2:string){
+
     let params = new HttpParams();
     params = params.append('paper1', newspaper1);
     params = params.append('paper2', newspaper2);
     return this.httpClient.get(this.REST_API_SERVER_PAPER_INFO,{params: params});
 }
+
 
 
 

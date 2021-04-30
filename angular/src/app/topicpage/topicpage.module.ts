@@ -6,6 +6,8 @@ import {DragDropModule} from '@angular/cdk/drag-drop';
 import { TopicPageRoutingModule } from './topicpage-routing.module';
 import { TopicPageComponent } from './topicpage.component';
 
+
+
 @NgModule({
   imports: [
     CommonModule,
@@ -13,7 +15,8 @@ import { TopicPageComponent } from './topicpage.component';
     DragDropModule
   ],
   declarations: [
-    TopicPageComponent
+    TopicPageComponent,
+   
   ]
 })
 export class TopicPageModule {}

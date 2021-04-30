@@ -21,7 +21,7 @@
   <div class="emptylistcontainer1">
     <h3>Drag logo into box</h3>
     <div cdkDropList #emptyList1="cdkDropList"
-      [cdkDropListData]="emptybox1"
+      [cdkDropListData]="emptybox1" 
       [cdkDropListConnectedTo]="[emptyList1, emptyList2]"
       class="list" (cdkDropListDropped)="drop($event)"
       [cdkDropListEnterPredicate]="moveFrom1Predicate">
@@ -33,8 +33,8 @@
 
   <div class="emptylistcontainer2">
     <h3>Drag logo into box</h3>
-    <div cdkDropList #emptyList2="cdkDropList"
-      [cdkDropListData]="emptybox2"
+    <div cdkDropList #emptyList2="cdkDropList" 
+      [cdkDropListData]="emptybox2" 
       [cdkDropListConnectedTo]="[emptyList1, emptyList2]"
       class="list" (cdkDropListDropped)="drop($event)"
       [cdkDropListEnterPredicate]="moveFrom2Predicate">
@@ -47,39 +47,36 @@
     <div class="tweet2">
         <p>
           {{headline_2}}
+    
         <br>
       </p>
     </div>
-    <img class="center-fit" [src]="brexitPageUrl">
+    <img class="center-fit" [src]="climatePageUrl">
 
     <div class="paperlistcontainer1">
-      <div cdkDropList #paperList1="cdkDropList"
-        [cdkDropListData]="paperbox1"
+      <div cdkDropList #paperList1="cdkDropList" 
+        [cdkDropListData]="paperbox1" 
         [cdkDropListConnectedTo]="[emptyList1, emptyList2]"
         (cdkDropListDropped)="drop($event)">
         <div *ngFor="let item of paperbox1" cdkDrag>
-
           <img [src]="getimagepb1()" width="250" height="auto">
-
         </div>
       </div>
     </div>
 
     <div class="paperlistcontainer2">
-      <div cdkDropList #paperList1="cdkDropList"
-        [cdkDropListData]="paperbox2"
+      <div cdkDropList #paperList1="cdkDropList" 
+        [cdkDropListData]="paperbox2" 
         [cdkDropListConnectedTo]="[emptyList1, emptyList2]"
         (cdkDropListDropped)="drop($event)">
         <div *ngFor="let item of paperbox2" cdkDrag>
-
           <img [src]="getimagepb2()" width="250" height="auto">
-
         </div>
       </div>
     </div>
 
     <button class="submitbutton" (click)="submitPredicate()">Submit</button>
-    <h2 class="title">Brexit</h2>
+    <h2 class="title">Climate</h2>
     <h1 class="first-txt">Can you place the paper with the tweet?</h1>
     <h4 id="popupreminder"></h4>
   </div>

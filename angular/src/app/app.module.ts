@@ -17,6 +17,9 @@ import { ResultspageComponent } from './resultspage/resultspage.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 import {BrexitComponent} from './topicpage/brexit/brexit.component';
+import {EducationComponent} from './topicpage/education/education.component';
+import {ClimateComponent} from './topicpage/climate/climate.component';
+import {PoliticsComponent} from './topicpage/politics/politics.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import {BrexitComponent} from './topicpage/brexit/brexit.component';
     HomescreenComponent,
     ResultspageComponent,
     PageNotFoundComponent,
-    BrexitComponent
+    BrexitComponent,
+    EducationComponent,
+    ClimateComponent,
+    PoliticsComponent
   ],
   imports: [
     BrowserModule,
