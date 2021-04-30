@@ -10,6 +10,12 @@ The home page also has a navigation bar across the top which is present on every
 
 ## Topic page component
 
+the topic page displays a number of buttons listing the available topics, each one rerouting the user to the selected page.
+
+The topic page has its own module.TS file which allows us to create subject components within the topic page component and easily reroute the user to these subcomponents. It also allows us to manage all of the modules used within this component.
+
+## Subject component 
+
 Each topic page shows two separate tweets two empty boxes and the logo for two popular newspapers. The task of the user is to read the tweets and try and predict which tweet matches which newspaper and to then drag and drop the respected newspapers logo into the drop boxes.
 
 Early user testing of the paper prototype showed that the users were not given enough information to understand what the site had asked them to do. It was not clear that they were meant to be trying to deduce which tweet came from much paper nor that the newspaper logos were drag-and-drop items meant to be placed in the drop boxes.
@@ -17,3 +23,6 @@ Early user testing of the paper prototype showed that the users were not given e
 To address these issues another text banner was added prompting the users to match the tweets to the paper as well as adding text above the drop boxes letting the user know how to pair the tweets and the paper.
 
 From the front-end's perspective the most challenging part of this page was implementing the drag-and-drop features. This was due to the fact that the drag-and-drop module used, CdkDragDrop is mostly used for creating lists and so to ensure that only one element could be dropped into each box a predicate function was used to check whether the list is empty or not returning a true false value which dictates whether or not an object may be dropped into each list.
+
+
+This report is unfinished 
