@@ -7,7 +7,8 @@ import {DragDropModule} from '@angular/cdk/drag-drop';
 
 import {DebugElement} from '@angular/core';
 import {By} from '@angular/platform-browser';
-
+//http://localhost:3000/topicpage/brexit
+//http://localhost:3000/resultspage
 describe('BrexitComponent', () => {
   let component: BrexitComponent;
   let fixture: ComponentFixture<BrexitComponent>;

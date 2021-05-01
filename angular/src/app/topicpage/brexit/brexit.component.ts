@@ -125,7 +125,7 @@ export class BrexitComponent implements OnInit {
             const paperLogo = words[0];
 
             if(this.paperName_1== paperLogo){
-        
+
               this.dataService.setResult(true);
               this.router.navigate(['../../resultspage']);
             }else{
