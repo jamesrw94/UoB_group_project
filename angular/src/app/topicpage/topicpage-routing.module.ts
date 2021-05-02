@@ -8,6 +8,7 @@ import { CovidComponent } from './covid/covid.component';
 import { AmericaComponent } from './america/america.component';
 import { BorisComponent } from './boris/boris.component';
 import { MilitaryComponent } from './military/military.component';
+import { RacismComponent } from './racism/racism.component';
 
 
 const topicRoutes: Routes = [
@@ -18,7 +19,8 @@ const topicRoutes: Routes = [
   {path: 'covid', component: CovidComponent},
   {path: 'american', component: AmericaComponent},
   {path: 'boris', component: BorisComponent},
-  {path: 'military', component: MilitaryComponent}
+  {path: 'military', component: MilitaryComponent},
+  {path: 'racism', component: RacismComponent}
 ]
 
 @NgModule({

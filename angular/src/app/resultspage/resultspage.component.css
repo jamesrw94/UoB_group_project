@@ -52,3 +52,23 @@
 .submitbutton:hover {
   background-color: #18628a;
 }
+.chart1{
+  position: absolute;
+  width:500px !important;
+  height: 300px !important;
+  background-color: springgreen;
+  top: 40%;
+  left: 5%;
+  text-align: 50%;
+  border-radius: 5%;
+}
+.chart2{
+  position: absolute;
+  width:500px !important;
+  height: 300px !important;
+  background-color: springgreen;
+  top: 40%;
+  right: 5%;
+  text-align: 50%;
+  border-radius: 5%;
+}

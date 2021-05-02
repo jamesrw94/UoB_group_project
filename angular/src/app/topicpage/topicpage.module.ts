@@ -13,7 +13,8 @@ import { TopicPageComponent } from './topicpage.component';
     DragDropModule
   ],
   declarations: [
-    TopicPageComponent,
+    TopicPageComponent
+  
   ]
 })
 export class TopicPageModule {}

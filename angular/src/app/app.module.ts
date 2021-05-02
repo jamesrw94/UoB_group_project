@@ -23,6 +23,7 @@ import {CovidComponent} from './topicpage/covid/covid.component';
 import {AmericaComponent} from './topicpage/america/america.component';
 import { BorisComponent } from './topicpage/boris/boris.component';
 import { MilitaryComponent } from './topicpage/military/military.component';
+import { RacismComponent } from './topicpage/racism/racism.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { MilitaryComponent } from './topicpage/military/military.component';
     CovidComponent,
     AmericaComponent,
     BorisComponent,
-    MilitaryComponent
+    MilitaryComponent,
+    RacismComponent
   ],
   imports: [
     BrowserModule,

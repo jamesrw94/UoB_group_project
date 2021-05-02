@@ -3,22 +3,19 @@ import {CdkDragDrop, moveItemInArray, transferArrayItem} from '@angular/cdk/drag
 import { DataService } from 'src/app/data.service';
 import {Router} from "@angular/router";
 
-
 @Component({
-  selector: 'app-brexit',
-  templateUrl: './brexit.component.html',
-  styleUrls: ['./brexit.component.css']
+  selector: 'app-racism',
+  templateUrl: './racism.component.html',
+  styleUrls: ['./racism.component.css']
 })
-export class BrexitComponent implements OnInit {
-
-
+export class RacismComponent implements OnInit {
 
   firstQuestion = null;
   secondQuestion = null;
 
   popUpText = "Make sure you have filled both drop boxes";
 
-  brexitPageUrl = '../../assets/brexit.png';
+  racismPageUrl = '../../assets/politics.png';
 
   paper_image_dict: { [key:string]:string } = {DailyMailUK: '../../assets/DailyMailUK.png',
                       FT:'../../assets/FT.jpg',
@@ -45,9 +42,7 @@ export class BrexitComponent implements OnInit {
   paperbox2 = ["PAPER2"];
 
 
-  constructor(private dataService: DataService, private router: Router) {
-
-  }
+  constructor(private dataService: DataService, private router: Router) { }
 
   ngOnInit(): void {
     this.retrieveData();
@@ -109,7 +104,7 @@ export class BrexitComponent implements OnInit {
 
   public submitPredicate() {
     this.result;
-    this.setPaperNamesForResults();
+    
     if (this.emptybox1.length != 1 || this.emptybox2.length != 1) {
         document.getElementById("popupreminder")!.innerHTML = this.popUpText;
     }else{
@@ -132,19 +127,9 @@ export class BrexitComponent implements OnInit {
             }
     }
   }
-  setPaperNamesForResults(){
-    let pName1 = this.paper_url1;
-    let pName2= this.paper_url2;
-    let split1 = pName1.split("/")[3].split(".");
-    let split2 = pName2.split("/")[3].split(".");
-    pName1 = split1[0];
-    pName2 = split2[0];
-    this.dataService.setPaperName1(pName1);
-    this.dataService.setPaperName2(pName2);
-  }
 
   retrieveData() {
-    this.dataService.getBrexit().subscribe(
+    this.dataService.getRacism().subscribe(
       data => {
         this.tweet=data;
 
@@ -182,5 +167,5 @@ export class BrexitComponent implements OnInit {
       )
 
     }
-}
 
+}

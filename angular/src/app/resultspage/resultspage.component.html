@@ -17,5 +17,19 @@
       <button class="submitbutton" routerLink="../topicpage">Pick another Question</button>
       <router-outlet></router-outlet>
     </div>
+    <div class = chart1 style="display: block">
+      <canvas baseChart
+              [data]="pieChartData1"
+              [labels]="pieChartLabels1"
+              [chartType]="pieChartType1">
+      </canvas>
+  </div>
+  <div class = chart2 style="display: block">
+    <canvas baseChart
+            [data]="pieChartData2"
+            [labels]="pieChartLabels2"
+            [chartType]="pieChartType2">
+    </canvas>
+</div>
 </body>
 </html>

@@ -140,7 +140,7 @@ h2 {
 .militaryButton:hover {
     background-color: #18628a;
   }
-  .buisnessButton {
+  .racismButton {
     display: inline-block;
     position: absolute;
     color: white;
@@ -154,7 +154,7 @@ h2 {
     border-radius: 15%;
     transition-duration: 0.5s;
 }
-.buisnessButton:hover {
+.racismButton:hover {
     background-color: #18628a;
   }
 
