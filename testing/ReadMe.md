@@ -75,3 +75,22 @@ it('check that popup appears when user has not filled both boxes',()=>{
 
 })
 ```
+
+Finally we wanted to ensure that when an answer was submitted correctly (as in both boxes were filled) the user was taken to the results page immediately. To test this we created a spy on the router and checked that once the button was clicked the router had been called with the correct url.
+
+```
+it('check that user gets routed to results page after clicking button',()=>{
+    const navigateSpy = spyOn(router, 'navigate');
+    expect(component).toBeTruthy();
+    component.emptybox1.push("PAPER1");
+    component.emptybox2.push("PAPER2");
+    component.paper_url2 = '../../assets/TheSun.png';
+    component.paper_url1 = '../../assets/Telegraph.jpg';
+    component.paperName_1= 'TheSun';
+    fixture.detectChanges();
+    component.submitPredicate();
+    fixture.detectChanges();
+    expect(navigateSpy).toHaveBeenCalledWith(['../../resultspage']);
+})
+```
+
