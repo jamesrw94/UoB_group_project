@@ -1,4 +1,6 @@
-TO DO
+In this meeting, we discussed what, as a group, we had to learn and the items we had to do next. We then assigned team members to areas where they felt comfortable taking the lead. At this time, some areas have been left unassigned as it was felt we would discover the most suitable team member as development of our app progresses.
+
+A list of items to do next:
 
 Graphical design, as making all of the backgrounds match the topics/correct answers - harry
 How to make the user experience as smooth as possible. - using bootstrap?
@@ -11,6 +13,7 @@ Integrating with Twitter API
 Need to write a list of instructions for people using the prototype/make sure we are with people doing the survey. - Phil
 
 To Learn:
+
 TypeScript/JavaScript
 MongoDB integration- dan
 Express
