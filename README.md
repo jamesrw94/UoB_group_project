@@ -12,9 +12,9 @@ Know The News is an app to raise awareness of bias in the media. Users are asked
 ## Report
 ### 1. Introduction
 ### 2. Background & Motivation
-### 3. [System Implementation](System%Implementation/README.md)
-### 4. [UX Design](UX%Design/README.md)
-### 5. [Sprints & Project Management](Sprints%&%Project%Management/README.md)
+### 3. [System Implementation](System_Implementation/README.md)
+### 4. [UX Design](UX_Design/README.md)
+### 5. [Sprints & Project Management](Sprints_&_Project_Management/README.md)
 ### 6. Evaluation
 ### 7. Conclusion
 
