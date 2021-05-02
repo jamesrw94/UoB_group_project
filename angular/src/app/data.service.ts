@@ -38,33 +38,27 @@ export class DataService {
   public getPolitics(){
     return this.httpClient.get(this.REST_API_SERVER_POLITICS)
   }
-
   public getBrexit(){
       return this.httpClient.get(this.REST_API_SERVER_BREXIT)
   }
   public getAmerica(){
     return this.httpClient.get(this.REST_API_SERVER_AMERICA)
   }
-
   public getBoris(){
       return this.httpClient.get(this.REST_API_SERVER_BORIS)
   }
   public getClimate(){
     return this.httpClient.get(this.REST_API_SERVER_CLIMATE)
   }
-
   public getCovid(){
       return this.httpClient.get(this.REST_API_SERVER_COVID)
   }
-
   public getMilitary(){
     return this.httpClient.get(this.REST_API_SERVER_MILITARY)
   }
-
   public getRacism(){
       return this.httpClient.get(this.REST_API_SERVER_RACISM)
   }
-
 
   public update_paper_correct(newspaper: string){
     let params = new HttpParams();

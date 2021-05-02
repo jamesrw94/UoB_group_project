@@ -18,6 +18,16 @@ export class ResultspageComponent implements OnInit {
   backgroundUrl = '../assets/homepage.jpeg'
   constructor(private dataService: DataService) { }
 
+
+
+
+
+
+
+
+
+  
+
   ngOnInit(): void {
     this.result = this.dataService.getResult();
     if(this.result == true){
@@ -25,15 +35,18 @@ export class ResultspageComponent implements OnInit {
       this.dataService.update_paper_correct(pName1);
       let pName2: any = this.dataService.getPaperName2;
       this.dataService.update_paper_correct(pName2);
-      console.log(this.dataService.get_paper_stats(pName1, pName2));
+      let info: any = this.dataService.get_paper_stats(pName1, pName2)
+      console.log(info[0][0]);
       document.getElementById("answer")!.innerHTML = "Correct!!!"
     }else if(this.result == false){
       let pName1: any = this.dataService.getPaperName1;
       this.dataService.update_paper_incorrect(pName1);
       let pName2: any = this.dataService.getPaperName2;
       this.dataService.update_paper_incorrect(pName2);
-      console.log(this.dataService.get_paper_stats(pName1, pName2));
+      let info: any = this.dataService.get_paper_stats(pName1, pName2)
+      console.log(info[0][0]);
       document.getElementById("answer")!.innerHTML = "Wrong"
     }
+    console.log("change worked again")
   }
 }
