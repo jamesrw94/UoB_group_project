@@ -14,6 +14,11 @@ export class ResultspageComponent implements OnInit {
   public pieChartLabels2 = ['Correct', 'Wrong'];
   public pieChartData2 = [5, 10];
   public pieChartType2 = 'pie';
+  paper_dict: { [key:string]:string } = {DailyMailUK: 'The Daily Mail UK',
+                      FT:'Financial Times',
+                      Guardian:'The Guardian',
+                      Telegraph:'The Telegraph',
+                      TheSun:'The Sun'};
 
   pName1: any;
   pName2: any;
@@ -57,8 +62,8 @@ export class ResultspageComponent implements OnInit {
 
       document.getElementById("answer")!.innerHTML = "Wrong"
     }
-    document.getElementById("PAPER1")!.innerHTML = this.pName1; 
-    document.getElementById("PAPER2")!.innerHTML = this.pName2; 
+    document.getElementById("PAPER1")!.innerHTML = this.paper_dict[this.pName1]; 
+    document.getElementById("PAPER2")!.innerHTML = this.paper_dict[this.pName2]; 
     console.log("the thing works")
   }
 }

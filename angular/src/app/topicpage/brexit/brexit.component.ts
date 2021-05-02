@@ -51,7 +51,6 @@ export class BrexitComponent implements OnInit {
 
   ngOnInit(): void {
     this.retrieveData();
-
   }
 
   getimagepb1(){

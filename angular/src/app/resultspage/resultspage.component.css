@@ -75,12 +75,12 @@
 .PAPER1{
   position: absolute;
   top: 30%;
-  left: 20%;
+  left: 15%;
   border-radius: 5%;
 }
 .PAPER2{
   position: absolute;
   top: 30%;
-  right: 20%;
+  right: 15%;
   border-radius: 5%;
 }
