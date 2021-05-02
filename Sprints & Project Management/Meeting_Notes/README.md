@@ -1,45 +1,102 @@
-Please see the following files for meeting notes of the relevant days:
+## Meeting Notes
 
-* [5th February](21_02_05.docx)
-* [19th February](21_02_19.docx)
-* [23rd February](21_02_23.docx)
-* [9th March](21_03_09.txt)
-* [11th March](21_03_11.odt)
-* [19th March](21_03_19)
-* [25th March](21_03_25.txt)
-* [29th March](21_03_29.docx)
-* [6th April](21_04_06.odt)
-* [9th April](21_04_09)
-* [12th April](21_04_12)
+Please see below for a summary of our meetings before Sprints commenced on 29th March. Directly under each heading, you will find a link to the minutes in full.
+
+Every team member was present at each meeting, unless specified otherwise.
+
+Please see the [Sprint Log](../Sprint_Logs/README.md) for a summary of the meetings after the 29th March, the start of our first Sprint.
 
 
+### 5th February
+[Link To Minutes](21_02_05.docx)
 
-### Wednesday 28th April - Catch up meeting
+We brainstormed some ideas for our web app. Some of our favourite ideas were:
+* Colour-blindness test
+* Opposit of Plague Inc game - making a vaccine to stop spread of disease
+* Piano game similar to guitar hero
+* Frequency test for speakers
+* Social media / news sites
 
-All team members present
 
-Items discussed:
-* Testing approach
-* Remaining programming work
+**Project Management**
+* Possible use of JIRA
+* spread out responsibilities between us - e.g. Scrum Master should not be dedicated to one person
 
-##### Testing Approach
-Agreed that Phillip would take on the manual testing as it ties in with his work already on user testing. His friends and family would be willing to try our app on multiple different browsers, etc.
 
-For automatic testing, we agreed to test 3 different things:
-* Check the tweets appear on screen
-* Check the results button gives the correct answer when clicked
-* check the results page reflects the actual results
+### 19th February
+[Link To Minutes](21_02_19.docx)
 
-##### Approach to remaining work
-Hoping to get all programming completed by end of this week - then can focus on tidying up documentation during final week before submission.
+At Thursday's design session, we had discussed an idea about finding a more reliable measure of inflation. We made the decision this would be too challenging to implement with the time we had.
 
-Agreed for Dan / Joe to catch up this afternoon to finalise the Brexit compomenent which can then be replicated across all other topic pages.
+Spoke about the need to consolidate Git repos - currently we have 2 - one for ANgular, one for our ideas.
 
-Dan and James to meet on Friday to implement the automatic testing.
+**Project Ideas**
+* Guess the unit of cocktail - did not have APi support
+* Agreed that something on news bias was our best idea.
 
-##### Other issues discussed
-* Images for each newspaper are loading onto the front end, but not being moved around correctly during the drag and drop. Joe and Dan therefore will meet this afternoon to attempt to resolve it.
-* Harry has completeed the background pictures for each topic - they are in the UX folder.
-* Phillip waiting for E2E Brexit page completion before running it past users
-* Agreed that for MVP, we need a results page, not an overall Statistics page.
+Agreed for each member of the team to come up with own proposal and share with the team next week.
+
+JIRA board had been created and we can start to put these tasks there as tickets.
+
+### 23rd February
+[Link To Minutes](21_02_23.docx)
+
+Everyone presented their briefs for the project. We were broadly aligned and close to finalising our idea - a web app that would allow a user to match a headline with a newspaper and return the result to see if their guess was correct.
+
+We discussed what the UI might look like, and how we would get the data from Twitter.
+### 9th March
+[Link To Minutes](21_03_09.txt)
+
+Apologies: Phil and Joe
+
+Dan had already set up the script which calls the Twitter APi to get our newspaper data.
+Discussed using a cron job to get data from twitter at regular intervals to avoid having to pay!
+
+### 11th March
+[Link To Minutes](21_03_11.odt)
+
+Phil has created a marvel app with our prototypes. We also have an initial wireframe on google sheets.
+
+We sketched out a data model together using the whiteboard on Teams. That model is now on github.
+
+**Discussion Point**
+* Do we need to track users on our website? How would we handle user data?
+* Do we need sessionIDs?
+
+### 18th March
+[Link To Minutes](21_03_18_Scoping)
+
+This session was on scoping - conceptual, technical, evaluation.
+
+**Conceptual**
+
+We want to raise awareness about media bias. Key challenge will be getting this app in front of users that need it most - most likely to be older people who consume the same media from the same outlet. How can we get them to use our app?
+
+**Technical**
+
+Agreed no user sessionID or individual user data persisted. Instead, we will hold stats on the overall scores of right/wrong.
+
+**Evaluation**
+
+Use of our survey which Phil has already developed.
+
+### 19th March
+[Link To Minutes](21_03_19)
+
+At a high level, we discussed what we needed to do to be able to move forward and complete this task, and also the skills we needed to learn as a group in order to create a successful app.
+
+We then assigned team members with the ToDo items and also technical areas where they felt proficient enough to take the lead when it came to technical implementation.
+
+### 25th March
+[Link To Minutes](21_03_25.txt)
+
+We spent most of the meeting sorting out issues that we were experiencing with docker (these were being experienced by the year group as a whole - and related to the volumes in the docker-compose script).
+
+We organised a date for a review by Allison, and spoke with Tom to verify that we were on track.
+
+### 29th March
+
+
+Start of Sprint 1. Please see the [Sprint Logs](../Sprint_Logs/README.md) for the remaining documentation.
+
 

@@ -33,7 +33,11 @@ Joe was our main frontend developer.
 James programmed the front-end component routing, and integrated our components with the api service. He also set up the JIRA sprints and maneged the Git workflows.
 
 # Sprints
-Please refer to the the [Sprint Log](Sprint_Logs/) README for a full description of our Sprints, together with the [Meeting Notes](../Meeting_Notes) folder for all of our documented minutes.
+Please refer to the [Sprint Log](Sprint_Logs/README.md) for a full description of our Sprints, including meeting minutes.
+
+Please refer to the the [Meeting Notes](../Meeting_Notes/README.md) for all of our documented minutes, prior to the start of the Sprints.
+
+All team members were present for each meeting, except for 9th March, which helped to facilitate productivity.
 
 # Git and CI/CD
 
