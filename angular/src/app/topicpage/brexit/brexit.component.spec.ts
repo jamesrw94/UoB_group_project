@@ -4,16 +4,16 @@ import { BrexitComponent } from './brexit.component';
 import { fakeAsync, tick} from '@angular/core/testing';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 import {DragDropModule} from '@angular/cdk/drag-drop';
+import { Router } from '@angular/router';
 
 import {DebugElement} from '@angular/core';
 import {By} from '@angular/platform-browser';
-//http://localhost:3000/topicpage/brexit
-//http://localhost:3000/resultspage
+
 describe('BrexitComponent', () => {
   let component: BrexitComponent;
   let fixture: ComponentFixture<BrexitComponent>;
   let html: DebugElement;
-
+  let router:Router;
   beforeEach(async () => {
     await TestBed.configureTestingModule({
         imports: [HttpClientTestingModule, RouterTestingModule,DragDropModule],
@@ -25,6 +25,7 @@ describe('BrexitComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(BrexitComponent);
     component = fixture.componentInstance;
+    router = TestBed.get(Router);
     fixture.detectChanges();
   });
 
@@ -87,6 +88,20 @@ it('check that popup appears when user has not filled both boxes',()=>{
     const text = fixture.debugElement.query(By.css('#popupreminder')).nativeElement;
     expect(text.textContent).toContain("Make sure you have filled both drop boxes")
 
+})
+
+it('check that user gets routed to results page after clicking button',()=>{
+    const navigateSpy = spyOn(router, 'navigate');
+    expect(component).toBeTruthy();
+    component.emptybox1.push("PAPER1");
+    component.emptybox2.push("PAPER2");
+    component.paper_url2 = '../../assets/TheSun.png';
+    component.paper_url1 = '../../assets/Telegraph.jpg';
+    component.paperName_1= 'TheSun';
+    fixture.detectChanges();
+    component.submitPredicate();
+    fixture.detectChanges();
+    expect(navigateSpy).toHaveBeenCalledWith(['../../resultspage']);
 })
 
 });
