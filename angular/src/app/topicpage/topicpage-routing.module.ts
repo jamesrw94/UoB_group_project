@@ -17,7 +17,7 @@ const topicRoutes: Routes = [
   {path: 'climate', component: ClimateComponent},
   {path: 'politics', component: PoliticsComponent},
   {path: 'covid', component: CovidComponent},
-  {path: 'american', component: AmericaComponent},
+  {path: 'america', component: AmericaComponent},
   {path: 'boris', component: BorisComponent},
   {path: 'military', component: MilitaryComponent},
   {path: 'racism', component: RacismComponent}

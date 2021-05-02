@@ -18,29 +18,22 @@ export class TopicPageComponent implements OnInit {
   }
 
   randomTopic(){
-    const num =  Math.random() * 7;
-    console.log("topc jlakhs;dfkaj")
-    console.log(num)
+    const num =  Math.random() * 8;
     if(num < 1){
-      console.log(" 1")
       this.router.navigate(['topicpage/brexit']);
     }else if(num >= 1 && num < 2){
-      console.log(" 2")
       this.router.navigate(['topicpage/climate']);
     }else if(num >= 2 && num < 3){
-      console.log(" 3")
       this.router.navigate(['topicpage/covid']);
     }else if(num >= 3 && num < 4){
-      console.log(" 4")
       this.router.navigate(['topicpage/politics']);
     }else if(num >= 4 && num < 5){
-      console.log(" 5")
       this.router.navigate(['topicpage/boris']);
     }else if(num >= 5 && num < 6){
-      console.log(" 6")
       this.router.navigate(['topicpage/military']);
+    }else if(num >= 6 && num < 7){
+      this.router.navigate(['topicpage/america']);
     }else{
-      console.log(" 7")
       this.router.navigate(['topicpage/racism']);
     }
     

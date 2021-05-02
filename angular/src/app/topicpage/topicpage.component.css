@@ -44,7 +44,7 @@ h2 {
     text-align: center;
     top: 25%;
     left: 43%;
-    padding: 15px 70px;
+    padding: 15px 65px;
     font-size: 30px;
     cursor: pointer;
     border-radius: 15%;
@@ -88,7 +88,7 @@ h2 {
 .politicsButton:hover {
     background-color: #18628a;
   }
-  .educationButton {
+  .americaButton {
     display: inline-block;
     position: absolute;
     color: white;
@@ -96,13 +96,13 @@ h2 {
     text-align: center;
     top: 42%;
     left: 43%;
-    padding: 15px 55px;
+    padding: 15px 60px;
     font-size: 30px;
     cursor: pointer;
     border-radius: 15%;
     transition-duration: 0.5s;
 }
-.educationButton:hover {
+.americaButton:hover {
     background-color: #18628a;
   }
 

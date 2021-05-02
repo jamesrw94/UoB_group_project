@@ -109,7 +109,8 @@ export class BrexitComponent implements OnInit {
 
   public submitPredicate() {
     this.result;
-    this.setPaperNamesForResults();
+    let pName1 = this.paper_url1;
+    let pName2 = this.paper_url2;
     if (this.emptybox1.length != 1 || this.emptybox2.length != 1) {
         document.getElementById("popupreminder")!.innerHTML = this.popUpText;
     }else{
@@ -122,6 +123,8 @@ export class BrexitComponent implements OnInit {
             }
             const words = str.split("/")[3].split(".");
             const paperLogo = words[0];
+            this.dataService.setPaperName1(pName1.split("/")[3].split("."));
+            this.dataService.setPaperName2(pName2.split("/")[3].split("."));
             
             if(this.paperName_1== paperLogo){
               this.dataService.setResult(true);
@@ -131,16 +134,6 @@ export class BrexitComponent implements OnInit {
               this.router.navigate(['../../resultspage']);
             }
     }
-  }
-  setPaperNamesForResults(){
-    let pName1 = this.paper_url1;
-    let pName2= this.paper_url2;
-    let split1 = pName1.split("/")[3].split(".");
-    let split2 = pName2.split("/")[3].split(".");
-    pName1 = split1[0];
-    pName2 = split2[0];
-    this.dataService.setPaperName1(pName1);
-    this.dataService.setPaperName2(pName2);
   }
 
   retrieveData() {

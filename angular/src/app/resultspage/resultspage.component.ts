@@ -9,44 +9,56 @@ import { DataService } from 'src/app/data.service';
 export class ResultspageComponent implements OnInit {
   
   public pieChartLabels1 = ['Correct', 'Wrong'];
-  public pieChartData1 = [180, 90];
+  public pieChartData1 = [5, 10];
   public pieChartType1 = 'pie';
   public pieChartLabels2 = ['Correct', 'Wrong'];
-  public pieChartData2 = [120, 150];
+  public pieChartData2 = [5, 10];
   public pieChartType2 = 'pie';
+
+  pName1: any;
+  pName2: any;
+  paperInfo: any;
   result:any;
   backgroundUrl = '../assets/homepage.jpeg'
   constructor(private dataService: DataService) { }
 
-
-
-
-
-
-
-
-
-  
-
   ngOnInit(): void {
+    this.pName1 = this.dataService.getPaperName1();
+    this.pName2 = this.dataService.getPaperName2();
     this.result = this.dataService.getResult();
     if(this.result == true){
-      let pName1: any = this.dataService.getPaperName1;
-      this.dataService.update_paper_correct(pName1);
-      let pName2: any = this.dataService.getPaperName2;
-      this.dataService.update_paper_correct(pName2);
-      let info: any = this.dataService.get_paper_stats(pName1, pName2)
-      console.log(info[0][0]);
+      this.dataService.update_paper_correct(this.pName1);
+      this.dataService.update_paper_correct(this.pName2);
+      this.dataService.get_paper_stats(this.pName1, this.pName2).subscribe(
+        data => {
+          this.paperInfo = data;
+          this.pieChartData1 = [this.paperInfo[0].correct_answers, this.paperInfo[0].incorrect_answers];
+          this.pieChartData2 = [this.paperInfo[1].correct_answers, this.paperInfo[1].incorrect_answers];
+        },
+        error => {
+          console.log(error); 
+        }
+      );
       document.getElementById("answer")!.innerHTML = "Correct!!!"
     }else if(this.result == false){
-      let pName1: any = this.dataService.getPaperName1;
-      this.dataService.update_paper_incorrect(pName1);
-      let pName2: any = this.dataService.getPaperName2;
-      this.dataService.update_paper_incorrect(pName2);
-      let info: any = this.dataService.get_paper_stats(pName1, pName2)
-      console.log(info[0][0]);
+      this.dataService.update_paper_incorrect(this.pName1);
+      this.dataService.update_paper_incorrect(this.pName2);
+      this.dataService.get_paper_stats(this.pName1, this.pName2).subscribe(
+        data => {
+          this.paperInfo = data;
+          this.pieChartData1 = [this.paperInfo[0].correct_answers, this.paperInfo[0].incorrect_answers];
+          this.pieChartData2 = [this.paperInfo[1].correct_answers, this.paperInfo[1].incorrect_answers];
+          
+        },
+        error => {
+          console.log(error); 
+        }
+      );
+
       document.getElementById("answer")!.innerHTML = "Wrong"
     }
-    console.log("change worked again")
+    document.getElementById("PAPER1")!.innerHTML = this.pName1; 
+    document.getElementById("PAPER2")!.innerHTML = this.pName2; 
+    console.log("the thing works")
   }
 }

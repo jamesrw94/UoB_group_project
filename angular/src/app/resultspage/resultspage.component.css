@@ -72,3 +72,15 @@
   text-align: 50%;
   border-radius: 5%;
 }
+.PAPER1{
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  border-radius: 5%;
+}
+.PAPER2{
+  position: absolute;
+  top: 30%;
+  right: 20%;
+  border-radius: 5%;
+}

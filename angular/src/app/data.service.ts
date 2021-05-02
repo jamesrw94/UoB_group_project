@@ -11,8 +11,8 @@ import { HttpParams } from "@angular/common/http";
 export class DataService {
 
   private result:any;
-  private paperName1:any;
-  private paperName2:any;
+  private paperName1:String = "";
+  private paperName2:String = "";
   private REST_API_SERVER_POLITICS = "http://localhost:3000/api/politics";
   private REST_API_SERVER_BREXIT = "http://localhost:3000/api/brexit";
 
@@ -90,13 +90,13 @@ public setPaperName1(paperName: any){
   this.paperName1 = paperName;
 }
 public getPaperName1(){
-  return this.paperName1;
+  return this.paperName1[0];
 }
 public setPaperName2(paperName: any){
   this.paperName2 = paperName;
 }
 public getPaperName2(){
-  return this.paperName2;
+  return this.paperName2[0];
 }
 
 }
