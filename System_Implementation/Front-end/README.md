@@ -1,5 +1,34 @@
 # Frontend Write Up
 
+We used the Angular framework for developing the frontend of our application.
+
+### Components
+Angular has a modular nature and is built using components. We used a separate component for each of our pages.
+
+### Routing
+We used the lazy loading feature of Angular, to ensure that child pages of the Topics page were only loaded when the user clicks on the link.
+
+This involved a separate topics routing module, topicpage-routing.module.ts, which defined the child routes, and used the forChild() method of routing as follows:
+
+```angular2html
+@NgModule({
+    imports: [
+      RouterModule.forChild(topicRoutes)
+    ],
+    exports: [
+      RouterModule
+    ]
+  })
+```
+
+In the higher-level app-routing.module.ts file, we then lazily load the Topic Child pages:
+
+```angular2html
+{
+    path: 'topicpage',
+    loadChildren: () => import('./topicpage/topicpage.module').then(m => m.TopicPageModule)
+  }
+```
 
 ## Homepage component
 The homepage is simple but showcases the theme of the website and gives the users and introduction to its purpose. In early user testing of the paper prototype of the site which can be seen in the UX write-up, users were originally confused to the purpose of the site. To address this a text banner was added to give an explanation and a large animated start button was added making it easy for people to know where to click.
