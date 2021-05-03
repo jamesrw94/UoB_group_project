@@ -14,11 +14,13 @@ export class ResultspageComponent implements OnInit {
   public pieChartLabels2 = ['Correct', 'Incorrect'];
   public pieChartData2 = [5, 10];
   public pieChartType2 = 'pie';
-  paper_dict: { [key:string]:string } = {DailyMailUK: 'The Daily Mail UK',
-                      FT:'Financial Times',
-                      Guardian:'The Guardian',
-                      Telegraph:'The Telegraph',
-                      TheSun:'The Sun'};
+  paper_dict: { [key:string]:string } = {
+    DailyMailUK: 'The Daily Mail UK',
+    FT:'Financial Times',
+    Guardian:'The Guardian',
+    Telegraph:'The Telegraph',
+    TheSun:'The Sun'
+  };
 
   pName1: any;
   pName2: any;
@@ -53,7 +55,6 @@ export class ResultspageComponent implements OnInit {
           this.paperInfo = data;
           this.pieChartData1 = [this.paperInfo[0].correct_answers, this.paperInfo[0].incorrect_answers];
           this.pieChartData2 = [this.paperInfo[1].correct_answers, this.paperInfo[1].incorrect_answers];
-          
         },
         error => {
           console.log(error); 

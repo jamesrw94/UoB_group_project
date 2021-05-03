@@ -10,7 +10,6 @@ import { BorisComponent } from './boris/boris.component';
 import { MilitaryComponent } from './military/military.component';
 import { RacismComponent } from './racism/racism.component';
 
-
 const topicRoutes: Routes = [
   { path: '', component: TopicPageComponent },
   {path: 'brexit', component: BrexitComponent},
@@ -31,4 +30,5 @@ const topicRoutes: Routes = [
       RouterModule
     ]
   })
+
   export class TopicPageRoutingModule {}

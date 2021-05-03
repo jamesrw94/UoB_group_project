@@ -8,10 +8,6 @@ import {ChartsModule} from 'ng2-charts';
 
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
-import {BarChartComponent} from './bar-chart/bar-chart.component';
-import {DoughnutChartComponent} from './doughnut-chart/doughnut-chart.component';
-import {RadarChartComponent} from './radar-chart/radar-chart.component';
-import {PieChartComponent} from './pie-chart/pie-chart.component';
 import { HomescreenComponent } from './homescreen/homescreen.component';
 import { ResultspageComponent } from './resultspage/resultspage.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
@@ -28,10 +24,6 @@ import { RacismComponent } from './topicpage/racism/racism.component';
 @NgModule({
   declarations: [
     AppComponent,
-    BarChartComponent,
-    DoughnutChartComponent,
-    RadarChartComponent,
-    PieChartComponent,
     HomescreenComponent,
     ResultspageComponent,
     PageNotFoundComponent,

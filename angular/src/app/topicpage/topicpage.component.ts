@@ -14,7 +14,6 @@ export class TopicPageComponent implements OnInit {
    }
 
   ngOnInit(): void {
-    
   }
 
   randomTopic(){
@@ -35,7 +34,6 @@ export class TopicPageComponent implements OnInit {
       this.router.navigate(['topicpage/america']);
     }else{
       this.router.navigate(['topicpage/racism']);
-    }
-    
+    }   
   }
 }
