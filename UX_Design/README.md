@@ -2,7 +2,7 @@
 
 ## Initial ideation
 
-As part of the discovery for our project, we investigated real-world issues and problems and how we could develop them into a serious play application.  Each member was tasked with coming up with potential ideas for the application, these ideas were collated **[here(https://github.com/jamesrw94/UoB_group_project/blob/main/Ideas/general_ideas)**, including the following ideas:
+As part of the discovery for our project, we investigated real-world issues and problems and how we could develop them into a serious play application.  Each member was tasked with coming up with potential ideas for the application, these ideas were collated **[here](https://github.com/jamesrw94/UoB_group_project/blob/main/Ideas/general_ideas)**, including the following ideas:
 1.	Guessing the ABV of an alcoholic drink
 2.	Are you washing your hands for long enough? 20s timer (COVID related).
 3.	Prevalence of Fake News
@@ -38,7 +38,7 @@ The one issue with a paper prototype is the limited interactivity, changing page
 
 ## Developing a higher fidelity prototype
 
-The PowerPoint prototype was an incredibly useful tool as it allowed the quick creation of a mock-up of our potential application so we can gain feedback regarding viability from users, however there is limited interactivity. Users aren’t interacting with a mouse and keyboard like they would for the actual product, so their experience is bound to be different.  We decided to look into creating a higher-fidelity protype of the final user interface to try and simulate the interaction between the user and the interface.  If a button on the prototype is pressed, then the appropriate action should occur to mimic the experience of the full application.  This would allow us to gain much more insightful information to help steer the development of our application.
+The PowerPoint prototype was an incredibly useful tool as it allowed the quick creation of a mock-up of our potential application so we can gain feedback regarding viability from users, however there is limited interactivity. Users aren’t interacting with a mouse and keyboard like they would for the actual product, so their experience is bound to be different.  We decided to look into creating a higher-fidelity protype to try and simulate the interaction between the user and the interface.  If a button on the prototype is pressed, then the appropriate action should occur to mimic the experience of the full application.  This would allow us to gain much more insightful information to help steer the development of our application.
 
 While researching possible user research tools **[marvelapp](https://marvelapp.com/)** was found, where a mid-fidelity representation of the design was **[created](https://marvelapp.com/prototype/144665he/screen/77130957)**.  Although it is higher-fidelity, there were some limitations because some features such as “drag and drop” could not be implemented.
 
