@@ -49,10 +49,10 @@ One area which seems to have some traction is media bias and fake news. A few we
 
 3.	[Facticious](http://factitious.augamestudio.com/#/) - Without a clear agenda outwardly specified on their site, this quiz game will be treated as a stand-alone idea. Like the University of Akron example, this quiz works by asking users to determine if a news clipping is real or fake. The name of the source is initially hidden, and only provided to the user after a button click. Unlike the previous example, this game features a points-based system, whereby a user gains/losses points based on their answers to the questions.
 <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/Sprints_%26_Project_Management/Readme_Images/Facticious_Question.png" height="600"/>
-<img src="(https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/Sprints_%26_Project_Management/Readme_Images/facticious_answer.png" width="600"/>
+<img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/Sprints_%26_Project_Management/Readme_Images/facticious_answer.png" width="600"/>
 
 4.	[ClearThinking](http://factitious.augamestudio.com/#/) – A USA targeted political ideology affiliation test. A user’s political ideology is evaluated through a set of general knowledge questions surrounding areas believed to be of political significance such as environmental concerns and the economy. The user is then scored based on their answers regarding each of these categories, and this is then used to determine a user’s political leanings.
-<img src="(https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/Sprints_%26_Project_Management/Readme_Images/clearerThinking.png" width="600"/>
+<img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/Sprints_%26_Project_Management/Readme_Images/clearerThinking.png" width="600"/>
 
 
 The emphasis in these quiz sites is placed on fake news and political leanings, but we feel there is a more fundamental issue at hand. We feel that, through many of the mechanisms being highlighted in the above quiz sites, there is a societal tendency to stereotype media sources as having a tone of voice that is permanently wrong or simply biased against the world narrative they believe. 
