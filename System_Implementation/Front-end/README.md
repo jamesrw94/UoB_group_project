@@ -30,8 +30,6 @@ In the higher-level app-routing.module.ts file, we then lazily load the Topic Ch
   }
 ```
 
-# Frontend Write Up
-
 ## Homepage component
 
 The homepage is simple but showcases the playful theme of the website and gives users an introduction to its purpose. In user testing of the higher fidelity prototype, there were insights that users were confused at certain points in the design. To address this, on this page a text banner was added to give an explanation about the website and a large-animated start button was added making it easy for people to know where to click.
