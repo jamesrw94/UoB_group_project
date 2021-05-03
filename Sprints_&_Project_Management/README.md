@@ -73,3 +73,6 @@ One initial difficulty we found was with the node_modules directory being part o
 
 We also used the Pull Request functionality on Git, but decided against needing an approval from other developers before merging to 'dev'. This was because a) we could use the Git feature to revert commits if we had to; and b) we trusted each other to code correctly and to fix ‘dev’ if it was broken by the developer's merge. We found Pull Requests useful because all team members could see what code was changing in the repo. 
 
+**[&rarr; Evaluation](https://github.com/jamesrw94/UoB_group_project)**
+
+**[&larr; Back to Index](https://github.com/jamesrw94/UoB_group_project)**
