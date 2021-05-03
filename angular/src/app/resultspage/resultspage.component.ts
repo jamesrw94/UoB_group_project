@@ -8,10 +8,10 @@ import { DataService } from 'src/app/data.service';
 })
 export class ResultspageComponent implements OnInit {
   
-  public pieChartLabels1 = ['Correct', 'Wrong'];
+  public pieChartLabels1 = ['Correct', 'Incorrect'];
   public pieChartData1 = [5, 10];
   public pieChartType1 = 'pie';
-  public pieChartLabels2 = ['Correct', 'Wrong'];
+  public pieChartLabels2 = ['Correct', 'Incorrect'];
   public pieChartData2 = [5, 10];
   public pieChartType2 = 'pie';
   paper_dict: { [key:string]:string } = {DailyMailUK: 'The Daily Mail UK',
