@@ -71,3 +71,5 @@ Special thanks to all the lecturers on the Software Engineering unit at Universi
     1. Antunovic, D. Parsons, P. Cooke, TR. (2018) ‘’Checking’ and googling: Stages of news consumption among young adults’, Sage, 19(5) 632-648,  Page 635
     2. Lee, T. (2019), ‘The global rise of “fake news” and the threat to democratic elections in the USA’, Public Administration and Policy: An Asia-Pacidfic Journal, 2517-679X, Page 17.
  
+
+**[&rarr; Background & Motivation](Background_and_Motivation/Readme.md)**
