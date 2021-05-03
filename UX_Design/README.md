@@ -150,6 +150,7 @@ The final insight was in relation to the design of the question page.  Two proto
 
 A report of the User tests findings and insights was created, a copy of the User Research Report can be found **[here](https://github.com/jamesrw94/UoB_group_project/blob/main/UX_Design/Report.pptx)**. This was presented to the group during a group meeting, the above insights guided several decisions in front and backend applications.
 
+**[&rarr; Sprints & Project Management](https://github.com/jamesrw94/UoB_group_project/tree/main/Sprints_%26_Project_Management)**
 
 **[&larr; Back to Index](https://github.com/jamesrw94/UoB_group_project)**
 
