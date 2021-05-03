@@ -6,8 +6,8 @@
  Phillip Sloan | User research and prototyping | <img src="Sprints_&_Project_Management/Readme_Images/phil.png" width="100">  
 Joseph Hedin | Front-end development | <img src="Sprints_&_Project_Management/Readme_Images/joe.png" width="100"> 
 Daniel Chow | Back-end development | <img src="Sprints_&_Project_Management/Readme_Images/dan.png" width="100"> 
-Harry Field | User-Experience and background research | <img src="Sprints_&_Project_Management/Readme_Images/harry.png" width="100"> 
-James Wilson | Team Management and front-end development | 
+Harry Field | User-Experience and background research | <img src="Sprints_&_Project_Management/Readme_Images/harry.png"> 
+James Wilson | Team Management and front-end development | <img src="Sprints_&_Project_Management/Readme_Images/james.png" width="100"> 
 
 ### 1. Introduction
 ### 2. [Background & Motivation](Background_and_Motivation/Readme.md)
