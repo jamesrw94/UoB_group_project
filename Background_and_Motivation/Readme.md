@@ -31,3 +31,9 @@ The simplicity of the quiz format will enable us to strip back unnecessary funct
 While we understand the scale of the problem to be well beyond any scope of a university group project, we hope that through this experience we can:
 1.	Encourage our users to think more about their own biases and make a proactive effort to measure their opinions.
 2.	Facilitate a culture within ourselves of developing tools with an eye for the personal and societal impact of our work as we continue with the course and on to professional environments.
+
+# References
+    1. Antunovic, D. Parsons, P. Cooke, TR. (2018) ‘’Checking’ and googling: Stages of news consumption among young adults’, Sage, 19(5) 632-648,  Page 635
+    2. Lee, T. (2019), ‘The global rise of “fake news” and the threat to democratic elections in the USA’, Public Administration and Policy: An Asia-Pacidfic Journal, 2517-679X, Page 17.
+    3. Safieddine, F. Masri, W. Pourghomi, P. (2016) ‘Corporate Responsibility in Combating Online Misinformation’, International Journal of Advanced Computer Science and Applications, Vol 7, No.2.
+    4. Fuchs, C. 2021, Social Media, A Critical Introduction, Sage Publications ltd, London. Page 218.
