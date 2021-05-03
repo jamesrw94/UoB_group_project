@@ -4,11 +4,11 @@ We used the Angular framework for developing the frontend of our application.
 
 Our application is divided into multiple components, with each one rendering it's own 'view', or page. Our component hierarchy is set out below. Please click on each link for a full description of each component's implementation.
 
-* [Homepage](#Homepage component)
-  * [Topics Page](#Topic page component)
-    * [Subject Components](#Subject components)
-  * [Results Page](#Results page component)
-  * [404 Page component](#404 page component)
+* [Homepage](#homepage-component)
+  * [Topics Page](#topic-page-component)
+    * [Subject Components](#subject-components)
+  * [Results Page](#results-page-component)
+  * [404 Page component](#404-page-component)
     
 
 ### Routing
