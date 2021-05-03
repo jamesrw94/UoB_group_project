@@ -122,21 +122,24 @@ As there were so few stakeholders identified we decided not to perform a stakeho
 
 ## Identifying User
 
-The user survey had provided a lot of useful data to help identify potential users for our application.  People who had completed the survey had been of varying ages, varying professions and from varying areas of the country.  Half of the participants had rated their knowledge of bias in the media as 3/5, suggesting that they might have signed up to try and improve this.
+The user survey had provided a lot of useful data to help identify potential users for our application.  People who had completed the survey had been of varying ages, varying professions and from varying areas of the country.  Half of the participants had rated their knowledge of bias in the media as 3/5, suggesting that they might have signed up to try and improve this, the rest considered themselves 4/5 or 5/5.
 
 User Story
 
 From this we focused on creating a user story for the end user, using the template provided from the online lectures.
 
 
-
-
-
-As an end user I would like to increase my awareness of bias within the UK media so that I can make better, and more informed choices about what media I consume.
-
+As an **end user** I would like to **increase my awareness of bias within the UK media** so that I **can make better, and more informed choices about what media I consume.**
 
 
 User Persona
 
-Younger People more likely to know about media bias?
-Older people more likely to consume the same paper repeatedly?
+It was difficult to define a specific user persona by their age, gender, location and/or career.  We found people with similar demographic characteristics could consume varying amounts of news from a wide variety of outlets. We also noticed how they consume this media is different and their knowledge levels vary between participants. When researching user persona, we felt focusing on behavioural archetypes/mindsets may better communicate the actions of our users and allow us to understand their needs more clearly.
+
+Behavioral Mindset 1 - A User using the application for to help educate themselves on media bias.
+
+![](https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/UX_Design/EducationalBehavioralMindset.png)
+
+Behavioral Mindset 2 - A User using the application for fun.
+
+![](https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/UX_Design/FunBehavioralMindset.png)
