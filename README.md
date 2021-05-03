@@ -36,7 +36,7 @@ We have produced a survey for users to complete once they used the app: https://
  - Ideas - Contains all ideas that for the Serious Play app which we have considered.
  - Meet notes - contains minutes from our meetings
 
-# Background 
+# Background and Related Work
 There is no shortage of general knowledge quiz websites such as [JetPunk](https://www.jetpunk.com/), [Buzzfeed Quizzes](https://www.buzzfeed.com/uk/quizzes), [Challenge the brain](https://www.challengethebrain.com/), [Quiz UK](http://www.quiz.co.uk/) and [Sporcle](https://www.sporcle.com/). While these are great fun, and can increase one’s knowledge of certain topics, we feel that there is scope for this paradigm to be expanded into a more serious direction. While quiz websites certainly work withing the paradigm of Serious Play, the emphasis is more on Play, and less on Serious. With no clear objective/issue implicit in the implementation of these quiz sites, we’ve delved a little deeper to uncover where quizzes might be used in order to help raise awareness of cultural issues we might currently be blind to recognising within ourselves.
 
 One area which seems to have some traction is media bias and fake news. A few websites currently exist with the goal of somehow improving the general public’s awareness of their own actions online through the quiz format. Below is a brief overview of some websites taking this approach:
