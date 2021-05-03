@@ -40,7 +40,7 @@ The home page also has a navigation bar across the top which is present on every
 
 ## Topic page component
 
-The topic page displays a number of buttons listing the available topics, each one rerouting the user to the selected page.
+The topic page displays a number of buttons listing the available topics, each one rerouting the user to the selected page. When the random button is clicked rather than rerouting to another page the "randomTopic()" function is called which uses a random number generator to decide which topic will be played.
 
 The topic page has its own module.TS file which allows us to create subject components within the topic page component and easily reroute the user to these subcomponents. It also allows us to manage all of the modules used within this component.
 
