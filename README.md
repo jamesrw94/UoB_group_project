@@ -45,9 +45,9 @@ After choices:
 <p align="center"> <img src="Sprints_&_Project_Management/Readme_Images/question-complete.png" width="600"/></p>
 4. Once the user has submitted their answers, the results module is loaded. This module informs the user if their answer to the question was correct, as well as provide information on how well users have done overall in accurately assigning tweets with the newspapers the user has just been exposed to. This is achieved by:
 
-a) Sending the users answer to the backend, and checking for a correct match.
-b) Querying the back end database for overall statistics on what number of people have answered correctly for the newpapers just used.
-c) Loading a pie-chart module to display the data.
+- Sending the users answer to the back-end, and checking for a correct match.
+- Querying the back-end database for overall statistics on what number of people have answered correctly for the newpapers just used.
+- Loading a pie-chart module to display the data.
 
 No personally identifiable user data is stored in our database, only that "someone" got the answer right or wrong with regards to the newspapers currently being queried.
 <p align="center"> <img src="Sprints_&_Project_Management/Readme_Images/results.png" width="600"/></p>
