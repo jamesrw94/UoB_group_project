@@ -13,7 +13,7 @@
 ### 7. Conclusion
 
 
-## Introduction
+# Introduction
 Know the News is a single page web app built to raise awareness of one’s own bias towards the media. As our consumption of media content becomes ever more automated with evolving technologies, one might understandably stereotype media outlets as presenting a consistent, politically biased opinion [1][2].
 
 Our application hopes to show people how well they really know the voice of newspapers, by presenting an interactive quiz-style game. The game works by displaying tweets from various newspapers to the user, and then asking the user to match the tweets with their corresponding newspapers. After this, the application tells the user how well they’ve done, as well as provide information on how well people using the application have done in general.
