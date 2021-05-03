@@ -1,11 +1,13 @@
 # Know The News
 
 ## Group Members
-* Phillip Sloan - User research and prototyping
-* Joseph Hedin - Front-end development
-* Daniel Chow - Back-end development
-* Harry Field - User-Experience design and background research
-* James Wilson - Team management and front-end development
+ Name | Role | Picture 
+---|---|---
+ Phillip Sloan | User research and prototyping | <img src="Sprints_&_Project_Management/Readme_Images/phil.png" width="100">  
+Joseph Hedin | Front-end development | <img src="Sprints_&_Project_Management/Readme_Images/joe.png" width="100"> 
+Daniel Chow | Back-end development | <img src="Sprints_&_Project_Management/Readme_Images/dan.png" width="100"> 
+Harry Field | User-Experience and background research | <img src="Sprints_&_Project_Management/Readme_Images/harry.png" width="100"> 
+James Wilson | Team Management and front-end development | 
 
 ### 1. Introduction
 ### 2. [Background & Motivation](Background_and_Motivation/Readme.md)
