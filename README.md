@@ -49,6 +49,4 @@ Special thanks to all the lecturers on the Software Engineering unit at Universi
 # References
     1. Antunovic, D. Parsons, P. Cooke, TR. (2018) ‘’Checking’ and googling: Stages of news consumption among young adults’, Sage, 19(5) 632-648,  Page 635
     2. Lee, T. (2019), ‘The global rise of “fake news” and the threat to democratic elections in the USA’, Public Administration and Policy: An Asia-Pacidfic Journal, 2517-679X, Page 17.
-    3. Safieddine, F. Masri, W. Pourghomi, P. (2016) ‘Corporate Responsibility in Combating Online Misinformation’, International Journal of Advanced Computer Science and Applications, Vol 7, No.2.
-    4. Fuchs, C. 2021, Social Media, A Critical Introduction, Sage Publications ltd, London. Page 218.
  
