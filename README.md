@@ -43,9 +43,10 @@ One area which seems to have some traction is media bias and fake news. A few we
 
 1.	[Should you share it?](https://newslit.org/educators/resources/should-you-share-it/) – Targets fake news as the problem to solve and aims to improve their users’ awareness of what content is likely fake or reliable so that they can better decide what to share with others in the future. Through this, the project hopes to reduce the amount of fake news circulating the web.
 ![Should You Share It?](https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/Sprints_%26_Project_Management/Readme_Images/ShouldYiuShareIt.png)
+<img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/Sprints_%26_Project_Management/Readme_Images/ShouldYiuShareIt.png" width="100"/>
 
 2.	[University of Akron Fake News Quiz](https://akron.qualtrics.com/jfe/form/SV_2bhqIwpegOtj5yZ) – Without a clear agenda outwardly specified on their site, this quiz game will be treated as a stand-alone idea. The quiz asks users to decide whether various news clippings are credible. The user is provided with links to the sources of the clippings, and then asked if they are legitimate stories. After the user decides, the right answer is revealed along with some information about how certain features made it more/less likely to be reliable news.
-![University of Akron Fake News Quiz](https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/Sprints_%26_Project_Management/Readme_Images/Akron.png){width="300"}
+![University of Akron Fake News Quiz](https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/Sprints_%26_Project_Management/Readme_Images/Akron.png)
 
 3.	[Facticious](http://factitious.augamestudio.com/#/) - Without a clear agenda outwardly specified on their site, this quiz game will be treated as a stand-alone idea. Like the University of Akron example, this quiz works by asking users to determine if a news clipping is real or fake. The name of the source is initially hidden, and only provided to the user after a button click. Unlike the previous example, this game features a points-based system, whereby a user gains/losses points based on their answers to the questions.
 ![Facticious Question](https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/Sprints_%26_Project_Management/Readme_Images/Facticious_Question.png)
