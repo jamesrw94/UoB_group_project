@@ -1,5 +1,12 @@
 # Know The News
 
+## Group Members
+* Phillip Sloan - User research and prototyping
+* Joseph Hedin - Front-end development
+* Daniel Chow - Back-end development
+* Harry Field - User-Experience design and background research
+* James Wilson - Team management and front-end development
+
 ### 1. Introduction
 ### 2. [Background & Motivation](Background_and_Motivation/Readme.md)
 ### 3. [System Implementation](System_Implementation/README.md)
@@ -25,13 +32,6 @@ Project Objectives:
 2.	Populate database using Twitter API
 3.	Present information back to the user on how accurately they Know the News
 4.	Demonstrate that this application can be used to highlight one’s awareness of their own bias towards the media
-
-# Group Members
-* Phillip Sloan
-* Joseph Hedin
-* Daniel Chow
-* Harry Field
-* James Wilson
 
 # Project Structure
  - angular - contains the code for our app
