@@ -1,6 +1,5 @@
 # Know The News
 
-## Report
 ### 1. Introduction
 ### 2. [Background & Motivation](Background_and_Motivation/Readme.md)
 ### 3. [System Implementation](System_Implementation/README.md)
