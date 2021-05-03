@@ -140,4 +140,12 @@ The final insight was in relation to the design of the question page.  Two proto
 
 ### User Research Report
 
-A report of the User tests findings and insights was created, a copy of the User Research Report can be found **[here](https://github.com/jamesrw94/UoB_group_project/blob/main/UX_Design/Report.pptx)**. This was presented to the group during a group meeting, the above insights guided several decisions in the applications development.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/UX_Design/User%20Test%20Report.gif">
+</p>
+
+A report of the User tests findings and insights was created, a copy of the User Research Report can be found **[here](https://github.com/jamesrw94/UoB_group_project/blob/main/UX_Design/Report.pptx)**. This was presented to the group during a group meeting, the above insights guided several decisions in front and backend applications.
+
+
+
+
