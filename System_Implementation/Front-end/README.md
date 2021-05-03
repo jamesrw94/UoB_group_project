@@ -56,7 +56,7 @@ We also applied Nielsen’s design heuristics, including to try and help users r
 
 When a topic component such as brexit is initialised the “receiveData()” function is called, this function then sends a call to our API through the data service and retrieves two papers at random along with a headline for each.
 
-#	Issues faced whilst developing the front end
+###	Issues faced whilst developing the front end
 
 From the front-end's perspective one of the most challenging part of this page was implementing the drag-and-drop features. This was due to the fact that the drag-and-drop module used, CdkDragDrop is mostly used for creating lists and so to ensure that only one element could be dropped into each box a predicate function was used to check whether the list is empty or not returning a true false value which dictates whether or not an object may be dropped into each list.
 
