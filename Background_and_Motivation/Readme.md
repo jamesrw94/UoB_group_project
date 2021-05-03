@@ -40,3 +40,9 @@ While we understand the scale of the problem to be well beyond any scope of a un
     2. Lee, T. (2019), ‘The global rise of “fake news” and the threat to democratic elections in the USA’, Public Administration and Policy: An Asia-Pacidfic Journal, 2517-679X, Page 17.
     3. Safieddine, F. Masri, W. Pourghomi, P. (2016) ‘Corporate Responsibility in Combating Online Misinformation’, International Journal of Advanced Computer Science and Applications, Vol 7, No.2.
     4. Fuchs, C. 2021, Social Media, A Critical Introduction, Sage Publications ltd, London. Page 218.
+
+
+**[&rarr; System Implementation](https://github.com/jamesrw94/UoB_group_project/blob/main/System_Implementation/README.md)**
+
+**[&larr; Back to Index](https://github.com/jamesrw94/UoB_group_project)**
+
