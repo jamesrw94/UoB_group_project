@@ -13,14 +13,6 @@ Project Objectives:
 3.	Present information back to the user on how accurately they Know the News
 4.	Demonstrate that this application can be used to highlight one’s awareness of their own bias towards the media
 
-# Prototype
-
-Please find our wireframe at this link: https://marvelapp.com/prototype/144665he/screen/77129293
-
-# Survey
-
-We have produced a survey for users to complete once they used the app: https://docs.google.com/forms/d/e/1FAIpQLScVcWFPNb6wUZRy36ce8UjPXqiRm6ioFgZKw1wM78h9gpyTsw/viewform
-
 # Group Members
 * Phillip Sloan
 * Joseph Hedin
