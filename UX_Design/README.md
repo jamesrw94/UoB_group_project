@@ -71,7 +71,7 @@ Behavioral Mindset 2 - A User using the application for fun.
 
 ![](https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/UX_Design/FunBehavioralMindset.png)
 
-Having hypothetical users allowed have a user-focused design, and allowed us to plan higher level prototypes around these users. 
+Having hypothetical users in mind allowed us to develop with a user-focused design in mind, allowing us to plan higher fidelity prototypes and later, the actual application around these users. 
 
 ### User Story
 
