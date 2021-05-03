@@ -61,6 +61,19 @@ When a topic component such as brexit is initialised the “receiveData()” fun
 From the front-end's perspective one of the most challenging part of this page was implementing the drag-and-drop features. This was due to the fact that the drag-and-drop module used, CdkDragDrop is mostly used for creating lists and so to ensure that only one element could be dropped into each box a predicate function was used to check whether the list is empty or not returning a true false value which dictates whether or not an object may be dropped into each list.
 
 Another issues faced whilst designing the frontend for our website was loading in the correct logos for the users to drag and drop. The original hardcoded URLs were replaced by a call to a key/value pair dictionary which when given a papers name will return the URL to the actual image asset which is then displayed, this URL was then set to the variable paper_url1. The issue was that the CDKdragdrop array which held the URLs was originally being initialised to a blank string which we then later attempted to overwrite with the correct URL, however due to the fact that the API took some time to return the paper names the URLs were not being set before the page loaded meaning the paper logos were not appearing. To get around this issue rather than the SRC value in the HTML being set to the variable paper_url1 it calls a getter function which then returns the correct URL and displays the correct image. This works as by the time the function is called the API has returned the paper names and so there is a URL to pull the image.
+```angular2html
+ <div *ngFor="let item of paperbox1" cdkDrag>
+   <img [src]="getimagepb1()" width="250" height="auto">
+ </div>
+```
+```angular2html
+  getimagepb1(){
+    if(this.paperbox1[0] == "PAPER1"){
+      return this.paper_url1;
+    }
+    return this.paper_url2;
+  }
+  ```
 
 
 ## Results page component
