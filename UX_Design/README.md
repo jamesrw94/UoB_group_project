@@ -65,11 +65,15 @@ It was difficult to define a specific user persona by their age, gender, locatio
 
 Behavioral Mindset 1 - A User using the application for to help educate themselves on media bias.
 
-![](https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/UX_Design/EducationalBehavioralMindset.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/UX_Design/EducationalBehavioralMindset.png" width="720" >
+</p>
 
 Behavioral Mindset 2 - A User using the application for fun.
 
-![](https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/UX_Design/FunBehavioralMindset.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/UX_Design/FunBehavioralMindset.png" width="720" >
+</p>
 
 Having hypothetical users in mind allowed us to develop with a user-focused design in mind, allowing us to plan higher fidelity prototypes and later, the actual application around these users. 
 
