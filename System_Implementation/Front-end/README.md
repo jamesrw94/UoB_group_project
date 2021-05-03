@@ -2,11 +2,17 @@
 
 We used the Angular framework for developing the frontend of our application.
 
-### Components
-Angular has a modular nature and is built using components. We used a separate component for each of our pages.
+Our application is divided into multiple components, with each one rendering it's own 'view', or page. Our component hierarchy is set out below. Please click on each link for a full description of each component's implementation.
+
+* [Homepage](#Homepage component)
+  * [Topics Page](#Topic page component)
+    * [Subject Components](#Subject components)
+  * [Results Page](#Results page component)
+  * [404 Page component](#404 page component)
+    
 
 ### Routing
-We used the lazy loading feature of Angular, to ensure that child pages of the Topics page were only loaded when the user clicks on the link.
+To set up the routing of our components, we used the lazy loading feature of Angular, to ensure that child pages of the Topics page were only loaded when the user clicks on the link.
 
 This involved a separate topics routing module, topicpage-routing.module.ts, which defined the child routes, and used the forChild() method of routing as follows:
 
@@ -29,6 +35,7 @@ In the higher-level app-routing.module.ts file, we then lazily load the Topic Ch
     loadChildren: () => import('./topicpage/topicpage.module').then(m => m.TopicPageModule)
   }
 ```
+
 
 ## Homepage component
 
