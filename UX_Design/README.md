@@ -120,7 +120,7 @@ We identified the following stakeholders after the exercise:
 As there were so few stakeholders identified we decided not to perform a stakeholder mapping exercise, but rather to discuss each stakeholder and categorise them. End users were decided as high power / high interest stakeholder as they are the stakeholder that can impact the success of our application.  If we don’t fulfil their needs, they will not use the website, and it will fail. The other three stakeholders identified were all classified as low power / low interest as they didn’t interact directly.
 
 
-## Identifying User
+## Identifying our Users
 
 The user survey had provided a lot of useful data to help identify potential users for our application.  People who had completed the survey had been of varying ages, varying professions and from varying areas of the country.  Half of the participants had rated their knowledge of bias in the media as 3/5, suggesting that they might have signed up to try and improve this, the rest considered themselves 4/5 or 5/5.
 
