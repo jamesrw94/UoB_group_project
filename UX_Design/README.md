@@ -36,9 +36,52 @@ This PowerPoint prototype allowed us to perform a virtual walk through the appli
 
 The one issue with a paper prototype is the limited interactivity, changing pages on a design or changing PowerPoint slide is different to the interaction the user will have. 
 
+## Identifying Stakeholders
+
+Our project has quite a specific scope, so it was difficult to identify stakeholders beyond the end user.  To help try and identify other stakeholders we brainstormed as a team using the questions from the 2c lecture:
+
+- Will this project impact other people/organizations?
+
+-	Will other people/organizations impact this application?
+
+We identified the following stakeholders after the exercise:
+
+1.	The **end user** is a direct stakeholder, this application is being created for them to try and increase their awareness of bias within the media.  It is important that we gain their input on this study to provide them with the best useability to allow them to get the most from their experience on the application.
+
+2.	**Newspapers** are an indirect stakeholder; they will not use the application however they could be affected by it, for example an end user might decide to buy a different newspaper because they used this website. 
+
+3.	**Celebrities & Public figures** are also indirect stakeholders for the same reason, they could be the topic of a Newspapers headline, and this exposure could potentially impact how an end user views them. 
+
+4.	**Competing applications and quizzes** (examples of these can be seen in the introduction) are also an indirect competitor. This application could draw traffic away from their website which would affect their revenue.
+
+As there were so few stakeholders identified we decided not to perform a stakeholder mapping exercise, but rather to discuss each stakeholder and categorise them. End users were decided as high power / high interest stakeholder as they are the stakeholder that can impact the success of our application.  If we don’t fulfil their needs, they will not use the website, and it will fail. The other three stakeholders identified were all classified as low power / low interest as they didn’t interact directly.
+
+
+## Identifying our Users
+
+### Developing User Personas
+
+It was difficult to define a specific user persona by their age, gender, location and/or career.  We felt people with similar demographic characteristics could consume varying amounts of news from a wide variety of outlets. We also noticed how they consume this media is different and their knowledge levels vary between participants. When researching user persona, we felt focusing on behavioural archetypes/mindsets may better communicate the actions of our users and allow us to understand their needs more clearly. 
+
+Behavioral Mindset 1 - A User using the application for to help educate themselves on media bias.
+
+![](https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/UX_Design/EducationalBehavioralMindset.png)
+
+Behavioral Mindset 2 - A User using the application for fun.
+
+![](https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/UX_Design/FunBehavioralMindset.png)
+
+Having hypothetical users allowed have a user-focused design, and allowed us to plan higher level prototypes around these users. 
+
+### User Story
+
+From this we focused on creating a user story for the end user, using the template provided from the online lectures.
+
+As an **end user** I would like to **increase my awareness of bias within the UK media** so that I **can make better, and more informed choices about what media I consume.**
+
 ## Developing a higher fidelity prototype
 
-The PowerPoint prototype was an incredibly useful tool as it allowed the quick creation of a mock-up of our potential application so we can gain feedback regarding viability from users, however there is limited interactivity. Users aren’t interacting with a mouse and keyboard like they would for the actual product, so their experience is bound to be different.  We decided to look into creating a higher-fidelity protype to try and simulate the interaction between the user and the interface.  If a button on the prototype is pressed, then the appropriate action should occur to mimic the experience of the full application.  This would allow us to gain much more insightful information to help steer the development of our application.
+The PowerPoint prototype was an incredibly useful tool as it allowed the quick creation of a mock-up of our potential application so we can gain feedback regarding viability from users, however there is limited interactivity. Users aren’t interacting with a mouse and keyboard like they would for the actual product, so their experience is bound to be different.  We decided to look into creating a higher-fidelity protype to try and simulate the interaction between the user and the interface.  If a button on the prototype is pressed, then the appropriate action should occur to mimic the experience of the full application.  This would allow us to gain much more insightful information to help steer the development of our application.  
 
 While researching possible user research tools **[marvelapp](https://marvelapp.com/)** was found, where a higher-fidelity representation of the design was **[created](https://marvelapp.com/prototype/144665he/screen/77130957)**.  Although it is higher-fidelity, there were some limitations because some features such as “drag and drop” could not be implemented.
 
@@ -56,7 +99,7 @@ The survey undertaken was an unmoderated user survey. The survey was performed o
 
 The survey was split into two parts: Pre User-Test and Post User-Test.
 
-The Pre User-Test questions were quantitative demographic questions, used to help gain an understanding of our target demographic, it was assumed that people who signed up to do the quiz would be interested in this topic area, enabling us to get a good idea of who our target audience would be, guiding us in identifying our interacting user(s).  
+The Pre User-Test questions were quantitative demographic questions, used to help gain an understanding of our target demographic, it was assumed that people who signed up to do the quiz would be interested in this topic area, enabling us to get a good picture of who our target audience would be. This pre user survey had provided a lot of useful demographic data to help identify potential users of our application.  People who had completed the survey had been of varying ages, varying professions and from varying areas of the country.  Half of the participants had rated their knowledge of bias in the media as 3/5, suggesting that they might have signed up to try and improve this, the rest considered themselves 4/5 or 5/5.
 
 The Post User-Test questions were mainly qualitative questions relating to the design’s navigation and ease of use.  We also did not have a firm name for the application at this point so also wanted users input regarding this. 
 
@@ -98,48 +141,3 @@ The final insight was in relation to the design of the question page.  Two proto
 ### User Research Report
 
 A report of the User tests findings and insights was created, a copy of the User Research Report can be found **[here](https://github.com/jamesrw94/UoB_group_project/blob/main/UX_Design/Report.pptx)**. This was presented to the group during a group meeting, the above insights guided several decisions in the applications development.
-
-## Identifying Stakeholders
-
-Our project has quite a specific scope, so it was difficult to identify stakeholders beyond the end user.  To help try and identify other stakeholders we brainstormed as a team using the questions from the 2c lecture:
-
-- Will this project impact other people/organizations?
-
--	Will other people/organizations impact this application?
-
-We identified the following stakeholders after the exercise:
-
-1.	The **end user** is a direct stakeholder, this application is being created for them to try and increase their awareness of bias within the media.  It is important that we gain their input on this study to provide them with the best useability to allow them to get the most from their experience on the application.
-
-2.	**Newspapers** are an indirect stakeholder; they will not use the application however they could be affected by it, for example an end user might decide to buy a different newspaper because they used this website. 
-
-3.	**Celebrities & Public figures** are also indirect stakeholders for the same reason, they could be the topic of a Newspapers headline, and this exposure could potentially impact how an end user views them. 
-
-4.	**Competing applications and quizzes** (examples of these can be seen in the introduction) are also an indirect competitor. This application could draw traffic away from their website which would affect their revenue.
-
-As there were so few stakeholders identified we decided not to perform a stakeholder mapping exercise, but rather to discuss each stakeholder and categorise them. End users were decided as high power / high interest stakeholder as they are the stakeholder that can impact the success of our application.  If we don’t fulfil their needs, they will not use the website, and it will fail. The other three stakeholders identified were all classified as low power / low interest as they didn’t interact directly.
-
-
-## Identifying our Users
-
-The user survey had provided a lot of useful data to help identify potential users for our application.  People who had completed the survey had been of varying ages, varying professions and from varying areas of the country.  Half of the participants had rated their knowledge of bias in the media as 3/5, suggesting that they might have signed up to try and improve this, the rest considered themselves 4/5 or 5/5.
-
-User Story
-
-From this we focused on creating a user story for the end user, using the template provided from the online lectures.
-
-
-As an **end user** I would like to **increase my awareness of bias within the UK media** so that I **can make better, and more informed choices about what media I consume.**
-
-
-### Developing User Personas
-
-It was difficult to define a specific user persona by their age, gender, location and/or career.  We found people with similar demographic characteristics could consume varying amounts of news from a wide variety of outlets. We also noticed how they consume this media is different and their knowledge levels vary between participants. When researching user persona, we felt focusing on behavioural archetypes/mindsets may better communicate the actions of our users and allow us to understand their needs more clearly. Having hypothetical users allowed have a user-focused design, and plan the features of our MVP around them.
-
-Behavioral Mindset 1 - A User using the application for to help educate themselves on media bias.
-
-![](https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/UX_Design/EducationalBehavioralMindset.png)
-
-Behavioral Mindset 2 - A User using the application for fun.
-
-![](https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/UX_Design/FunBehavioralMindset.png)
