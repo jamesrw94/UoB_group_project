@@ -63,7 +63,7 @@ As there were so few stakeholders identified we decided not to perform a stakeho
 
 It was difficult to define a specific user persona by their age, gender, location and/or career.  We felt people with similar demographic characteristics could consume varying amounts of news from a wide variety of outlets. We also noticed how they consume this media is different and their knowledge levels vary between participants. When researching user persona, we felt focusing on behavioural archetypes/mindsets may better communicate the actions of our users and allow us to understand their needs more clearly. 
 
-Behavioral Mindset 1 - A User using the application for to help educate themselves on media bias.
+Behavioral Mindset 1 - A User using the application to help educate themselves on media bias.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/UX_Design/EducationalBehavioralMindset.png" width="720" >
