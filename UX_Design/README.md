@@ -132,9 +132,9 @@ From this we focused on creating a user story for the end user, using the templa
 As an **end user** I would like to **increase my awareness of bias within the UK media** so that I **can make better, and more informed choices about what media I consume.**
 
 
-User Persona
+### Developing User Personas
 
-It was difficult to define a specific user persona by their age, gender, location and/or career.  We found people with similar demographic characteristics could consume varying amounts of news from a wide variety of outlets. We also noticed how they consume this media is different and their knowledge levels vary between participants. When researching user persona, we felt focusing on behavioural archetypes/mindsets may better communicate the actions of our users and allow us to understand their needs more clearly.
+It was difficult to define a specific user persona by their age, gender, location and/or career.  We found people with similar demographic characteristics could consume varying amounts of news from a wide variety of outlets. We also noticed how they consume this media is different and their knowledge levels vary between participants. When researching user persona, we felt focusing on behavioural archetypes/mindsets may better communicate the actions of our users and allow us to understand their needs more clearly. Having hypothetical users allowed have a user-focused design, and plan the features of our MVP around them.
 
 Behavioral Mindset 1 - A User using the application for to help educate themselves on media bias.
 
