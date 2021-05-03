@@ -57,9 +57,7 @@ async function update_newspaper_wrong(name,paper){
 }
 
 async function get_newspaper_info(paper1,paper2,res){
-    console.log(paper1)
     var paper_info1 = await paperModel.findOne({paper:paper1}).exec();
-    console.log(paper_info1);
     var paper_info2 = await paperModel.findOne({paper:paper2}).exec();
     var paper_list = [paper_info1,paper_info2];
     res.send(paper_list);
@@ -69,7 +67,7 @@ async function get_newspaper_info(paper1,paper2,res){
 /* GET api listing. */
 router.get('/politics', (req, res) => {
   res.header("Content-Type",'application/json');
-  //add check in here to see if the array length is greater than 0 else send 404
+
   get_both_random("Politics",res);
 });
 
@@ -80,6 +78,40 @@ router.get('/brexit', (req, res) => {
 });
 
 
+
+router.get('/america', (req, res) => {
+  res.header("Content-Type",'application/json');
+  get_both_random("America",res);
+});
+
+
+router.get('/boris', (req, res) => {
+  res.header("Content-Type",'application/json');
+  get_both_random("Boris",res);
+});
+
+router.get('/climate', (req, res) => {
+  res.header("Content-Type",'application/json');
+  get_both_random("Climate",res);
+});
+
+
+router.get('/covid', (req, res) => {
+  res.header("Content-Type",'application/json');
+  get_both_random("Covid",res);
+});
+
+router.get('/military', (req, res) => {
+  res.header("Content-Type",'application/json');
+  get_both_random("Military",res);
+});
+
+
+router.get('/racism', (req, res) => {
+  res.header("Content-Type",'application/json');
+  get_both_random("Racism",res);
+});
+
 router.get('/correct', (req, res) => {
   update_newspaper_correct(req.query.paper);
 });
@@ -89,8 +121,10 @@ router.get('/incorrect', (req, res) => {
 });
 
 router.get('/newssources',(req,res)=>{
+    console.log(req.query.paper1);
+    console.log(req.query.paper2);
     res.header("Content-Type",'application/json');
-    get_newspaper_info('Guardian','DailyMailUK',res);
+    get_newspaper_info(req.query.paper1,req.query.paper2,res);
 })
 
 

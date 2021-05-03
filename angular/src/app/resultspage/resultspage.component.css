@@ -35,3 +35,52 @@
     text-align: 50%;
     border-radius: 5%;
 }
+.submitbutton {
+  position: absolute;
+  top: 85%;
+  display: inline-block;
+  position: absolute;
+  color: white;
+  background-color: #00a2fa;
+  text-align: center;
+  padding: 15px 75px;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 15%;
+  transition-duration: 0.5s;
+}
+.submitbutton:hover {
+  background-color: #18628a;
+}
+.chart1{
+  position: absolute;
+  width:500px !important;
+  height: 300px !important;
+  background-color: springgreen;
+  top: 40%;
+  left: 5%;
+  text-align: 50%;
+  border-radius: 5%;
+}
+.chart2{
+  position: absolute;
+  width:500px !important;
+  height: 300px !important;
+  background-color: springgreen;
+  top: 40%;
+  right: 5%;
+  text-align: 50%;
+  border-radius: 5%;
+}
+.PAPER1{
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  border-radius: 5%;
+}
+.PAPER2{
+  position: absolute;
+  top: 30%;
+  right: 15%;
+  border-radius: 5%;
+}
