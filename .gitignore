@@ -18,6 +18,7 @@ speed-measure-plugin*.json
 # IDEs and editors
 /angular/.idea
 /.idea
+/angular/.idea
 .project
 .classpath
 .c9/

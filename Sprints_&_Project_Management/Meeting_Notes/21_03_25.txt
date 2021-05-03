@@ -1,0 +1,12 @@
+25th march
+
+Buttons rather than drag and drop debate - easier to implement buttons
+
+Using twitter logos rather than actual thing because twitter logos user domain 
+Briefly talked about political leanings of papers - decided it was hard to make definite rules on where papers lie on the political spectrum
+
+Setting date for meeting with alison and marcelli - decided april 15th
+Organised next meeting for next monday
+Talked to tom verified we were on track
+
+Trying to sort out docker issues 
