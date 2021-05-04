@@ -19,13 +19,13 @@ James Wilson | Team Management and front-end development | <img src="Sprints_&_P
 
 
 # Introduction
-_Know the News_ is a single page web app built to raise awareness of one’s own bias towards the media. As our consumption of media content becomes ever more automated with evolving technologies, one might understandably stereotype media outlets as presenting a consistent, politically biased opinion [1][2].
+_Know the News_ is a single page web app built to raise awareness of one’s own bias towards media sources. As our consumption of media content becomes ever more automated with evolving technologies, one might understandably stereotype media outlets as presenting a consistent, politically biased opinion [1][2].
 
 ### Serious Play
 Our application hopes to show people how well they really know the voice of newspapers by presenting an interactive quiz-style game. The game involves tasking users with assigning tweets on a chosen topic to their corresponding newspaper and then evaluating the results. Through this process, the user is confronted with an accurate representation of how well they can detect a newspaper's voice (or rather, how well they _Know the News!_). If the user feels they were given a particularly easy/tough question, they can simply keep trying repeatedly as the questions are _randomly_ generated every time from an automatically updated set of tweets. Because of this, users can keep coming back again and again over long periods of time, always finding new questions to be tested with.
 
 ### How it works
-The user selects from a list of pre-defined categories believed to be politically divisive, after which the user is taken to the quiz page. The quiz page displays random tweets on the selected topic from a database which regularly updates through contacting the Twitter API. The tweets are displayed on screen, and users must click-and-drag them to the correct newspaper logo they belong to. After this the user is presented with their personal result as well as the overall results of all people who have been asked questions on the same newspapers.
+The user selects from a list of pre-defined categories believed to be politically divisive, after which the user is taken to the quiz page. The quiz page displays random tweets on the selected topic from a database which regularly updates through contacting the Twitter API. The tweets are displayed on screen, and users must click-and-drag newspaper logos to the tweets they belong to. After this, the user is presented with their personal result as well as the overall results of all people who have been asked questions on the same newspapers.
 
 <details>
  <summary>More detail</summary>
@@ -42,7 +42,7 @@ After choices:
 <p align="center"> <img src="Sprints_&_Project_Management/Readme_Images/question-complete.png" width="600"/></p>
 4. Once the user has submitted their answers, the results module is loaded. This module informs the user if their answer to the question was correct, as well as provide information on how well users have done overall in accurately assigning tweets with the newspapers the user has just been exposed to. This is achieved by:
 
-- Sending the users answer to the back-end, and checking for a correct match.
+- Sending the user's answer to the back-end, and checking for a correct match.
 - Querying the back-end database for overall statistics on what number of people have answered correctly for the newpapers just used.
 - Loading a pie-chart module to display the data.
 
