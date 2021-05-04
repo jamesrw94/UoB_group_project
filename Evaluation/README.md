@@ -218,6 +218,10 @@ it('check that user gets routed to results page after clicking button',()=>{
 
 ### Methods
 
+Initially we had one test, which went through an entire question, from Homepage to Answer page.  In the end we split this into two parts.  **![Navigating to a question](UATNavigatation.md)** and **[Answering a question in the quiz](UATQuestionPage.md)**.
+
+
+
 ### Findings
 
 ### Implications
