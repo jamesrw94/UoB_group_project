@@ -14,10 +14,10 @@ After initial brainstorming, the ideas listed above were investigated as potenti
 
 Once we had decided on the topic of fake news as the issue we wanted to highlight, each team-member tried to come up with as many ideas as possible to create an application highlighting this issue that also implements serious play.  These ideas were reviewed and discussed in the next **[meeting](https://github.com/jamesrw94/UoB_group_project/blob/main/Sprints_%26_Project_Management/Meeting_Notes/21_02_23.docx)**.  While researching the background area, we noticed there was quite a lot of websites currently doing variations on fake news reporting.  In order to differentiate from these, we reduced our scope and focused on reporting bias within the UK media, hoping our application will raise awareness of bias within the media.
 
-We used draw.io to collaboratively develop an MVP from the proposals we had done previously, along with several data models.
+We used draw.io to collaboratively develop an MVP from the proposals we had done previously.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/System_Implementation/DataModel/Data%20Model.png">
+  <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/UX_Design/Ideas/User%20Journey/first_draft_flowchart.png" height="512">
 </p>
 
 ## First Paper Prototype
