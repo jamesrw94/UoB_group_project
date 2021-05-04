@@ -55,7 +55,7 @@ James programmed the front-end component routing, and integrated our components 
 # Sprints
 Please refer to the [Sprint Log](Sprint_Logs/README.md) for a full description of our Sprints, including meeting minutes.
 
-Please refer to the the [Meeting Notes](../Meeting_Notes/README.md) for all of our documented minutes and a summary of those meetings which occurred before the Sprints started.
+Please refer to the the [Meeting Notes](Meeting_Notes/README.md) for all of our documented minutes and a summary of those meetings which occurred before the Sprints started.
 
 With the single exception of 9th March, all team members were present for each meeting which helped to facilitate productivity.
 
