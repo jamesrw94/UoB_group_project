@@ -2,11 +2,9 @@
 
 ## Design Prototyping
 
-Our opinion of prototyping was that it was incredibly useful tool to ensure a user-centred design is followed. The prototypes allowed us to involve the user in the design process and get feedback on designs before we started coding the application. We found paper and digital prototyping had different strengths and weaknesses, but they were equally useful in the creation and development of our design.
-
 ### Paper Prototype (Completed 2nd of March)
 
-The first development that occurred after ideation was creating a “paper” prototype on Microsoft PowerPoint.
+The first development that occurred after ideation was creating a “paper” prototype on Google Slides.  Because of social distancing, we could not collaborate together on an actual paper prototype.  To combat this, we developed our prototype on a shared Google Slides document while on teams to try and mimic the standard environment as much as reasonably possible.   
 
 #### Paper Prototype Strengths
 1.	Assess ideas quickly and remove elements without investing too much time on them if they didn’t work well.
@@ -18,7 +16,7 @@ The first development that occurred after ideation was creating a “paper” pr
 1.	People interact with paper differently to actual screens, there is limited context to reflect the actual screen environment.
 2.	Limited interactivity/context (tweets/content did not change in our paper prototype)
 
-Despite its limitations paper prototyping played a key part in developing our idea, allowing everyone to easily contribute to the design.  While we were collaboratively working people developed their own versions of pages before we settled on the final design. 
+Despite its limitations paper prototyping played a key part in developing our idea, allowing everyone to easily contribute to the design.  While we were collaboratively working people developed their own versions of pages before we settled on the final design. This quick development of ideas onto “paper” really helped develop the idea into a firm idea.
 
 ### Digital Prototype (Completed 9th of March)
 
@@ -27,16 +25,17 @@ The limitations of the paper prototype led us to develop a higher-fidelity proto
 #### Digital Prototype Strengths
 1.	As the prototype was stored online, it could be shared easily with potential users as an URL in the survey itself.
 2.	The digital prototype allowed us to simulate most of the interactions between the user and the application, providing us with a lot more information about their interactions.
-3.	We received richer feedback using user testing, allowing more informed, user-centred decisions to be made.
-4.	Able to easily perform quantitative user surveys
+3.	We received richer feedback using moderated user testing, allowing more informed, user-centred decisions to be made.
 
 
 #### Digital Prototype Limitations
-1.	It was a lot more time consuming, than paper prototyping.
+1.	It was a lot more time consuming to produce, than paper prototyping.
 2.	The platform we used could not fully recreate the application we desired to create.
 
 
 If given more time, an even higher prototype would have been useful to implement on a platform which had drag and drop.  Despite searching, a better platform could not be found during the design phase of the project.  However **[inVision](https://www.invisionapp.com/)** was found later, which looks to be a tool that could have supported drag and drop, allowing an even higher-prototype to be performed.
+
+We found prototyping to be an incredibly useful tool to ensure a user-centred design is followed. The prototypes allowed us to involve the user in the design process and get feedback on designs before we started coding the application. We found paper and digital prototyping had different strengths and weaknesses, but they were equally useful in the creation and development of our design.
 
 ## User Tests
 
@@ -104,7 +103,7 @@ The users preferred having two tweets, as it gave them more of a chance to pick 
 2.	Documenting the results also is time intensive as the videos had to be replayed to gain quotes, afterwards comparing the user journeys to gain insights.
 3.	Moderating bias/errors could have a significant impact on results as the sample size is much lower.
 
-On the whole, user prototyping and testing was an incredibly valuable tool for us to ensure the application would satisfy the user needs. I feel that using both methods complemented each other. Many useful insights were highlighted by both methods which were later used in the design by the front and back end.
+On the whole, user prototyping and testing was an incredibly valuable tool for us to ensure the application would satisfy the user needs. I feel that using both methods complemented each other, where user surveys brought breadth, moderated user tests brought depth. Many useful insights were highlighted by both methods which were later used in the design by the front and back end:
 
 
 
@@ -124,3 +123,4 @@ On the whole, user prototyping and testing was an incredibly valuable tool for u
 **[&rarr; Conclusion](https://github.com/jamesrw94/UoB_group_project/blob/main/Conclusion/README.md)**
 
 **[&larr; Back to Index](https://github.com/jamesrw94/UoB_group_project)**
+![image](https://user-images.githubusercontent.com/67047229/117074178-eb216c80-ad2a-11eb-8d22-070695d9db8a.png)
