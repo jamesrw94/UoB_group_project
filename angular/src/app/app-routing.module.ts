@@ -12,7 +12,7 @@ const routes: Routes = [
   },
   {path: 'resultspage', component: ResultspageComponent},
   {path: '', redirectTo: '/homepage', pathMatch: 'full'},
-  {path: '**', component: PageNotFoundComponent} // need to add 404 not found
+  {path: '**', component: PageNotFoundComponent}
 ];
 
 @NgModule({
