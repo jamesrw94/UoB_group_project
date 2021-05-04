@@ -28,7 +28,7 @@ Our application hopes to show people how well they really know the voice of news
 The user selects from a list of pre-defined categories believed to be politically divisive, after which the user is taken to the quiz page. The quiz page displays random tweets on the selected topic from a database which regularly updates through contacting the Twitter API. The tweets are displayed on screen, and users must click-and-drag newspaper logos to the tweets they belong to. After this, the user is presented with their personal result as well as the overall results of all people who have been asked questions on the same newspapers.
 
 <details>
- <summary>More detail</summary>
+ <summary><h1>?More detail</h1></summary>
  1. The user arrives at the site and is greeted by the message "Can you match the tweets with their tabloids?", explaining the purpose of the quiz. The user clicks the "Start" button. Using the Angular framework for front end development, all pages are represented by different components loaded in as and when required.
  <p align="center"> <img src="Sprints_&_Project_Management/Readme_Images/start.png" width="600"/></p>
  2. The topic page component is loaded, displaying an array of buttons representing topics to choose from. In this example, the user clicks the "Brexit" button which loads the subject module.
@@ -55,14 +55,6 @@ No personally identifiable user data is stored in our database, only that "someo
 2.	Populate database using Twitter API
 3.	Present information back to the user on how accurately they Know the News
 4.	Demonstrate that this application can be used to highlight one’s awareness of their own bias towards the media
-
-## Project Structure
- - angular - contains the code for our app
- - JIRA screenshots - screenshots of our JIRA board
- - Data Model - how we envisage our Data schema and data model
- - Twitter API - contains the script we intend to use to retrieve headlines from twitter
- - Ideas - Contains all ideas that for the Serious Play app which we have considered.
- - Meet notes - contains minutes from our meetings
  
 # Acknowledgements
 Special thanks to all the lecturers on the Software Engineering unit at University of Bristol 2021 for all their help and support. 
