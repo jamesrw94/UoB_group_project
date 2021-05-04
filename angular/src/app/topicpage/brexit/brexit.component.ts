@@ -18,6 +18,7 @@ export class BrexitComponent implements OnInit {
 
   brexitPageUrl = '../../assets/brexit.png';
 
+
   paper_image_dict: { [key:string]:string } = {
     DailyMailUK: '../../assets/DailyMailUK.png',
     FT:'../../assets/FT.jpg',
@@ -25,6 +26,7 @@ export class BrexitComponent implements OnInit {
     Telegraph:'../../assets/Telegraph.jpg',
     TheSun:'../../assets/TheSun.png'
   };
+
 
   paper_url1 ='';
   paper_url2='';
@@ -34,8 +36,10 @@ export class BrexitComponent implements OnInit {
   headline_1:String = '';
   headline_2:String = '';
   paperName_1:String = '';
+
   emptybox1 = [];
   emptybox2 = [];
+
   paperbox1 = ["PAPER1"];
   paperbox2 = ["PAPER2"];
 
@@ -66,7 +70,7 @@ export class BrexitComponent implements OnInit {
     }
     return this.paper_url2;
   }
-  
+
   getEmpty2(){
     if(this.emptybox2[0] == "PAPER1"){
       return this.paper_url1;
@@ -103,11 +107,15 @@ export class BrexitComponent implements OnInit {
 
   public submitPredicate() {
     this.result;
+
     let pName1 = this.paper_url1;
     let pName2 = this.paper_url2;
+
     if (this.emptybox1.length != 1 || this.emptybox2.length != 1) {
+
         document.getElementById("popupreminder")!.innerHTML = this.popUpText;
     }else{
+
       let str: string;
       if(this.emptybox1[0]=="PAPER1"){
         str = this.paper_url1;
@@ -125,7 +133,12 @@ export class BrexitComponent implements OnInit {
         this.dataService.setResult(false);
         this.router.navigate(['../../resultspage']);
       }
+
     }
+  }
+
+  getDataService(){
+      return this.dataService;
   }
 
   retrieveData() {
@@ -144,6 +157,7 @@ export class BrexitComponent implements OnInit {
           this.paper_url1  = this.paper_image_dict[this.tweet[1].paper];
           this.paper_url2 = this.paper_image_dict[this.tweet[0].paper];
         }
+
       },
       error => {
         console.log(error);
@@ -160,4 +174,3 @@ export class BrexitComponent implements OnInit {
     )
   }
 }
-

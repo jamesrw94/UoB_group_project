@@ -28,6 +28,7 @@ export class DataService {
   private REST_API_SERVER_UPDATE_INCORRECT = "http://localhost:3000/api/incorrect";
   private REST_API_SERVER_PAPER_INFO = "http://localhost:3000/api/newssources";
 
+
   constructor(private httpClient: HttpClient) { }
 
   public getPolitics(){
@@ -84,6 +85,7 @@ export class DataService {
     this.result = result;
   }
 
+
   public getResult(){
     return this.result;
   }
@@ -91,6 +93,7 @@ export class DataService {
   public setPaperName1(paperName: any){
     this.paperName1 = paperName;
   }
+
 
   public getPaperName1(){
     return this.paperName1[0];
