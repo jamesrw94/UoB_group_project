@@ -30,7 +30,7 @@ We were flexible in our approach to Stand-Ups and held them as and when we wante
 We had two communication channels - primarily a Discord server, but also the 'Desk 05' channel in the in the grp-MSc Software Engineering Teams. We mainly used Discord to communicate and kept up a regular (daily) dialogue on our group chat which helped to keep us all abreast of developments. We also found that every team members was responsive such that if any one of us was having difficulties with their work, someone was usually around to help. Team members often held individual calls / pair programming sessions with one another. The VS Code extension for sharing code was found to be an extremely useful tool when pair programming.
 
 <p align="center">
- <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/Sprints_&_Project_Management/Readme_Images/discord.png" width="500" height="300">
+ <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/Sprints_&_Project_Management/Readme_Images/discord.png" width="600" height="400">
 </p>
 
 # Team roles
