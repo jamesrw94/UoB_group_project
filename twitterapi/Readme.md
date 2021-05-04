@@ -34,7 +34,7 @@ To achieve our first objective we needed tweets from different newspapers' twitt
 </p>
 
 
-### Connecting to the Database ###
+### Connecting to the Database (Express and RESTful api) ###
 
 To achieve our second backend objective, we needed two tweets to be called from our database to appear at the same time. For our RESTful api originally we were having problems coordinating two callbacks to arrive at the front end at the same time as we needed each of the api calls to return a random record from a different newspaper. We solved this problem by using a Promise which allowed us to make seperate calls to mongoose in the backend but package them up into a list for the frontend before sending back the request. This function can be seen below.
 
