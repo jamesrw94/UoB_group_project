@@ -1,0 +1,12 @@
+All team members present.
+
+Sprint Review of Sprint 2:
+- Noted that the show and tells were very useful
+- Routing has been successfully set up in the FrontEnd.
+- Issues with persisting our db data - we realise that data is not persisted once a container wiped down, and volumes are particular to a single machine. Therefore will need a insertion script for users to run.
+
+
+Kicked off Sprint 3 - please see JIRA screenshots. 
+
+Aim of the sprint is to connect to the API and get one question page (brexit) functioning in the front end.
+
