@@ -9,7 +9,7 @@ Daniel Chow | Back-end development | <img src="Sprints_&_Project_Management/Read
 Harry Field | User-Experience and background research | <img src="Sprints_&_Project_Management/Readme_Images/harry.png"> 
 James Wilson | Team Management and front-end development | <img src="Sprints_&_Project_Management/Readme_Images/james.png" width="100"> 
 
-### 1. Introduction
+### 1. [Introduction](#introduction)
 ### 2. [Background & Motivation](Background_and_Motivation/Readme.md)
 ### 3. [System Implementation](System_Implementation/README.md)
 ### 4. [UX Design](UX_Design/README.md)
