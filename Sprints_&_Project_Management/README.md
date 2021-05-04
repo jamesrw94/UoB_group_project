@@ -3,7 +3,7 @@
 The Software Development Lifecycle (SDLC) is a framework and methodology for designing and developing a software product efficiently. There are a number of different implementations of this methodology, for instance Scrum, Kanban or Waterfall, but we chose Scrum as we felt it best suited to our needs.
 
 <p align="center">
- <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/Sprints_&_Project_Management/Readme_Images/sdlc.jpg" width="720">
+ <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/Sprints_&_Project_Management/Readme_Images/sdlc.jpg" width="300" height="300">
 </p>
 
 Firstly, and in keeping with the current trends of Software Development in industry, we chose to use Agile rather than a Waterfall approach because we wanted to work iteratively and in small increments. At the start of this project, we did not know what our final product would end up looking like, and so planning in a Waterfall manner made little sense.
@@ -30,7 +30,7 @@ We were flexible in our approach to Stand-Ups and held them as and when we wante
 We had two communication channels - primarily a Discord server, but also the 'Desk 05' channel in the in the grp-MSc Software Engineering Teams. We mainly used Discord to communicate and kept up a regular (daily) dialogue on our group chat which helped to keep us all abreast of developments. We also found that every team members was responsive such that if any one of us was having difficulties with their work, someone was usually around to help. Team members often held individual calls / pair programming sessions with one another. The VS Code extension for sharing code was found to be an extremely useful tool when pair programming.
 
 <p align="center">
- <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/Sprints_&_Project_Management/Readme_Images/discord.png" width="720">
+ <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/Sprints_&_Project_Management/Readme_Images/discord.png" width="300" height="300">
 </p>
 
 # Team roles
