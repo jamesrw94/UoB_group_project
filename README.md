@@ -14,8 +14,8 @@ James Wilson | Team Management and front-end development | <img src="Sprints_&_P
 ### 3. [System Implementation](System_Implementation/README.md)
 ### 4. [UX Design](UX_Design/README.md)
 ### 5. [Sprints & Project Management](Sprints_&_Project_Management/README.md)
-### 6. Evaluation
-### 7. Conclusion
+### 6. [Evaluation](Evaluation/README.md)
+### 7. [Conclusion](Conclusion/README.md)
 
 # Instructions for Use # 
 
