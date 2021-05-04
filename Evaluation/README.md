@@ -105,6 +105,15 @@ The users preferred having two tweets, as it gave them more of a chance to pick 
 
 On the whole, user prototyping and testing was an incredibly valuable tool for us to ensure the application would satisfy the user needs. I feel that using both methods complemented each other, where user surveys brought breadth, moderated user tests brought depth. Many useful insights were highlighted by both methods which were later used in the design by the front and back end:
 
+### Heuristic Evaluation
+
+We found Jakob Nielsen’s heuristic evaluation principles incredibly useful to evaluate our designs with, as it gave us ten principles to review and improve our code with.  The front end used these methods to improve the design:
+
+1.	A navigation bar was added to provide users with control and freedom to navigate out of areas they don’t want to be in.
+2.	Error messages were applied if a user attempted to submit before drag and dropping tweets.
+3.	Clear Headlines were applied, with sub-headings to provide extra detail.
+
+Despite their usefulness, Nielsen’s design heuristics have started to come **[under criticism](https://uxpamagazine.org/nielsens-heuristic-evaluation/)** as they were developed in the 1990’s, when designs and user interfaces were not as complex as they are now.  Despite these concerns, we feel that they are applicable and relevant to our quiz design.
 
 
 ## Unit testing / Functional testing
@@ -113,7 +122,6 @@ As our group did not have much time to implement an automatic testing reigime we
  1) The code between categories is very similar
  
  2) it felt more important to ensure at least one user journey was completely working, rather than less throughly testing multiple journeys
- 
  
  
  Our first test was chosen to verify that text appears on the question screen in the right place and the right order. As we could not use the data from our database we had to mock fake tweets instead, this limits the usefulness of the test in part but it was still important to verify that the front end weas doing what it was supposed to.
@@ -214,8 +222,6 @@ it('check that user gets routed to results page after clicking button',()=>{
 
 ### Implications
 
-
 **[&rarr; Conclusion](https://github.com/jamesrw94/UoB_group_project/blob/main/Conclusion/README.md)**
 
 **[&larr; Back to Index](https://github.com/jamesrw94/UoB_group_project)**
-![image](https://user-images.githubusercontent.com/67047229/117074178-eb216c80-ad2a-11eb-8d22-070695d9db8a.png)
