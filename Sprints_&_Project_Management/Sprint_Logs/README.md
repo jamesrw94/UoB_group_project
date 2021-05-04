@@ -47,26 +47,26 @@ All tickets were successfully completed. Some points to note were:
 We found show and tells to be extremely useful for everyone to keep abreast of our ongoing work. It was also in keeping with our aim for each of us to gain experience in each aspect of the software development team. We wanted to expand our skills in all areas, and doing show-and-tells enabled each of us to understand each part of the project, both technical and non-technical.
 
 
-## Sprint 3, 12/04/21 - 19/04/21
+## Sprint 3, 12/04/21 - 19/04/21 ##
 [Sprint 3 JIRA board](JIRA_Screenshots/Sprint3.png)<br>
 [Sprint kick-off minutes](../Meeting_Notes/21_04_12.txt)
 
-Sprint Goals:
+#### Sprint Goals ####
 * Connect front end to backend API
 * Implement drag and Drop Functionality in front end
 
-#### Sprint Review
+#### Sprint Review ####
 
 We successfully connected the API to the front-end. However, we were still a long way off 'finalising' the front end. Drag and drop functionality was mostly working, but still had some issues. Additionally, we needed to load the images of the correct newspaper.
 We also identified that each developer had their own separate git branches, and that we were not merging often enough to the dev branch. This was violating the principle of Continuous Integration with the result that we had widely differing branches. We agreed this needed to be resolved in the next sprint - new branches should be for small features, and should be merged regularly.
 
 Following our review with Allison, we realised that although the technical progress of our app was doing well, we had barely filled out any documentation other than uploading Meeting notes. Therefore, we decided to focus on documentation for the next Sprint.
 
-## Sprint 4, 19/04/21 - 26/04/21
+## Sprint 4, 19/04/21 - 26/04/21 ##
 [Sprint 4 JIRA board](JIRA_Screenshots/Sprint4.png)<br>
 [Sprint kick-off minutes](../Meeting_Notes/21_04_19.txt)
 
-Sprint Goals:
+#### Sprint Goals ####
 * Focus on documentation
 * Improve Continuous Integration
 
@@ -88,7 +88,7 @@ We successfully merged the most up-to-date feature branch with the 'dev' branch,
 [Sprint kick-off Minutes](../Meeting_Notes/21_04_28.txt)<br>
 [Sprint 5 JIRA board](JIRA_Screenshots/Sprint5.png)
 
-Sprint Goals:
+#### Sprint Goals ####
 * Finish technical work
 * Set up testing
 * Continue with documentation
