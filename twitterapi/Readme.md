@@ -18,7 +18,10 @@ For the backend part of our project we used the predefined data model to set cle
 
 Our data model was created by the front-end and backend teams working in tandem with significant input from Phillip to ensure that our data model reflected the needs of our end users. This data model was derived from user moderated testing that Philip did with our wireframe design of the website.  As this data model was decided before most of the implementation ahd begun, we made sure that the frontend and backend teams had the same vision of the end product which prevented friction when intergrating. This data model can be seen below.
 
-![model diagram](https://github.com/jamesrw94/UoB_group_project/blob/dev/DataModel/Data%20Model.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/System_Implementation/DataModel/Data%20Model.png">
+</p>
+
 
 ### Creating the Data Source ###
 
@@ -26,7 +29,10 @@ To achieve our first objective we needed tweets from different newspapers' twitt
 - To insert the data into the server, we used a bash script found [here](https://github.com/jamesrw94/UoB_group_project/blob/dans_branch/twitterapi/insertion_script.sh) that reads in a .env file and uses that to authenticate a mongo exec command; inserting the json file directly into the database and creating the collection if it did not already exist. We decided reading in the .env file was the best option as this prevented us from having to put any passwords on our public github whilst also creating an easy way of inserting the needed information. However, this does not get over the problem of the data disappearing from the container when initialising the container on another computer. In the future we would like to deploy the mongo db container on a web server so that data is not lost when the server is moved to a different computer.
 
  Below is both of our data schemas.
- ![collection diagrams](https://github.com/jamesrw94/UoB_group_project/blob/dans_branch/DataModel/updated_data_model.png)
+<p align="center">
+  <img src="https://github.com/jamesrw94/UoB_group_project/blob/dans_branch/DataModel/updated_data_model.png">
+</p>
+
 
 ### Connecting to the Database ###
 
