@@ -1,0 +1,21 @@
+03/05/21
+
+Main summary
+- Agreed to hold daily stand ups for this final week before submission
+- Agreed that this Sprint should finish on Wednesday, giving us time for a final review prior to hand-in on Friday
+- Our App MVP has been completed
+
+Notes:
+- James showed people how to search for previous sprints by using the JIRA filter
+- Realise some of the front end and UX documentation is overlapping.
+- Joe to include the heuristics document for front-end write-up
+- Dan provided some feedback from Stuart - we are in a decent position documentation wise. Previous years’ reports shared with each other for comparison.
+- need a set of instructions for the user, above the intro. Dan happy to write this.
+- video on prototypes. Demo video. Joe to do demo.
+- An error was spotted in our App MVP where the results graph was not updating properly in certain cases. We agreed to flag it as a bug, but to focus on documentation for now rather than fixing it
+- Conclusion and Evaluation writers have not been assigned. We agreed that each of us should focus on what we already have, and then assign these remaining parts.
+
+System Implmentation:
+- Dan has done middle tier but will more explicitly flag it up in his backend documentation
+- Additional elements - data scraping
+- docker - Deployment details, James to add
