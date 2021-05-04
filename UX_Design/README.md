@@ -22,7 +22,7 @@ We used draw.io to collaboratively develop an MVP from the proposals we had done
 
 ## First Paper Prototype
 
-After the initial idea proved to implement the Serious Play paradigm, we developed a “paper” prototype, which was a low-fidelity representation of the applications design. This step was useful as it allowed us to visualise the concept, determine the layout and expected behaviour of the different pages. Due to the remote nature of our course, we created our **[paper prototype](https://github.com/jamesrw94/UoB_group_project/blob/main/UX_Design/Paper%20prototype.pdf)** with Microsoft PowerPoint as this allowed us to collaborate on it more easily.
+After the initial idea proved to implement the Serious Play paradigm, we developed a “paper” prototype, which was a low-fidelity representation of the applications design. This step was useful as it allowed us to visualise the concept, determine the layout and expected behaviour of the different pages. Due to the remote nature of our course, we created our **[paper prototype](https://github.com/jamesrw94/UoB_group_project/blob/main/UX_Design/Paper%20prototype.pdf)** with Google Slides as this allowed us to collaborate on it more easily.
 
 
 <p align="center">
