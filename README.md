@@ -17,6 +17,12 @@ James Wilson | Team Management and front-end development | <img src="Sprints_&_P
 ### 6. Evaluation
 ### 7. Conclusion
 
+# Instructions for Use # 
+
+1) first download the .env file from desk 05 file section
+2) put .env file in angular folder on same level as dockerfile
+3) run docker-compose build
+4) run the insertion_script.sh
 
 # Introduction
 _Know the News_ is a single page web app built to raise awareness of one’s own bias towards media sources. As our consumption of media content becomes ever more automated with evolving technologies, one might understandably stereotype media outlets as presenting a consistent, politically biased opinion [1][2].
