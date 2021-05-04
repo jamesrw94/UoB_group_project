@@ -33,8 +33,9 @@ Our application hopes to show people how well they really know the voice of news
 ### How it works
 The user selects from a list of pre-defined categories believed to be politically divisive, after which the user is taken to the quiz page. The quiz page displays random tweets on the selected topic from a database which regularly updates through contacting the Twitter API. The tweets are displayed on screen, and users must click-and-drag newspaper logos to the tweets they belong to. After this, the user is presented with their personal result as well as the overall results of all people who have been asked questions on the same newspapers.
 
+### More details:
 <details>
- <summary><h3>More detail</h3></summary>
+ <summary>Click for more details</summary>
  1. The user arrives at the site and is greeted by the message "Can you match the tweets with their tabloids?", explaining the purpose of the quiz. The user clicks the "Start" button. Using the Angular framework for front end development, all pages are represented by different components loaded in as and when required.
  <p align="center"> <img src="Sprints_&_Project_Management/Readme_Images/start.png" width="600"/></p>
  2. The topic page component is loaded, displaying an array of buttons representing topics to choose from. In this example, the user clicks the "Brexit" button which loads the subject module.
