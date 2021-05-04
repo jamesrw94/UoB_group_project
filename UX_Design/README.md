@@ -2,17 +2,17 @@
 
 ## Initial ideation
 
-As part of the discovery for our project, we investigated real-world issues and problems and how we could develop them into a serious play application.  Each member was tasked with coming up with potential ideas for the application, these ideas were collated [here]( https://github.com/jamesrw94/UoB_group_project/blob/main/Ideas/general_ideas)**, including the following ideas:
+As part of the discovery for our project, we investigated real-world issues and problems and how we could develop them into a serious play application.  Each member was tasked with coming up with potential ideas for the application, these ideas were collated **[here](https://github.com/jamesrw94/UoB_group_project/blob/main/Ideas/general_ideas)**, including the following ideas:
 1.	Guessing the ABV of an alcoholic drink
 2.	Are you washing your hands for long enough? 20s timer (COVID related).
 3.	Prevalence of Fake News
 
-These three serious play ideas were seriously investigated as the team felt these issues could have the potential to become a realistic project.  Research was performed on implementation, API support and to check for competing applications. During a **[team meeting](https://github.com/jamesrw94/UoB_group_project/blob/main/Meeting_Notes/19.2.2021.docx)** each idea was evaluated in turn, exploring possible options for implementation. Some ideas (Idea 2) were rejected as they were deemed too simplistic in nature while others were rejected for a lack of resources/API Support (Idea 1). Creating an application that used serious play to highlight fake news quite quickly became our focus.
+These three serious play ideas were seriously investigated as the team felt these issues could have the potential to become a realistic project.  Research was performed on implementation, API support and to check for competing applications. During a **[team meeting](https://github.com/jamesrw94/UoB_group_project/blob/main/Sprints_%26_Project_Management/Meeting_Notes/21_02_19.docx)** each idea was evaluated in turn, exploring possible options for implementation. Some ideas (Idea 2) were rejected as they were deemed too simplistic in nature while others were rejected for a lack of resources/API Support (Idea 1). Creating an application that used serious play to highlight fake news quite quickly became our focus.
 
 
 ## Developing the idea
 
-Once we had decided on the topic of fake news as the issue we wanted to highlight, each team-member tried to come up with as many ideas as possible to create an application highlighting this issue that also implements serious play.  These ideas were reviewed and discussed in the next **[meeting](https://github.com/jamesrw94/UoB_group_project/blob/main/Meeting_Notes/23:02:2021.docx)**.  While researching the background area, we noticed there was quite a lot of websites currently doing variations on fake news reporting.  We wanted to differentiate ourselves from these, we did this by reducing our scope and focusing on reporting bias within the UK media, hoping our application will raise awareness of bias within the media.
+Once we had decided on the topic of fake news as the issue we wanted to highlight, each team-member tried to come up with as many ideas as possible to create an application highlighting this issue that also implements serious play.  These ideas were reviewed and discussed in the next **[meeting](https://github.com/jamesrw94/UoB_group_project/blob/main/Sprints_%26_Project_Management/Meeting_Notes/21_02_23.docx)**.  While researching the background area, we noticed there was quite a lot of websites currently doing variations on fake news reporting.  We wanted to differentiate ourselves from these, we did this by reducing our scope and focusing on reporting bias within the UK media, hoping our application will raise awareness of bias within the media.
 
 We used draw.io to collaboratively develop an MVP from the proposals we had done previously, along with several data models.
 
@@ -22,7 +22,7 @@ We used draw.io to collaboratively develop an MVP from the proposals we had done
 
 ## First Paper Prototype
 
-Once we had developed the initial idea into a workable serious play idea, we developed a “paper” prototype, which was a low-fidelity representation of the applications design. This step was useful as it allowed us to visualise the concept, determine the layout and expected behaviour of the different pages. Due to the remote nature of our course, we created our **[paper prototype]( https://github.com/jamesrw94/UoB_group_project/blob/main/UX%20Design/Paper%20prototype.pdf)** with Microsoft PowerPoint as this allowed us to collaborate on it more easily.
+Once we had developed the initial idea into a workable serious play idea, we developed a “paper” prototype, which was a low-fidelity representation of the applications design. This step was useful as it allowed us to visualise the concept, determine the layout and expected behaviour of the different pages. Due to the remote nature of our course, we created our **[paper prototype](https://github.com/jamesrw94/UoB_group_project/blob/main/UX_Design/Paper%20prototype.pdf)** with Microsoft PowerPoint as this allowed us to collaborate on it more easily.
 
 
 <p align="center">
@@ -36,11 +36,58 @@ This PowerPoint prototype allowed us to perform a virtual walk through the appli
 
 The one issue with a paper prototype is the limited interactivity, changing pages on a design or changing PowerPoint slide is different to the interaction the user will have. 
 
+## Identifying Stakeholders
+
+Our project has quite a specific scope, so it was difficult to identify stakeholders beyond the end user.  To help try and identify other stakeholders we brainstormed as a team using the questions from the 2c lecture:
+
+- Will this project impact other people/organizations?
+
+-	Will other people/organizations impact this application?
+
+We identified the following stakeholders after the exercise:
+
+1.	The **end user** is a direct stakeholder, this application is being created for them to try and increase their awareness of bias within the media.  It is important that we gain their input on this study to provide them with the best useability to allow them to get the most from their experience on the application.
+
+2.	**Newspapers** are an indirect stakeholder; they will not use the application however they could be affected by it, for example an end user might decide to buy a different newspaper because they used this website. 
+
+3.	**Celebrities & Public figures** are also indirect stakeholders for the same reason, they could be the topic of a Newspapers headline, and this exposure could potentially impact how an end user views them. 
+
+4.	**Competing applications and quizzes** (examples of these can be seen in the introduction) are also an indirect competitor. This application could draw traffic away from their website which would affect their revenue.
+
+As there were so few stakeholders identified we decided not to perform a stakeholder mapping exercise, but rather to discuss each stakeholder and categorise them. End users were decided as high power / high interest stakeholder as they are the stakeholder that can impact the success of our application.  If we don’t fulfil their needs, they will not use the website, and it will fail. The other three stakeholders identified were all classified as low power / low interest as they didn’t interact directly.
+
+
+## Identifying our Users
+
+### Developing User Personas
+
+It was difficult to define a specific user persona by their age, gender, location and/or career.  We felt people with similar demographic characteristics could consume varying amounts of news from a wide variety of outlets. We also noticed how they consume this media is different and their knowledge levels vary between participants. When researching user persona, we felt focusing on behavioural archetypes/mindsets may better communicate the actions of our users and allow us to understand their needs more clearly. 
+
+Behavioral Mindset 1 - A User using the application to help educate themselves on media bias.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/UX_Design/EducationalBehavioralMindset.png" width="720" >
+</p>
+
+Behavioral Mindset 2 - A User using the application for fun.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/UX_Design/FunBehavioralMindset.png" width="720" >
+</p>
+
+Having hypothetical users in mind allowed us to develop with a user-focused design in mind, allowing us to plan higher fidelity prototypes and later, the actual application around these users. 
+
+### User Story
+
+From this we focused on creating a user story for the end user, using the template provided from the online lectures.
+
+As an **end user** I would like to **increase my awareness of bias within the UK media** so that I **can make better, and more informed choices about what media I consume.**
+
 ## Developing a higher fidelity prototype
 
-The PowerPoint prototype was an incredibly useful tool as it allowed the quick creation of a mock-up of our potential application so we can gain feedback regarding viability from users, however there is limited interactivity. Users aren’t interacting with a mouse and keyboard like they would for the actual product, so their experience is bound to be different.  We decided to look into creating a mid-fidelity protype of the final user interface to try and simulate the interaction between the user and the interface.  If a button on the prototype is pressed, then the appropriate action should occur to mimic the experience of the full application.  This would allow us to gain much more insightful information to help steer the development of our application.
+The PowerPoint prototype was an incredibly useful tool as it allowed the quick creation of a mock-up of our potential application so we can gain feedback regarding viability from users, however there is limited interactivity. Users aren’t interacting with a mouse and keyboard like they would for the actual product, so their experience is bound to be different.  We decided to look into creating a higher-fidelity protype to try and simulate the interaction between the user and the interface.  If a button on the prototype is pressed, then the appropriate action should occur to mimic the experience of the full application.  This would allow us to gain much more insightful information to help steer the development of our application.  
 
-While researching possible user research tools **[marvelapp](https://marvelapp.com/)** was found, where a mid-fidelity representation of the design was **[created]( https://marvelapp.com/prototype/144665he/screen/77130957)**.  The reason it’s been defined as mid-fidelity is although is because some features such as “drag and drop” could not be implemented.
+While researching possible user research tools **[marvelapp](https://marvelapp.com/)** was found, where a higher-fidelity representation of the design was **[created](https://marvelapp.com/prototype/144665he/screen/77130957)**.  Although it is higher-fidelity, there were some limitations because some features such as “drag and drop” could not be implemented.  Flow diagrams of the prototype can be found **[here](https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/UX_Design/prototypeflow.jpg)**, and **[here (created by marvelapp)](https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/UX_Design/flowmap.png)**.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/UX_Design/Prototype/marvel.gif">
@@ -50,13 +97,13 @@ While researching possible user research tools **[marvelapp](https://marvelapp.c
 
 ### User Survey
 
-Please find the survey questions **[here](https://github.com/jamesrw94/UoB_group_project/blob/main/UX%20Design/SEGP%20First%20Survey%20Questions.pdf)**.  
+Please find the survey questions **[here](https://github.com/jamesrw94/UoB_group_project/blob/main/UX_Design/SEGP%20First%20Survey%20Questions.pdf)**.  
 
-The survey undertaken was an unmoderated user survey. The survey was performed on Google Surveys as it was a free and simple platform to develop on and distribute.  An attempt was made to have answers as open as possible; thought was put into the questions to try and reduce leading questions to prevent our bias from affecting the study.  The survey was released as widely as possible, to try and gain a varied sample.  10 responses were recovered.
+The survey undertaken was an unmoderated user survey. The survey was performed on Google Surveys as it was a free and simple platform to develop on and distribute.  An attempt was made to have answers as open as possible; thought was put into the questions to try and reduce leading questions to prevent our bias from affecting the study.  The survey was released as widely as possible, to try and gain a varied sample.  10 **[responses](https://github.com/jamesrw94/UoB_group_project/blob/main/UX_Design/User%20Feedback/News%20Headline%20Matching%20Website%20Survey%20(Responses).xlsx)** were recovered.
 
 The survey was split into two parts: Pre User-Test and Post User-Test.
 
-The Pre User-Test questions were quantitative demographic questions, used to help gain an understanding of our target demographic, it was assumed that people who signed up to do the quiz would be interested in this topic area, enabling us to get a good idea of who our target audience would be, guiding us in identifying our interacting user(s).  
+The Pre User-Test questions were quantitative demographic questions, used to help gain an understanding of our target demographic, it was assumed that people who signed up to do the quiz would be interested in this topic area, enabling us to get a good picture of who our target audience would be. This pre user survey provided a lot of useful demographic data to help identify potential users of our application.  People who had completed the survey had been of varying ages, varying professions and from varying areas of the country.  Half of the participants had rated their knowledge of bias in the media as 3/5, suggesting that they might have signed up to try and improve this, the rest considered themselves 4/5 or 5/5.
 
 The Post User-Test questions were mainly qualitative questions relating to the design’s navigation and ease of use.  We also did not have a firm name for the application at this point so also wanted users input regarding this. 
 
@@ -97,46 +144,13 @@ The final insight was in relation to the design of the question page.  Two proto
 
 ### User Research Report
 
-A report of the User tests findings and insights was created, a copy of the User Research Report can be found **[here]( https://github.com/jamesrw94/UoB_group_project/blob/main/UX%20Design/Report.pptx)**. This was presented to the group during a group meeting, the above insights guided several decisions in the applications development.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/UX_Design/User%20Test%20Report.gif">
+</p>
 
-## Identifying Stakeholders
+A report of the User tests findings and insights was created, a copy of the User Research Report can be found **[here](https://github.com/jamesrw94/UoB_group_project/blob/main/UX_Design/Report.pptx)**. This was presented to the group during a group meeting, the above insights guided several decisions in front and backend applications.
 
-Our project has quite a specific scope, so it was difficult to identify stakeholders beyond the end user.  To help try and identify other stakeholders we brainstormed as a team using the questions from the 2c lecture:
+**[&rarr; Sprints & Project Management](https://github.com/jamesrw94/UoB_group_project/tree/main/Sprints_%26_Project_Management)**
 
-- Will this project impact other people/organizations?
+**[&larr; Back to Index](https://github.com/jamesrw94/UoB_group_project)**
 
--	Will other people/organizations impact this application?
-
-We identified the following stakeholders after the exercise:
-
-1.	The **end user** is a direct stakeholder, this application is being created for them to try and increase their awareness of bias within the media.  It is important that we gain their input on this study to provide them with the best useability to allow them to get the most from their experience on the application.
-
-2.	**Newspapers** are an indirect stakeholder; they will not use the application however they could be affected by it, for example an end user might decide to buy a different newspaper because they used this website. 
-
-3.	**Celebrities & Public figures** are also indirect stakeholders for the same reason, they could be the topic of a Newspapers headline, and this exposure could potentially impact how an end user views them. 
-
-4.	**Competing applications and quizzes** (examples of these can be seen in the introduction) are also an indirect competitor. This application could draw traffic away from their website which would affect their revenue.
-
-As there were so few stakeholders identified we decided not to perform a stakeholder mapping exercise, but rather to discuss each stakeholder and categorise them. End users were decided as high power / high interest stakeholder as they are the stakeholder that can impact the success of our application.  If we don’t fulfil their needs, they will not use the website, and it will fail. The other three stakeholders identified were all classified as low power / low interest as they didn’t interact directly.
-
-
-## Identifying User
-
-The user survey had provided a lot of useful data to help identify potential users for our application.  People who had completed the survey had been of varying ages, varying professions and from varying areas of the country.  Half of the participants had rated their knowledge of bias in the media as 3/5, suggesting that they might have signed up to try and improve this.
-
-User Story
-
-From this we focused on creating a user story for the end user, using the template provided from the online lectures.
-
-
-
-
-
-As an end user I would like to increase my awareness of bias within the UK media so that I can make better, and more informed choices about what media I consume.
-
-
-
-User Persona
-
-Younger People more likely to know about media bias?
-Older people more likely to consume the same paper repeatedly?

@@ -1,0 +1,11 @@
+All team members present.
+
+Sprint Review:
+- API successfuly connected to the front end
+- Drag and Drop still having some issues
+- We still need to load the image of each newspaper which will get 'dragged'
+- Issue that our branches are too divergent - we are not merging often enough to dev. James to merge dev branch into Joe's branch, to then merge Joe's back into dev. Thereby making dev the latest copy of the angular code.
+- Had successful meeting with Allison although recognise that we are behind on documentation
+
+New Sprint aims:
+- focus on documentation. Noted that this is what we get marked on!

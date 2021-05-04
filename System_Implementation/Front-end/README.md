@@ -2,11 +2,17 @@
 
 We used the Angular framework for developing the frontend of our application.
 
-### Components
-Angular has a modular nature and is built using components. We used a separate component for each of our pages.
+Our application is divided into multiple components, with each one rendering it's own 'view', or page. Our component hierarchy is set out below. Please click on each link for a full description of each component's implementation.
+
+* [Homepage](#homepage-component)
+  * [Topics Page](#topic-page-component)
+    * [Subject Components](#subject-components)
+  * [Results Page](#results-page-component)
+  * [404 Page component](#404-page-component)
+    
 
 ### Routing
-We used the lazy loading feature of Angular, to ensure that child pages of the Topics page were only loaded when the user clicks on the link.
+To set up the routing of our components, we used the lazy loading feature of Angular, to ensure that child pages of the Topics page were only loaded when the user clicks on the link.
 
 This involved a separate topics routing module, topicpage-routing.module.ts, which defined the child routes, and used the forChild() method of routing as follows:
 
@@ -30,6 +36,7 @@ In the higher-level app-routing.module.ts file, we then lazily load the Topic Ch
   }
 ```
 
+
 ## Homepage component
 
 The homepage is simple but showcases the playful theme of the website and gives users an introduction to its purpose. In user testing of the higher fidelity prototype, there were insights that users were confused at certain points in the design. To address this, on this page a text banner was added to give an explanation about the website and a large-animated start button was added making it easy for people to know where to click.
@@ -52,9 +59,17 @@ Early user testing of the paper prototype showed that users were not given enoug
 
 To address these issues another text banner was added prompting the users to match the tweets to the paper as well as adding text above the drop boxes letting the user know how to pair the tweets and the paper.
 
-We also applied Nielsen’s design heuristics, including to try and help users recognise, diagnose and recover from errors.  Every other page required the user to click through, while here there was a lot more interaction, so there was more that could potentially go wrong.  One potential error identified was users could click “Submit” before matching the tweets up, if this occurred an error message appeared: “Make sure you have filled both drop boxes” to help the user understand what they did wrong. Once the user has dragged and dropped both newspaper logos the submit button then checks whether the user has got the answer correct and then sets a results variable within the data service allowing the site to retrieve this information on the results page, the user is then redirected to said page.
+We applied Nielsen’s design heuristics, including to try and help users recognise, diagnose and recover from errors.  Every other page required the user to click through, while here there was a lot more interaction, so there was more that could potentially go wrong.  One potential error identified was users could click “Submit” before matching the tweets up, if this occurred an error message appeared: “Make sure you have filled both drop boxes” to help the user understand what they did wrong. Once the user has dragged and dropped both newspaper logos the submit button then checks whether the user has got the answer correct and then sets a results variable within the data service allowing the site to retrieve this information on the results page, the user is then redirected to said page.
 
-When a topic component such as brexit is initialised the “receiveData()” function is called, this function then sends a call to our API through the data service and retrieves two papers at random along with a headline for each.
+![heuristics](../../Sprints_&_Project_Management/Readme_Images/heuristics.png)
+
+### Data Injection
+A DataService is injected into each topic page component as follows:
+
+```angular2html
+ constructor(private dataService: DataService, private router: Router) { }
+```
+When each topic page is initialised (via 'ngOnInit()')the “receiveData()” function is called, which sends a call to our API through the data service and retrieves two papers at random along with a headline for each.
 
 ###	Issues faced whilst developing subject components
 
@@ -80,7 +95,19 @@ Another issues faced whilst designing the frontend for our website was loading i
 
 The first thing that happens on initialisation is that the result from the last question are obtained from the date service as well as the names of the papers which were used for the last question. After that component checks whether or not the user got the answer correct and if so displays a message congratulating and if not informed they are wrong. The stats for the correct, and incorrect answers are then updated so that the number of people who have correctly placed the paper logo with the right to tweet are up-to-date, this information is then pulled from the database and used in two pie charts which visualises the number of correctly answers.
 
-The charts are from the charts.JS module which makes it incredibly easy to create and modify graphs. The information for the graphs is obtained from a call to the function get_paper_status located in the data service which in turn passes the API the two paper names which were used and then returns the number of correct and incorrect answers. 
+The charts are from the charts.JS module which makes it incredibly easy to create and modify graphs. Using Angular's data binding features, the chart data is specified in the module.ts file, and bound in the html file as follows:
+
+```angular2html
+<div class = chart1 style="display: block">
+      <canvas baseChart
+              [data]="pieChartData1"
+              [labels]="pieChartLabels1"
+              [chartType]="pieChartType1">
+      </canvas>
+  </div>
+```
+
+The data itself is obtained from a call to the function get_paper_status located in the data service which in turn passes the API the two paper names which were used and then returns the number of correct and incorrect answers. 
 
 ## 404 page component
 This component is a very simple page showing the error message 404 to let the user know that they have entered an invalid URL. This is picked up by the wildcard path located in the app-routing module.
