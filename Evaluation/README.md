@@ -89,6 +89,17 @@ Although there was quite a lot of useful information, I made a decision to make 
 
 With the final insight, I had performed a mini A/B test to check two different variations of the answer page.  One had two tweets and the second and only one, but two newspapers to choose from.  The users preferred having two tweets, as it gave them more of a chance to pick between the two.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/Evaluation/ABTest.png">
+</p>
+
+> “I think that one (two tweets) is easier… having one tweet was OK, I mean having two to compare, I suppose if you aren’t too sure, then you’ve got a second chance of realizing which one is which as one might be easier to decide / get it right?”
+
+> “I think it is more obvious that you are incorrect (with 2) however would still be nice to see both tweets”
+
+
+
+
 #### Limitations
 1.	Planning, organizing and executing the user tests is time consuming, and a lot more hands on than user surveys.
 2.	Documenting the results also is time intensive as the videos had to be replayed to gain quotes, afterwards comparing the user journeys to gain insights.
