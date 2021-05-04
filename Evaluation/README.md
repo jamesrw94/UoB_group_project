@@ -87,7 +87,7 @@ Although there was quite a lot of useful information, I made a decision to make 
 
 > “I think from my first impressions that this is a game… I’d be familiar enough to click on the buttons however a bit of an explanation would be best to go with it, so you know how many to pick.”
 
-With the final insight, I had performed a mini A/B test to check two different variations of the answer component.  One had two tweets to compare and match up while the second and only one tweet, but two newspapers to choose from.
+With the final insight, a mini A/B test was carried out to test two variations of the answer component.  One had two tweets to compare and match up while the second and only one tweet, but two newspapers to choose from.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/Evaluation/ABTest.png">
