@@ -97,23 +97,30 @@ Following Tuesday's technical session, we decided to implement testing to our pr
 
 We hoped to complete, as close to as possible, the technical work this week and have our final MVP ready.
 
-#### Sprint Review
+#### Sprint Review ####
 * Excellent work from Joe and Dan in finishing off the coding. Our App MVP has been completed
 * User testing and functional testing successfully implemented  
 * Noted that there is a bug with the results page sometimes not loading the correct review statistics, but we shall note it and move on with a focus on documentation now.
 * Documentation still in progress
 
 
-## Sprint 6, 03/05/21 - 07/05/21
+## Sprint 6, 03/05/21 - 07/05/21 ##
 [Sprint kick-off Minutes](../Meeting_Notes/21_05_03.txt)<br>
 [Sprint 6 JIRA board](JIRA_Screenshots/Sprint6.png)
 
-Sprint Goal:
+#### Sprint Goal ####
 * Finish Documentation
 * Tidy up code (e.g. where example components still exist)
 
 Main points from Sprint kick-off:
 * We agreed that this sprint should only be 3 days in length, finishing on Wednesday, to allow us time for a final review prior to Friday's submission.
 * We agreed to hold daily stand ups this week to ensure we remain on track
+
+#### Stand-Up 4th May ####
+We held a Stand-Up on 4th May to review our progress on documentation. We were making good progress, and only had Conclusion, Evaluation and the video to do, as well as some general proof-reading and tidying up of the project structure. 
+
+[Link to Minutes](../Meeting_Notes/21_05_04.txt)<br>
+
+
 
 
