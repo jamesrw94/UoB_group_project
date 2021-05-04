@@ -15,6 +15,6 @@
 
 
 
-**[&rarr; UX Design](https://github.com/jamesrw94/UoB_group_project/blob/main/UX_Design)**
+**[&rarr; UX Design](https://github.com/jamesrw94/UoB_group_project/blob/main/UX_Design/README.md)**
 
 **[&larr; Back to Index](https://github.com/jamesrw94/UoB_group_project)**
