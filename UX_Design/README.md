@@ -17,7 +17,7 @@ Once we had decided on the topic of fake news as the issue we wanted to highligh
 We used draw.io to collaboratively develop an MVP from the proposals we had done previously, along with several data models.
 
 <p align="center">
-  <img src="https://github.com/jamesrw94/UoB_group_project/blob/main/DataModel/Data%20Model.png">
+  <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/System_Implementation/DataModel/Data%20Model.png">
 </p>
 
 ## First Paper Prototype
