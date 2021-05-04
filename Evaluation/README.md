@@ -113,7 +113,7 @@ We found Jakob Nielsen’s heuristic evaluation principles incredibly useful to 
 2.	Error messages were applied if a user attempted to submit before drag and dropping tweets.
 3.	Clear Headlines were applied, with sub-headings to provide extra detail.
 
-Despite their usefulness, Nielsen’s design heuristics have started to come **[under criticism](https://uxpamagazine.org/nielsens-heuristic-evaluation/)** as they were developed in the 1990’s, when designs and user interfaces were not as complex as they are now.  Despite these concerns, we feel that they are applicable and relevant to our quiz design.
+Despite their usefulness, Nielsen’s design heuristics have started to come **[under criticism](https://uxpamagazine.org/nielsens-heuristic-evaluation/)** as they were developed in the 1990’s, when designs and user interfaces were not as complex as they are now.  Despite these concerns, we feel that they are applicable and relevant to our relatively simple quiz design.
 
 
 ## Unit testing / Functional testing
