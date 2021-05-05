@@ -127,10 +127,12 @@ We held a Stand-Up on 4th May to review our progress on documentation. We were m
 
 We reviewed our documentation. We were pleased with progress, and only had minor parts of System Implementation, Evaluation and Conclusion remaining.
 
-Joe had also created an excellent video demonstrating the app!
+Joe had also created an excellent video demonstrating the app!<br>
+<br>
+<br>
 
 
-**[&rarr; back to Sprints & Project Management](https://github.com/jamesrw94/UoB_group_project/blob/main/Sprints_&_Project_Management/README.md)**
+**[&rarr; Back to:  Sprints & Project Management](https://github.com/jamesrw94/UoB_group_project/blob/main/Sprints_&_Project_Management/README.md)**
 
 
 
