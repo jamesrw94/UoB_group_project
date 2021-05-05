@@ -127,6 +127,8 @@ Despite their usefulness, Nielsen’s design heuristics have started to come **[
 
 ## Unit testing / Functional testing
 
+### Unit Testing
+
 As our group did not have much time to implement an automatic testing reigime we choose to limit our testing to one user journey through the app. Therefore most of our testing revolved around a user answering one topic's questions. We chose this approach for two reasons: 
  1) The code between categories is very similar
  
@@ -221,6 +223,8 @@ it('check that user gets routed to results page after clicking button',()=>{
     expect(navigateSpy).toHaveBeenCalledWith(['../../resultspage']);
 })
 ```
+### Functional Testing
+
 
 
 ## User acceptance testing
