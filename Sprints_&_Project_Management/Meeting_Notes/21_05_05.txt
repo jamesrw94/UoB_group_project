@@ -1,0 +1,22 @@
+05/05/21
+
+
+Documentation progressed well yesterday. Remaining areas are:
+
+
+Sys Imp:
+
+additional - scraping data twitter using cron jobs
+additional - insertion script seed database
+deployment - james to do
+
+dan doing stack architecture, and will frame it in context of MVC design pattern.
+
+Future work / success of project:
+- to discuss that we never made a stats page due to time constraints. however, in terms of design, everything else we set out to do has been achieved.
+
+user acceptance testing - Phil has a bit left to do.
+
+Joe has created excellent demo video and will embed into our readme.
+
+Aiming to have finished everything by this eve, ready for a run through tomorrow morning at 10am.

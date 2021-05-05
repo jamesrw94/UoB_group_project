@@ -117,9 +117,22 @@ Main points from Sprint kick-off:
 * We agreed to hold daily stand ups this week to ensure we remain on track
 
 #### Stand-Up 4th May ####
-We held a Stand-Up on 4th May to review our progress on documentation. We were making good progress, and only had Conclusion, Evaluation and the video to do, as well as some general proof-reading and tidying up of the project structure. 
+[Link to Minutes](../Meeting_Notes/21_05_04.txt)
 
-[Link to Minutes](../Meeting_Notes/21_05_04.txt)<br>
+We held a Stand-Up on 4th May to review our progress on documentation. We were making good progress, and only had Conclusion, Evaluation and the video to do, as well as some general proof-reading and tidying up of the project structure.
+
+
+#### Stand-Up 5th May ####
+[Link to Minutes](../Meeting_Notes/21_05_05.txt)
+
+We reviewed our documentation. We were pleased with progress, and only had minor parts of System Implementation, Evaluation and Conclusion remaining.
+
+Joe had also created an excellent video demonstrating the app!
+
+
+**[&rarr; back to Sprints & Project Management](https://github.com/jamesrw94/UoB_group_project/blob/main/Sprints_&_Project_Management/README.md)**
+
+
 
 
 
