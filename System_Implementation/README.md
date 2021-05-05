@@ -13,7 +13,7 @@
 
 We used the MEAN stack architecture for our Project - MongoDB, Express, Angular and NodeJS.
 
-Our system was designed by the front-end and back-end teams, with significant input from Phillip from a UX perspective to ensure that our data model reflected the needs of our end users. Our design was derived from user moderated testing that Philip did with our wireframe design of the website.  As this design was decided before most of the implementation had begun, we made sure that the frontend and backend teams had the same vision of the end product which prevented friction when integrating. The system design is showed in the model below.
+Our system was designed by the front-end and back-end teams, with significant input from Phillip from a UX perspective to ensure that it reflected the needs of our end users. Our design was derived from user moderated testing that Phillip did with our wireframe design of the website.  As this design was decided before most of the implementation had begun, we made sure that the frontend and backend teams had the same vision of the end product which prevented friction when integrating. The system design is showed in the model below.
 
 <p align="center">
  <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/System_Implementation/DataModel/Data%20Model.png" width="600" height="500">
@@ -259,14 +259,14 @@ The second is that the function which is supposed to be updating the correct and
 The last is less of an error and more an inconvenience but occurs when the user has dragged the two logos into place. Once this is happened, they cannot be swapped meaning that the user has to submit what they have already inputted. If only one dropbox has been filled the user can still drag the paper logos from the field empty box to the empty empty box.
 
 
-## Additional elements ##
+# Additional elements #
 In the backend, we performed additional elements which we feel deserve to be singled out here (and which have already been mentioned in the backend / Middle Tier section).
 
 First, we set up a script that would scrape twitter for tweets on a cron schedule, for 4 weeks. This returned data which we stored and use to seed our database when the application is first run.
 
 Second, we have created an insertion script which will automatically seed the database for the user, and then run docker-compose up.
 
-## Deployment ##
+# Deployment #
 We used docker for our deployment, and created a docker compose script which can be viewed [here](../angular/docker-compose.yml). The docker compose file spins up both our application and the mongoDB container. 
 
 For each user's first time using the application, they had run our insertion script, which would populate the database and then run docker-compose up.
