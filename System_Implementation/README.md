@@ -21,6 +21,11 @@ Our system was designed by the front-end and back-end teams, with significant in
 
 The system architecture for our project was based on the model view controller design pattern. The front end acted as our view, the database is the model and our middle tier acts as the controller in conjunction with the RESTful API.
 
+<p align="center">
+ <img src="https://github.com/jamesrw94/UoB_group_project/blob/main/System_Implementation/DataModel/stack_architecture.png" width="600" height="500">
+</p>
+
+
 
 
 # Back End #
