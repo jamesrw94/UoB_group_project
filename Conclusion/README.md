@@ -24,6 +24,7 @@ The desire to be respectful with users’ personal data has directly impacted ov
 ### References
 
 [1] Himma K and Tavani H. 2008. The Handbook of Information and Computer Ethics.  John Wiley & Sons. Chapter 6
+
 [2] Using personal data in your business or other organisation. Gov.uk .Available at https://www.gov.uk/guidance/using-personal-data-in-your-business-or-other-organisation accessed 3.1.2020.
 
 [3] GDPR Compliance for Apps. Privacypolicies.com Available at https://www.privacypolicies.com/blog/gdpr-compliance-apps/#Key_Elements_Of_The_Gdpr_And_How_To_Comply Accessed 3.1.2020
