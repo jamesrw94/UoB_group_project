@@ -92,7 +92,7 @@ With the final insight, a mini A/B test was carried out to test two variations o
   <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/Evaluation/ABTest.png">
 </p>
 
-The users preferred having two tweets, as it gave them more of a chance to pick between the two:
+The users preferred having two tweets, as they felt having two to compare gave them more of a chance to get it right:
 
 > “I think that one (two tweets) is easier… having one tweet was OK, I mean having two to compare, I suppose if you aren’t too sure, then you’ve got a second chance of realizing which one is which as one might be easier to decide / get it right?”
 
