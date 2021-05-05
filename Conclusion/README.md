@@ -8,7 +8,13 @@ We enjoyed working using Scrum methodology as it allowed us to review our work f
 
 We used JIRA to track and manage our issues, which we found to be useful as a 'single source of truth' of our to-do items. The JIRA board formed the basis of our weekly meetings and helped us to keep track of what had been finished, what work was ongoing and what still needed to be started. The ability to assign tickets was useful, so that everyone knew who was responsible for which ticket of work. Also, keeping the ticket status up to date - from 'Todo", to 'In Progress', to 'Done' - was useful as it allowed any of us to see how we were performing mid sprint.
 
-We found that our communication channels worked well, despite Covid restrictions meaning we could not meet face to face, and we communicated regularly as a group throughout the entire project via Teams or our Discord server.
+We found that our communication channels worked well, despite Covid restrictions meaning we could not meet face to face. We communicated regularly as a group throughout the entire project via Teams or our Discord server.
+
+Throughout the project, each team member was content with the role they played. As mentioned previously, we did not designate roles specifically, to ensure that each member of the team could work on anything they liked, to ensure that we all gained as much knowledge and experience as possible. In practice, we grew into project roles as time went on, but the success of our communication and show and tells meant that each group member was relatively comfortable in each area and could provide a helping hand if required.
+
+Our use of Git improved over the course of the project, and by the end we were all committing regularly to the dev branch.
+
+As mentioned previously in this report (System Implementation and Sprints and Project Management sections), we did not implement CI/CD fully in this project, and this is something we'd seek to implement better next time. 
 
 ## Reflective discussion of the success of the project
 Overall, the project has successfully accomplished the goals initially set out. The process has been a valuable learning experience for the team as well as an opportunity to engage in group work with notable challenges brought on by the COVID-19 pandemic. We strongly feel that as a group we have risen to these challenges and even adapted to the environment in our favour.
