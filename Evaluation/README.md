@@ -109,9 +109,14 @@ On the whole, user prototyping and testing was an incredibly valuable tool for u
 
 We found Jakob Nielsen’s heuristic evaluation principles incredibly useful to evaluate our designs with, as it gave us ten principles to review and improve our code with.  The front end used these methods to improve the design:
 
-1.	A navigation bar was added to provide users with control and freedom to navigate out of areas they don’t want to be in.
-2.	Error messages were applied if a user attempted to submit before drag and dropping tweets.
-3.	Clear Headlines were applied, with sub-headings to provide extra detail.
+**1. Visibility of the system**
+The applications objective was to raise a users awareness of media bias.  The user was guided through the application, and only allowed the user to proceed from one page to the next by clicking a button.  The user was clearly informed of where they were on the site with the help of the title page.  A navigation bar was also inserted to help the user if they got stuck and wanted to go back.
+
+**2. Reliability to the Real World**
+To implement serious play we used a quiz to help highlight media bias.  The "Have I Got News for You" theme of the website helped users understand that the site was not meant to be serious, and that it was about Newspapers.
+
+**3. Help users recognize, diagnose, and recover from errors**
+The application is quite simple, and the main user interraction that could cause an error was if users tried to submit an answer before dragging and dropping tweets to one of the respective boxes.  An Error messages was applied to the centre of the page if a user attempted to submit in this state, prompting them to drag the logo's into the right place.
 
 Despite their usefulness, Nielsen’s design heuristics have started to come **[under criticism](https://uxpamagazine.org/nielsens-heuristic-evaluation/)** as they were developed in the 1990’s, when designs and user interfaces were not as complex as they are now.  Despite these concerns, we feel that they are applicable and relevant to our relatively simple quiz design.
 
