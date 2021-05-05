@@ -19,7 +19,7 @@ For the backend part of our project we used the predefined data model to set cle
 Our data model was created by the front-end and backend teams working in tandem with significant input from Phillip to ensure that our data model reflected the needs of our end users. This data model was derived from user moderated testing that Philip did with our wireframe design of the website.  As this data model was decided before most of the implementation ahd begun, we made sure that the frontend and backend teams had the same vision of the end product which prevented friction when intergrating. This data model can be seen below.
 
 <p align="center">
- <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/System_Implementation/DataModel/Data%20Model.png" width="600" height="600">
+ <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/System_Implementation/DataModel/Data%20Model.png" width="600" height="500">
 </p>
 
 ### Creating the Data Source ###
