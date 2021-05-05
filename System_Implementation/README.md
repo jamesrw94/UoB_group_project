@@ -19,6 +19,10 @@ Our system was designed by the front-end and back-end teams, with significant in
  <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/System_Implementation/DataModel/Data%20Model.png" width="600" height="500">
 </p>
 
+The system architecture for our project was based on the model view controller design pattern. The front end acted as our view, the database is the model and our middle tier acts as the controller in conjunction with the RESTful API.
+
+
+
 # Back End #
 
 
