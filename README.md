@@ -25,6 +25,10 @@ James Wilson | Team Management and front-end development | <img src="Sprints_&_P
 4) run the insertion_script.sh
 
 # Introduction
+
+https://user-images.githubusercontent.com/55767257/117130720-59504880-ad98-11eb-8b57-7f9b6bf567e5.mp4
+
+
 _Know the News_ is a single page web app built to raise awareness of one’s own bias towards media sources. As our consumption of media content becomes ever more automated with evolving technologies, one might understandably stereotype media outlets as presenting a consistent, politically biased opinion [1][2].
 
 ### Serious Play
