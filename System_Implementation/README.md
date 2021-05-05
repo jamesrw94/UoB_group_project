@@ -4,7 +4,7 @@
 1. [Stack Architecture and System Design](#stack-architecture-and-system-design)
 2. [Back End and Middle Tier](#back-end)
 3. [Front End](#front-end)
-4. [Additional Elements](#any-additional-elements)
+4. [Additional Elements](#additional-elements)
 5. [Deployment](#deployment)
 
 
@@ -67,12 +67,12 @@ router.get('/brexit', (req, res) => {
   get_both_random("Brexit",res);
 });
 ```
-
+We also create a number of bespoke functions in the api.js to retrieve and store relevant data, such as get_both_random(), as used in the code snippet above, and which returns two random tweets.
 
 
 ### Connecting to the Database ###
 
-To achieve our second backend objective, to provide the front end with randomised tweets, we needed two tweets to be called from our database to appear at the same time. Initially, we were having problems coordinating two callbacks to arrive at the front end at the same time as we needed each of the api calls to be for different newspapers. We solved this problem by using a Promise which allowed us to make separate calls to mongoose in the backend but package them up into a list for the frontend before sending back the request. This function can be seen below.
+To achieve our second backend objective (providing the front end with randomised tweets) we needed two tweets to be called from our database to appear at the same time. Initially, we were having problems coordinating two callbacks to arrive at the front end at the same time as we needed each of the api calls to be for different newspapers. We solved this problem by using a Promise which allowed us to make separate calls to mongoose in the backend but package them up into a list for the frontend before sending back the request. This function can be seen below.
 
 ```
 async function get_both_random(topic,res){
@@ -104,9 +104,6 @@ public update_paper_correct(newspaper: string){
 ### Provide meaningful results data ###
 Finally for our fourth objective we needed to be able to retrieve news data. By this we mean how past players have answered the questions in the quiz. The way we achieved this was very similar to the method updating the database above using HttpParams to limit the amount of routes we needed to implement.
 
-
-
-# Middle Tier #
 
 
 # Front End #
@@ -262,10 +259,24 @@ The second is that the function which is supposed to be updating the correct and
 The last is less of an error and more an inconvenience but occurs when the user has dragged the two logos into place. Once this is happened, they cannot be swapped meaning that the user has to submit what they have already inputted. If only one dropbox has been filled the user can still drag the paper logos from the field empty box to the empty empty box.
 
 
+## Additional elements ##
+In the backend, we performed additional elements which we feel deserve to be singled out here (and which have already been mentioned in the backend / Middle Tier section).
 
-## Any additional elements
+First, we set up a script that would scrape twitter for tweets on a cron schedule, for 4 weeks. This returned data which we stored and use to seed our database when the application is first run.
 
-## Deployment
+Second, we have created an insertion script which will automatically seed the database for the user, and then run docker-compose up.
+
+## Deployment ##
+We used docker for our deployment, and created a docker compose script which can be viewed [here](../angular/docker-compose.yml). The docker compose file spins up both our application and the mongoDB container. 
+
+For each user's first time using the application, they had run our insertion script, which would populate the database and then run docker-compose up.
+
+Our approach to CI/CD was manual, and it was the responsibility of each developer to ensure that the code was working on their branch, and the docker containers successfully built, before they integrated it with 'dev'. For deployment, the dev branch was manually merged to the 'main' branch from time to time, to ensure the branches did not become too different.
+
+We did not make full use of Docker's CI/CD functionality in conjunction with Git. The main reason behind this was a lack of automatic testing which was not set up early enough in the project - the Testing worksheet was in the last week of this project and we did not have time nor see the value in setting up CI/CD because we had nearly finished coding our app by this stage.
+
+If we were to do the project again, we would seek to implement full CI/CD using docker. We would set up automatic tests in the dev branch such that, upon a merge into the branch, a docker build would run alongside the tests. If the tests passed, the code would then be deployed - in this situation, deployment would mean pushing to our production branch, 'main'. The docker image would also be published to DockerHub.
+
 
 
 
