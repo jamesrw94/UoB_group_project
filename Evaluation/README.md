@@ -238,16 +238,37 @@ Test 2 was concerned with the user’s interaction with the question page, which
 
 These tests, although not technical like the Unit Testing were very useful for us as a team as they forced us to think about the design in more detail, and to think in depth about what interactions we might expect from users.
 
-## User acceptance testing
+## User Acceptance Testing
+
+User Acceptance Testing (UAT) is performed by the end user to verify/accept the software before moving the software application into production.  It is the final stage of testing after functional and unit testing has been performed.  It is important as although we have developed with the users in mind we have still been developing on our own understanding and interpretation of their needs.  This testing will help us verify if we have achieved our projects goals.
 
 ### Methods
 
+A moderated user test was performed via Zoom with 4 users. Insights were gleaned from this when there was a similar interaction or quote was noted from at least 2 users.  The user test was again performed in a semi-structured manner.  First the user was provided the homepage and asked to operate the site, playing as many questions as they would like.  Notes were taken if they paused at any stages.  Once they were finished, they were asked the following question:
 
-
+> Do you feel this application has influenced your knowledge of bias within the media?
 
 ### Findings
 
+The feedback was generally positive, the users did not really pause and felt that the user interface was relatively simple and easy to operate.  From watching user interactions and asking questions afterwards I found the following insights.
+
+> On the question page (especially on Brexit/Racism/Climate) it was difficult to read the “Drag Logo into Box” 
+> “Can you place the paper with the tweet” sub-title sometimes made users try and drag the tweet, rather than the logo
+
+When asking the last question, I got the following feedback:
+
+> “I think I would learn from anything that caught me out, or any answers I wasn't expecting”
+
+> ”A lot of them are very obvious… or on the flip side, the fact they are so obvious just shows us how certain publications have an agenda.”
+
+> “If anything, it’s solidified certain views I have regarding certain papers, so I suppose yes it has”
+
 ### Implications
+
+The UAT was a success, functionally the application worked for all four participants with very few errors (one user tried to click before they had submitted which brought up an error message as expected).  The provided insights were very useful as they highlighted parts of the design we had not noticed, probably because we have been interacting with the application very closely so knew how everything worked.  I feel the improvements they insights have suggested could quite simply be introduced if we had further sprints to perform them.
+
+The final question was used to try and determine if the website was successful in its primary goal, to try and educate users in media bias, the difference in reporting styles in the media.  Most users felt like the website at least confirmed their suspicions, sometimes the questions were quite simple (tabloid vs broadsheet) but sometimes the users really had to pause and think about it, which is what we wanted to accomplish). 
+
 
 **[&rarr; Conclusion](https://github.com/jamesrw94/UoB_group_project/blob/main/Conclusion/README.md)**
 
