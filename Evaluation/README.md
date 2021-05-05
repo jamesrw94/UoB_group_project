@@ -135,7 +135,7 @@ As our group did not have much time to implement an automatic testing reigime we
  2) it felt more important to ensure at least one user journey was completely working, rather than less throughly testing multiple journeys
  
  
- Our first test was chosen to verify that text appears on the question screen in the right place and the right order. As we could not use the data from our database we had to mock fake tweets instead, this limits the usefulness of the test in part but it was still important to verify that the front end weas doing what it was supposed to.
+ As a result of this, all of our own tests can be found in the Brexit spec file [here](https://github.com/jamesrw94/UoB_group_project/blob/dev/angular/src/app/topicpage/brexit/brexit.component.spec.ts). Our first test was chosen to verify that text appears on the question screen in the right place and the right order. As we could not use the data from our database we had to mock fake tweets instead, this limits the usefulness of the test in part but it was still important to verify that the front end weas doing what it was supposed to.
 You can see our first test below-
 
 ```
@@ -255,7 +255,7 @@ The feedback was generally positive, the users did not really pause and felt tha
 > On the question page (especially on Brexit/Racism/Climate) it was difficult to read the “Drag Logo into Box” 
 > “Can you place the paper with the tweet” sub-title sometimes made users try and drag the tweet, rather than the logo
 
-When asking the last question, the following feedback was recorded:
+When asking the last question, I got the following feedback:
 
 > “I think I would learn from anything that caught me out, or any answers I wasn't expecting”
 
