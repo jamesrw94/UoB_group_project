@@ -118,6 +118,10 @@ To implement serious play we used a quiz to help highlight media bias.  The "Hav
 **3. Help users recognize, diagnose, and recover from errors**
 The application is quite simple, and the main user interraction that could cause an error was if users tried to submit an answer before dragging and dropping tweets to one of the respective boxes.  An Error messages was applied to the centre of the page if a user attempted to submit in this state, prompting them to drag the logo's into the right place.
 
+**4. Aesthetic and minimalist design**
+Each component/page was designed for a specific purpose and once that task had been performed, the user has directed to another page where they would perform another task.  Click **![here](https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/UX_Design/SPAFlow.jpg)** for a link to the final SPA flow diagram to see what a user could do on the website.
+
+
 Despite their usefulness, Nielsen’s design heuristics have started to come **[under criticism](https://uxpamagazine.org/nielsens-heuristic-evaluation/)** as they were developed in the 1990’s, when designs and user interfaces were not as complex as they are now.  Despite these concerns, we feel that they are applicable and relevant to our relatively simple quiz design.
 
 
