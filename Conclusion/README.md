@@ -10,11 +10,9 @@ We used JIRA to track and manage our issues, which we found to be useful as a 's
 
 We found that our communication channels worked well, despite Covid restrictions meaning we could not meet face to face. We communicated regularly as a group throughout the entire project via Teams or our Discord server.
 
-Throughout the project, each team member was content with the role they played. As mentioned previously, we did not designate roles specifically, to ensure that each member of the team could work on anything they liked, to ensure that we all gained as much knowledge and experience as possible. In practice, we grew into project roles as time went on, but the success of our communication and show and tells meant that each group member was relatively comfortable in each area and could provide a helping hand if required.
+Each team member was content with the role they played. As mentioned previously, we did not specifically assign roles at the start of the project, in order to allow us the flexibility to work on multiple different areas of the project, thereby gaining as much skill and experience as possible. In practice, we naturally fell into project roles as time went on, but the success of our communication and show and tells meant that each group member was relatively comfortable in each area and could provide a helping hand if required.
 
-Our use of Git improved over the course of the project, and by the end we were all committing regularly to the dev branch.
-
-As mentioned previously in this report (System Implementation and Sprints and Project Management sections), we did not implement CI/CD fully in this project, and this is something we'd seek to implement better next time. 
+Our use of Git improved over the course of the project, and by the end we were all committing regularly to the dev branch. As mentioned previously in this report (System Implementation and Sprints & Project Management sections), we did not implement CI/CD fully in this project, and this is something we'd seek to implement better next time. 
 
 ## Reflective discussion of the success of the project
 Overall, the project has successfully accomplished the goals initially set out. The process has been a valuable learning experience for the team as well as an opportunity to engage in group work with notable challenges brought on by the COVID-19 pandemic. We strongly feel that as a group we have risen to these challenges and even adapted to the environment in our favour.
