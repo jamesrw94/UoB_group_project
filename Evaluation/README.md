@@ -255,7 +255,7 @@ The feedback was generally positive, the users did not really pause and felt tha
 > On the question page (especially on Brexit/Racism/Climate) it was difficult to read the “Drag Logo into Box” 
 > “Can you place the paper with the tweet” sub-title sometimes made users try and drag the tweet, rather than the logo
 
-When asking the last question, I got the following feedback:
+When asking the last question, the following feedback was recorded:
 
 > “I think I would learn from anything that caught me out, or any answers I wasn't expecting”
 
