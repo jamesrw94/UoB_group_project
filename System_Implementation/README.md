@@ -273,11 +273,9 @@ For each user's first time using the application, they had run our insertion scr
 
 Our approach to CI/CD was manual, and it was the responsibility of each developer to ensure that the code was working on their branch, and the docker containers successfully built, before they integrated it with 'dev'. For deployment, the dev branch was manually merged to the 'main' branch from time to time, to ensure the branches did not become too different.
 
-We did not make full use of Docker's CI/CD functionality in conjunction with Git. The main reason behind this was a lack of automatic testing which was not set up early enough in the project - the Testing worksheet was in the last week of this project and we did not have time nor see the value in setting up CI/CD because we had nearly finished coding our app by this stage.
+We did not make full use of Docker's CI/CD functionality in conjunction with Git. The main reason behind this was a lack of automatic testing which was not set up early enough in the project. The Testing workshop was in the penultimate week of this group project, and we did not have time nor see the value in setting up automatic testing and CI/CD because we had nearly finished coding our app by this stage.
 
-If we were to do the project again, we would seek to implement full CI/CD using docker. We would set up automatic tests in the dev branch such that, upon a merge into the branch, a docker build would run alongside the tests. If the tests passed, the code would then be deployed - in this situation, deployment would mean pushing to our production branch, 'main'. The docker image would also be published to DockerHub.
-
-
+If we were to do the project again, we would seek to implement full CI/CD using docker. We would set up automatic tests in the dev branch such that, upon a merge into the branch, the tests would run and a docker image built and published to DockerHub (if the tests passed successfully!). If the tests passed, the code would then be deployed - in this situation, deployment would mean pushing to our production branch, 'main'.
 
 
 **[&rarr; UX Design](https://github.com/jamesrw94/UoB_group_project/blob/main/UX_Design/README.md)**
