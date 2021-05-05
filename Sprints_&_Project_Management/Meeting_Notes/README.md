@@ -98,5 +98,12 @@ We organised a date for a review by Allison, and spoke with Tom to verify that w
 
 
 Start of Sprint 1. Please see the [Sprint Logs](../Sprint_Logs/README.md) for the remaining documentation.
+<br>
+<br>
+<br>
 
 
+
+**[&rarr; Sprint Logs](https://github.com/jamesrw94/UoB_group_project/blob/main/Sprints_&_Project_Management/Sprint_logs/README.md)**
+
+**[&larr; Back to Sprints & Project Management](https://github.com/jamesrw94/UoB_group_project/blob/main/Sprints_&_Project_Management/README.md)**
