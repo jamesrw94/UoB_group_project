@@ -40,17 +40,17 @@ We did not specifically define Scrum roles because we agreed as a group that eac
 #### Phillip Sloan - UX researcher
 Phillip worked on the UX part of the project, conducting user tests and creating app prototypes.
 
-#### Dan Chow - Backend developer / system integration
+#### Dan Chow - Backend developer
 Dan was our main backend developer.
 
-#### Harry Field - Backend Developer / UI developer
-Harry worked on the images for the app's UI, and helped with the backend coding.
+#### Harry Field - User experience and background research
+Harry worked on the images for the app's UI, and conducted the background research for the project
 
 #### Joe Hedin - Frontend developer
 Joe was our main frontend developer.
 
-#### James Wilson - Frontend developer / system integration
-James programmed the front-end component routing, and integrated our components with the api service. He also set up the JIRA sprints and maneged the Git workflows.
+#### James Wilson - Frontend developer / team management
+James programmed the front-end component routing and managed the Sprint cycles / Git workflows
 
 # Sprints
 Please refer to the [Sprint Log](Sprint_Logs/README.md) for a full description of our Sprints, including meeting minutes.
