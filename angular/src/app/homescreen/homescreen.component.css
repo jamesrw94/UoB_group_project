@@ -79,3 +79,16 @@ h1{
   color: black;
   background-color: springgreen;
 }
+
+h3{
+  position: absolute;
+  top: 40%;
+  text-align: 50%;
+  border-radius: 5%;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem;
+  color: black;
+  background-color: springgreen;
+  width: 50rem;
+}
