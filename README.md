@@ -19,10 +19,10 @@ James Wilson | Team Management and front-end development | <img src="Sprints_&_P
 
 # Instructions for Use # 
 
-1) first download the .env file from desk 05 file section
-2) put .env file in angular folder on same level as dockerfile
-3) run docker-compose build
-4) run the insertion_script.sh
+1) first download the .env file from the Teams channel 'Desk 05' file section
+2) put .env file in [angular](angular/) folder on same level as dockerfile
+3) go to the root of the angular folder and run docker-compose build
+4) run the insertion_script.sh (still from root of angular folder)
 
 # Introduction
 
