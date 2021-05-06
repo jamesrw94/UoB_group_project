@@ -7,7 +7,7 @@ import { DataService } from 'src/app/data.service';
   styleUrls: ['./resultspage.component.css']
 })
 export class ResultspageComponent implements OnInit {
-  
+
   public pieChartLabels1 = ['Correct', 'Incorrect'];
   public pieChartData1 = [5, 10];
   public pieChartType1 = 'pie';
@@ -34,8 +34,20 @@ export class ResultspageComponent implements OnInit {
     this.pName2 = this.dataService.getPaperName2();
     this.result = this.dataService.getResult();
     if(this.result == true){
-      this.dataService.update_paper_correct(this.pName1);
-      this.dataService.update_paper_correct(this.pName2);
+      this.dataService.update_paper_correct(this.pName1).subscribe(
+          data => {
+              console.log(data);
+          }, error => {
+             console.log(error);
+           }
+      );
+      this.dataService.update_paper_correct(this.pName2).subscribe(
+          data => {
+              console.log(data);
+          }, error => {
+             console.log(error);
+           }
+      );
       this.dataService.get_paper_stats(this.pName1, this.pName2).subscribe(
         data => {
           this.paperInfo = data;
@@ -43,13 +55,25 @@ export class ResultspageComponent implements OnInit {
           this.pieChartData2 = [this.paperInfo[1].correct_answers, this.paperInfo[1].incorrect_answers];
         },
         error => {
-          console.log(error); 
+          console.log(error);
         }
       );
       document.getElementById("answer")!.innerHTML = "Correct!!!"
     }else if(this.result == false){
-      this.dataService.update_paper_incorrect(this.pName1);
-      this.dataService.update_paper_incorrect(this.pName2);
+      this.dataService.update_paper_incorrect(this.pName1).subscribe(
+          data => {
+              console.log(data);
+          }, error => {
+             console.log(error);
+           }
+      );
+      this.dataService.update_paper_incorrect(this.pName2).subscribe(
+          data => {
+              console.log(data);
+          }, error => {
+             console.log(error);
+           }
+      );
       this.dataService.get_paper_stats(this.pName1, this.pName2).subscribe(
         data => {
           this.paperInfo = data;
@@ -57,14 +81,14 @@ export class ResultspageComponent implements OnInit {
           this.pieChartData2 = [this.paperInfo[1].correct_answers, this.paperInfo[1].incorrect_answers];
         },
         error => {
-          console.log(error); 
+          console.log(error);
         }
       );
 
       document.getElementById("answer")!.innerHTML = "Wrong"
     }
-    document.getElementById("PAPER1")!.innerHTML = this.paper_dict[this.pName1]; 
-    document.getElementById("PAPER2")!.innerHTML = this.paper_dict[this.pName2]; 
+    document.getElementById("PAPER1")!.innerHTML = this.paper_dict[this.pName1];
+    document.getElementById("PAPER2")!.innerHTML = this.paper_dict[this.pName2];
     console.log("the thing works")
   }
 }

@@ -43,18 +43,20 @@ async function get_both_random(topic,res){
 const paperSchema = new mongoose.Schema({paper:String,correct_answers:Number, incorrect_answers:Number});
 const paperModel = mongoose.model('paper',paperSchema,"paper_answer_collection")
 
-async function update_newspaper_correct(name,paper) {
-	var doc = await paperModel.findOne({paper:paper}).exec();
+
+async function update_newspaper_correct(name) {
+	var doc = await paperModel.findOne({paper:name}).exec();
 	doc.correct_answers=doc.correct_answers+1;
 	await doc.save();
 
 }
 
-async function update_newspaper_wrong(name,paper){
-	var doc = await paperModel.findOne({paper:paper}).exec();
+async function update_newspaper_wrong(name){
+	var doc = await paperModel.findOne({paper:name}).exec();
 	doc.incorrect_answers=doc.incorrect_answers+1;
 	await doc.save();
 }
+
 
 async function get_newspaper_info(paper1,paper2,res){
     var paper_info1 = await paperModel.findOne({paper:paper1}).exec();
