@@ -104,7 +104,7 @@ We hoped to complete, as close to as possible, the technical work this week and 
 * Documentation still in progress
 
 
-## Sprint 6, 03/05/21 - 07/05/21 ##
+## Sprint 6, 03/05/21 - 05/05/21 ##
 [Sprint kick-off Minutes](../Meeting_Notes/21_05_03.txt)<br>
 [Sprint 6 JIRA board](JIRA_Screenshots/Sprint6.png)
 
@@ -129,14 +129,14 @@ We reviewed our documentation. We were pleased with progress, and only had minor
 
 Joe had also created an excellent video demonstrating the app!<br>
 
-#### Meeting 6th May ###
+## Review Meeting 6th May ##
 [Link to Minutes](../Meeting_Notes/21_05_06.txt)
 
 We had managed to complete our documentation on Wednesday, such that at Thursday's design session, Paul could review our app and report. He provided feedback on the overall look of our app, and the Background & Motivation documentation. <br>
 
 The feedback was positive, with some minor amendments to be made to the report, and for the app to include some more text instructions for the user.
 
-We made the changes Paul suggested as we still had one day until hand in!
+We made the changes Paul suggested as we still had one day until hand in.
 
 <br>
 <br>
