@@ -1,0 +1,31 @@
+06/05/21
+
+Paul reviewd our work with the following actions for us to folow up on:
+
+	- Joe to add blurb to homepage explaining what the tool does, and also to the stats page telling the user what the charts show
+	- Joe to investigate how much work would be involved in fixing the re-sizing of the screen
+
+Other general actions:
+	- James to write up our submission txt file, including instructions for the .env file.
+
+Paul reviewed our work so far:
+
+Background & Motivation:
+	- Paul - is this too academic? Language is too academic for this kind of project.Although Paul hasn’t looked at mark scheme. As a github project, don’t need academic writing.
+	- discussion on solution - can talk about gamification.
+	- good practice to link to sources in online writing, but recognises we can’t do that with our academic references here
+	- scoping - we can say what we are not trying to do
+
+
+App demo:
+	- on first page - expecting one paragrph on what the tool aims to do
+	- make the stats page clearer. add some blurb to the top saying what it is showing
+	- bar charts would be better than pie charts
+	- design is retro.
+	- when resizing screen size, the tweets overlap each other
+
+
+General team discussion:
+	- Dan has fixed a db issue which meant that sometimes tweets weren’t showing up
+	- Joe has added a darker background to the ‘drag logo into box’ instruction to help users view it	
+

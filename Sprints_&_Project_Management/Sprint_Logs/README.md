@@ -128,6 +128,16 @@ We held a Stand-Up on 4th May to review our progress on documentation. We were m
 We reviewed our documentation. We were pleased with progress, and only had minor parts of System Implementation, Evaluation and Conclusion remaining.
 
 Joe had also created an excellent video demonstrating the app!<br>
+
+#### Meeting 6th May ###
+[Link to Minutes](../Meeting_Notes/21_05_06.txt)
+
+We had managed to complete our documentation on Wednesday, such that at Thursday's design session, Paul could review our app and report. He provided feedback on the overall look of our app, and the Background & Motivation documentation. <br>
+
+The feedback was positive, with some minor amendments to be made to the report, and for the app to include some more text instructions for the user.
+
+We made the changes Paul suggested as we still had one day until hand in!
+
 <br>
 <br>
 
