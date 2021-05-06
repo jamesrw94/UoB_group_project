@@ -1,0 +1,30 @@
+04/05/21
+
+Documentation work update:
+
+
+project structure to update
+background&motivation - done
+UX design - done. Phil showed us how to resize images.
+backend done - to move into system implementation of project
+Harry - Should we write system imp in Chronological order? Agreed no need, we should focus on our best points and the Sprint logs show the chronological order of building our app.
+testing - Dan has done write up. users journeys similar so testing for one would basically work for the other. Dan has added in a new test.
+
+
+Remaining bullet points from evaluation and conc divided amongst group as follows:
+
+Conclusion:
+Dan to do discussion of future work. 
+Harry to do Ethical discussion
+Working practices of the group - James
+reflective disscussion, covid - Harry
+Joe to do video
+
+Evaluation
+- how evaluated designs - Phil.
+User acceptance testing - phil
+Unit testing - Dan
+
+
+Proof read - all
+

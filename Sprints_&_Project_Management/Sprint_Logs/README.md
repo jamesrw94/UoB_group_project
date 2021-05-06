@@ -47,26 +47,26 @@ All tickets were successfully completed. Some points to note were:
 We found show and tells to be extremely useful for everyone to keep abreast of our ongoing work. It was also in keeping with our aim for each of us to gain experience in each aspect of the software development team. We wanted to expand our skills in all areas, and doing show-and-tells enabled each of us to understand each part of the project, both technical and non-technical.
 
 
-## Sprint 3, 12/04/21 - 19/04/21
+## Sprint 3, 12/04/21 - 19/04/21 ##
 [Sprint 3 JIRA board](JIRA_Screenshots/Sprint3.png)<br>
 [Sprint kick-off minutes](../Meeting_Notes/21_04_12.txt)
 
-Sprint Goals:
+#### Sprint Goals ####
 * Connect front end to backend API
 * Implement drag and Drop Functionality in front end
 
-#### Sprint Review
+#### Sprint Review ####
 
 We successfully connected the API to the front-end. However, we were still a long way off 'finalising' the front end. Drag and drop functionality was mostly working, but still had some issues. Additionally, we needed to load the images of the correct newspaper.
 We also identified that each developer had their own separate git branches, and that we were not merging often enough to the dev branch. This was violating the principle of Continuous Integration with the result that we had widely differing branches. We agreed this needed to be resolved in the next sprint - new branches should be for small features, and should be merged regularly.
 
 Following our review with Allison, we realised that although the technical progress of our app was doing well, we had barely filled out any documentation other than uploading Meeting notes. Therefore, we decided to focus on documentation for the next Sprint.
 
-## Sprint 4, 19/04/21 - 26/04/21
+## Sprint 4, 19/04/21 - 26/04/21 ##
 [Sprint 4 JIRA board](JIRA_Screenshots/Sprint4.png)<br>
 [Sprint kick-off minutes](../Meeting_Notes/21_04_19.txt)
 
-Sprint Goals:
+#### Sprint Goals ####
 * Focus on documentation
 * Improve Continuous Integration
 
@@ -88,7 +88,7 @@ We successfully merged the most up-to-date feature branch with the 'dev' branch,
 [Sprint kick-off Minutes](../Meeting_Notes/21_04_28.txt)<br>
 [Sprint 5 JIRA board](JIRA_Screenshots/Sprint5.png)
 
-Sprint Goals:
+#### Sprint Goals ####
 * Finish technical work
 * Set up testing
 * Continue with documentation
@@ -97,23 +97,45 @@ Following Tuesday's technical session, we decided to implement testing to our pr
 
 We hoped to complete, as close to as possible, the technical work this week and have our final MVP ready.
 
-#### Sprint Review
+#### Sprint Review ####
 * Excellent work from Joe and Dan in finishing off the coding. Our App MVP has been completed
 * User testing and functional testing successfully implemented  
 * Noted that there is a bug with the results page sometimes not loading the correct review statistics, but we shall note it and move on with a focus on documentation now.
 * Documentation still in progress
 
 
-## Sprint 6, 03/05/21 - 07/05/21
+## Sprint 6, 03/05/21 - 07/05/21 ##
 [Sprint kick-off Minutes](../Meeting_Notes/21_05_03.txt)<br>
 [Sprint 6 JIRA board](JIRA_Screenshots/Sprint6.png)
 
-Sprint Goal:
+#### Sprint Goal ####
 * Finish Documentation
 * Tidy up code (e.g. where example components still exist)
 
 Main points from Sprint kick-off:
 * We agreed that this sprint should only be 3 days in length, finishing on Wednesday, to allow us time for a final review prior to Friday's submission.
 * We agreed to hold daily stand ups this week to ensure we remain on track
+
+#### Stand-Up 4th May ####
+[Link to Minutes](../Meeting_Notes/21_05_04.txt)
+
+We held a Stand-Up on 4th May to review our progress on documentation. We were making good progress, and only had Conclusion, Evaluation and the video to do, as well as some general proof-reading and tidying up of the project structure.
+
+
+#### Stand-Up 5th May ####
+[Link to Minutes](../Meeting_Notes/21_05_05.txt)
+
+We reviewed our documentation. We were pleased with progress, and only had minor parts of System Implementation, Evaluation and Conclusion remaining.
+
+Joe had also created an excellent video demonstrating the app!<br>
+<br>
+<br>
+
+
+**[&rarr; Back to:  Sprints & Project Management](https://github.com/jamesrw94/UoB_group_project/blob/main/Sprints_&_Project_Management/README.md)**
+
+
+
+
 
 

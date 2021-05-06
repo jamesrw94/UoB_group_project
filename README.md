@@ -9,13 +9,13 @@ Daniel Chow | Back-end development | <img src="Sprints_&_Project_Management/Read
 Harry Field | User-Experience and background research | <img src="Sprints_&_Project_Management/Readme_Images/harry.png"> 
 James Wilson | Team Management and front-end development | <img src="Sprints_&_Project_Management/Readme_Images/james.png" width="100"> 
 
-### 1. Introduction
+### 1. [Introduction](#introduction)
 ### 2. [Background & Motivation](Background_and_Motivation/Readme.md)
 ### 3. [System Implementation](System_Implementation/README.md)
 ### 4. [UX Design](UX_Design/README.md)
 ### 5. [Sprints & Project Management](Sprints_&_Project_Management/README.md)
-### 6. Evaluation
-### 7. Conclusion
+### 6. [Evaluation](Evaluation/README.md)
+### 7. [Conclusion](Conclusion/README.md)
 
 # Instructions for Use # 
 
@@ -25,6 +25,10 @@ James Wilson | Team Management and front-end development | <img src="Sprints_&_P
 4) run the insertion_script.sh
 
 # Introduction
+
+https://user-images.githubusercontent.com/55767257/117130720-59504880-ad98-11eb-8b57-7f9b6bf567e5.mp4
+
+
 _Know the News_ is a single page web app built to raise awareness of one’s own bias towards media sources. As our consumption of media content becomes ever more automated with evolving technologies, one might understandably stereotype media outlets as presenting a consistent, politically biased opinion [1][2].
 
 ### Serious Play
@@ -33,8 +37,9 @@ Our application hopes to show people how well they really know the voice of news
 ### How it works
 The user selects from a list of pre-defined categories believed to be politically divisive, after which the user is taken to the quiz page. The quiz page displays random tweets on the selected topic from a database which regularly updates through contacting the Twitter API. The tweets are displayed on screen, and users must click-and-drag newspaper logos to the tweets they belong to. After this, the user is presented with their personal result as well as the overall results of all people who have been asked questions on the same newspapers.
 
+### More details:
 <details>
- <summary><h3>More detail</h3></summary>
+ <summary>Click for more details</summary>
  1. The user arrives at the site and is greeted by the message "Can you match the tweets with their tabloids?", explaining the purpose of the quiz. The user clicks the "Start" button. Using the Angular framework for front end development, all pages are represented by different components loaded in as and when required.
  <p align="center"> <img src="Sprints_&_Project_Management/Readme_Images/start.png" width="600"/></p>
  2. The topic page component is loaded, displaying an array of buttons representing topics to choose from. In this example, the user clicks the "Brexit" button which loads the subject module.

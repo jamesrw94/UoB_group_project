@@ -43,7 +43,7 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
-/twitterapi/bearer_token.txt
+/System_Implementation/twitterapi/bearer_token.txt
 # System Files
 .DS_Store
 Thumbs.db
