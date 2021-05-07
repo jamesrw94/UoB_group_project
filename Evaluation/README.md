@@ -16,7 +16,7 @@ The first development that occurred after ideation was creating a “paper” pr
 1.	People interact with paper differently to actual screens, there is limited context to reflect the actual screen environment.
 2.	Limited interactivity/context (tweets/content did not change in our paper prototype)
 
-Despite its limitations paper prototyping played a key part in developing our idea, allowing everyone to easily contribute to the design.  While we were collaboratively working people developed their own versions of pages before we settled on the final design. This quick development of ideas onto “paper” really helped develop the idea into a firm idea.
+Despite its limitations paper prototyping played a key part in developing our idea, allowing everyone to easily contribute to the design.  While we were collaboratively working, people developed their own versions of pages before we settled on the final design. This quick development of ideas onto “paper” really helped develop the idea into a firm idea.
 
 ### Digital Prototype (Completed 9th of March)
 
