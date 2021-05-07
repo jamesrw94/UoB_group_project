@@ -17,7 +17,7 @@ Additionally, we chose to use Scrum rather than Kanban because Scrum offers more
  <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/Sprints_&_Project_Management/Readme_Images/scrum.png" width="720">
 </p>
 
-We decided upon a Sprint cadence of one week, which we felt to be the appropriate length; small enough to ensure we were meeting regularly to stay on track, and long to allow us to make real progress between each Sprint Review. To help us manage our Sprint cycles, we used a JIRA workflow. You can view screenshots of our JIRA backlog board, and Sprint boards, in the [JIRA screenshots](Sprint_Logs/JIRA_Screenshots) folder. We found JIRA to be an extremely useful tool to keep track of work items, assign them to individuals, and to visualise our Sprints via the Sprint Board filter.
+We decided upon a Sprint cadence of one week, which we felt to be the appropriate length; small enough to ensure we were meeting regularly to stay on track, and long enough to allow us to make real progress between each Sprint Review. To help us manage our Sprint cycles, we used a JIRA workflow. You can view screenshots of our JIRA backlog board, and Sprint boards, in the [JIRA screenshots](Sprint_Logs/JIRA_Screenshots) folder. We found JIRA to be an extremely useful tool to keep track of work items, assign them to individuals, and to visualise our Sprints via the Sprint Board filter.
 
 <p align="center">
  <img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/Sprints_&_Project_Management/Sprint_Logs/JIRA_Screenshots/Backlog_3rd_May.png" width="720">
