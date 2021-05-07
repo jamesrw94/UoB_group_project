@@ -65,7 +65,7 @@ With the single exception of 9th March, all team members were present for each m
 
 Our use of Git to enable Continuous Integration vastly improved over the course of this project.
 
-Initially, we built a Git repo to hold all of our ideas documentation, and each of us was free to commit to the ‘main’ branch as we were not overlapping with any documents; rather, we we uploading our own ideas and proposals as well as minutes from the meetings.
+Initially, we built a Git repo to hold all of our ideas documentation, and each of us was free to commit to the ‘main’ branch as we were not overlapping with any documents; rather, we were uploading our own ideas and proposals as well as minutes from the meetings.
 
 Then, we added a ‘dev’ branch to make code changes to. Each team member made a branch from ‘dev’ (e.g. “joe’s branch”), for which they could make changes as per the technical worksheets. However, we were not merging our branches back into dev and overtime our branches became quite different from one another. Clearly, we were not performing proper CI.
 
