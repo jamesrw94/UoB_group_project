@@ -237,7 +237,7 @@ Test 1 was concerned with the user first interacting with the website, and then 
 
 Test 2 was concerned with the user’s interaction with the question page, which is the page with most user interaction.  It contains 4 tests including testing the drag and drop and checking error messages on the submit button.
 
-Test 3 was concerned with the websites responsiveness as raised by the initial User Survey.  The website did not pass this test, only working on a standard desktop environment.  This is due to us not fully utilizing bootstrap while writing the front end.  Unfortunately this was realised quite late into development and would have required a significant amount of time to refactor, requring a significant refactor.  If we have more time this would have been added into the next sprint as a priority as during research a lot of our users used mobile phones.
+Test 3 was concerned with the websites responsiveness as raised by the initial User Survey.  The website did not pass this test, only working on a standard desktop environment.  This is due to us not fully utilizing bootstrap while writing the front end.  Unfortunately this was realised quite late into development and would have required a significant amount of time to refactor, requring a considerable refactor.  If we have more time this would have been added into the next sprint as a priority as during research a lot of our users used mobile phones.
 
 These tests, although not technical like the Unit Testing were very useful for us as a team as they forced us to think about the design in more detail, and to think in depth about what interactions we might expect from users.
 
