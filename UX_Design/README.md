@@ -2,7 +2,7 @@
 
 ## Initial ideation
 
-As part of the discovery for our project, we investigated real-world issues, problems and how we could develop them into a serious play application.  Each member was tasked with coming up with potential ideas for the application, these were collated **[here](https://github.com/jamesrw94/UoB_group_project/blob/main/Ideas/general_ideas)**, including the following:
+As part of the discovery for our project, we investigated real-world issues, problems and how we could develop them into a serious play application.  Each member was tasked with coming up with potential ideas for the application, these were collated **[here](https://github.com/jamesrw94/UoB_group_project/blob/main/UX_Design/Ideas/general_ideas)**, including the following:
 1.	Guessing the ABV of an alcoholic drink
 2.	Are you washing your hands for long enough? 20s timer (COVID related).
 3.	Prevalence of Fake News
