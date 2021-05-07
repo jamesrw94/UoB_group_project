@@ -29,7 +29,7 @@ In some ways, workload management has been made easier by the current pandemic. 
 
 ## Discussion of Social and Ethical implications
 
-As _Know the News_ is in its prototype stage, ethical concerns associated are yet to be fully realised. Typical ethical concerns associated with web applications (and computers in general) in public use are centred around property, privacy, anonymity and security[1].
+As _Know the News_ is in its prototype stage, ethical concerns associated are yet to be fully realised. Typical ethical concerns associated with web applications (and computers in general) in public use are centred around property, privacy, anonymity and security (Himma K and Tavani H. 2008. chapter 6).
 
 The primary/direct stakeholders of _Know the News_ are its users, defined as people with an interest in either playing a game about news media, or developing their knowledge about news media bias. The user testing and prototyping helped develop different personality profiles of the direct stakeholder. The ethical concerns outlined here will be limited to direct stakeholders. Although indirect stakeholders such as the newspapers and any public figures mentioned in tweets could be affected, all information is collected form tweets already in the public domain and therefore presents no immediate concerns related to those outlined in the above paragraph.
 
