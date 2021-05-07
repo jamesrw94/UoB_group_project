@@ -227,14 +227,17 @@ it('check that user gets routed to results page after clicking button',()=>{
 
 Test plans were created to mimic a user’s journey through the website.  Initially we had one test, which went through an entire question, from Homepage to Answer page.  In the end we split this into two defined parts to reduce the complexity of the test plans:
 
-1. **[Navigating to a question](UATNavigatation.md)**
-2. **[Answering a question in the quiz](UATQuestionPage.md)**
+1. **[Navigating to a question](FTNavigatation.md)**
+2. **[Answering a question in the quiz](FTQuestionPage.md)**
+3. **[Checking the websites responsiveness](FTResponsiveness.md)**
 
 The test plans document a series of steps that the tester needs to perform, and what to expect to ensure the application is working correctly.  There is information on how to start and teardown.
 
 Test 1 was concerned with the user first interacting with the website, and then moving from that point to a valid question page.  Ensuring all the correct elements are loaded on the relevant components (for example, ensuring the topic page loads all the topic buttons, that the question page loads two tweets).
 
 Test 2 was concerned with the user’s interaction with the question page, which is the page with most user interaction.  It contains 4 tests including testing the drag and drop and checking error messages on the submit button.
+
+Test 3 was concerned with the websites responsiveness as raised by the initial User Survey.  The website did not pass this test, only working on a standard desktop environment.  This is due to us not fully utilizing bootstrap while writing the front end.  Unfortunately this was realised quite late into development and would have required a significant amount of time to refactor, requring a significant refactor.  If we have more time this would have been added into the next sprint as a priority as during research a lot of our users used mobile phones.
 
 These tests, although not technical like the Unit Testing were very useful for us as a team as they forced us to think about the design in more detail, and to think in depth about what interactions we might expect from users.
 
