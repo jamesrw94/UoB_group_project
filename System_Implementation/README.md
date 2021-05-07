@@ -261,7 +261,8 @@ The first of these minor issues occurs when a user has reached the results page 
 
 The second is less of an error and more an inconvenience but occurs when the user has dragged the two logos into place. Once this has happened, they cannot be swapped meaning that the user has to submit what they have already inputted. If only one dropbox has been filled the user can still drag the paper logos from the field empty box to the empty empty box.
 
-The final issue is that due to the way that the website has been designed it does not respond in the way intended when a user tries to resize the browser. This means that when the user tries to resize the page elements starts to overlap and after a certain point becomes unusable. When using a computer with a monitor this is not an issue however this will almost definitely be an issue for users on mobile phones and tablets as due to the resolution of their smaller screens the app would most likely be unusable.
+The final issue is that due to the way that the website has been designed it does not respond in the way intended when a user tries to resize the browser. This means that when the user tries to resize the page elements starts to overlap and after a certain point becomes unusable. When using a computer with a monitor this is not an issue however this will almost definitely be an issue for users on mobile phones and tablets as due to the resolution of their smaller screens the app would most likely be unusable.  This was realised to be an issue late on into development and would have taken a significant refactor to change, requring multiple style sheets for each type of device.
+
 # Additional elements #
 In the backend, we performed additional elements which we feel deserve to be singled out here (and which have already been mentioned in the backend / Middle Tier section).
 
