@@ -100,7 +100,7 @@ The users preferred having two tweets, as they felt having two to compare gave t
 
 #### Limitations
 1.	Planning, organizing and executing the user tests is time consuming, and a lot more hands on than user surveys.
-2.	Documenting the results also is time intensive as the videos had to be replayed to gain quotes, afterwards comparing the user journeys to gain insights.
+2.	Documenting the results is also time intensive as the videos had to be replayed to gain quotes, afterwards comparing the user journeys to gain insights.
 3.	Moderating bias/errors could have a significant impact on results as the sample size is much lower.
 
 On the whole, user prototyping and testing was an incredibly valuable tool for us to ensure the application would satisfy the user needs. I feel that using both methods complemented each other, where user surveys brought breadth, moderated user tests brought depth. Many useful insights were highlighted by both methods which were later used in the design by the front and back end:
