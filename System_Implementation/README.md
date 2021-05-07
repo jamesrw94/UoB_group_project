@@ -278,7 +278,7 @@ Our approach to CI/CD was manual, and it was the responsibility of each develope
 
 We did not make full use of Docker's CI/CD functionality in conjunction with Git. The main reason behind this was a lack of automatic testing which was not set up early enough in the project. The Testing workshop was in the penultimate week of this group project, and we did not have time nor see the value in setting up automatic testing and CI/CD because we had nearly finished coding our app by this stage.
 
-If we were to do the project again, we would seek to implement full CI/CD using docker. We would set up automatic tests in the dev branch such that, upon a merge into the branch, the tests would run and a docker image built and published to DockerHub (if the tests passed successfully!). If the tests passed, the code would then be deployed - in this situation, deployment would mean pushing to our production branch, 'main'.
+If we were to do the project again, we would seek to implement full CI/CD using docker. We would set up automatic tests in the dev branch such that, upon a merge into the branch, the tests would run and a docker image would be built and published to DockerHub (if the tests passed successfully!). If the tests passed, the code would then be deployed - in this situation, deployment would mean pushing to our production branch, 'main'.
 
 
 **[&rarr; UX Design](https://github.com/jamesrw94/UoB_group_project/blob/main/UX_Design/README.md)**
