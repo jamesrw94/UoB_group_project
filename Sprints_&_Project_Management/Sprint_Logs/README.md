@@ -138,6 +138,8 @@ The feedback was positive, with some minor amendments to be made to the report, 
 
 We made the changes Paul suggested as we still had one day until hand in.
 
+We also realised that our buttons were overlapping when the browser screen resized. Joe looked into this issue and we agreed we did not have time to fix it as it involved writing a new css styles sheet for different resolutions; instead, we added it to future work.
+
 <br>
 <br>
 
