@@ -132,7 +132,7 @@ Despite their usefulness, Nielsen’s design heuristics have started to come **[
 As our group did not have much time to implement an automatic testing reigime we choose to limit our testing to one user journey through the app. Therefore most of our testing revolved around a user answering one topic's questions. We chose this approach for two reasons: 
  1) The code between categories is very similar
  
- 2) it felt more important to ensure at least one user journey was completely working, rather than less throughly testing multiple journeys
+ 2) It felt more important to ensure at least one user journey was completely working, rather than less throughly testing multiple journeys
  
  
  As a result of this, all of our own tests can be found in the Brexit spec file [here](https://github.com/jamesrw94/UoB_group_project/blob/dev/angular/src/app/topicpage/brexit/brexit.component.spec.ts). Our first test was chosen to verify that text appears on the question screen in the right place and the right order. As we could not use the data from our database we had to mock fake tweets instead, this limits the usefulness of the test in part but it was still important to verify that the front end weas doing what it was supposed to.
