@@ -41,13 +41,16 @@ The desire to be respectful with users’ personal data has directly impacted ov
 
 ## Future work ## 
 
-In terms of future work we have found 3 possible avenues to improve the end product. These avenues link directly with our Project objectives. 
+In terms of future work we have found 4 possible avenues to improve the end product. These avenues link directly with our Project objectives. 
 
 Our first objective, set out at the beginning of the project,  was to design an application with quiz game functionality. Although we achieved this, in the future it would be beneficial to flesh out the quiz further by adding in user sessions and having users answer multiple questions in a row. This would develop the play aspect of our serious play project.
 
 Our second objective was to populate our database using the Twitter API. This objective was met, but it would be even better to develop a system in which new tweets were periodically inserted into the database automatically instead of having to manually insert the json files ourselves. To complement this, we could also introduce a way of selecting topics dynamically from what was currently trending on twitter. This would allow the website to keep its relevance by automatically updating itself without human interference. 
 
 The last two objectives of our app were based around highlighting user bias towards the media. In the current app we only show information about the newspapers that featured in the previous question but in the future it would be great to expand this into its own page, where you could get statistics regarding all of the newspapers at once. This could further help highlight the bias within the media as it would allow users to more easily compare each newspapers performance.
+
+The final avenue which we would like to explore would be to make the site more responsive to a variety of screen sizes. Currently the website works as intended on any normal computer monitor however, due to the design of the website when used on devices with smaller screens the website becomes unusable with elements starting to overlap making it very hard to understand what is going on and how to use it. This could be fixed with a tighter integration to bootstrap or by using separate CCS files for different sized devices.
+
 
 ## References
 
