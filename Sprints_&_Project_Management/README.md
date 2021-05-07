@@ -73,9 +73,9 @@ To connect our backend work with our frontend work, we attempted to merge our br
 
 ### Continuous Deployment
 
-We did not set up an automated Continuous Deployment process of shipping our ‘dev’ code to ‘main’ once all tests had passed. This was a missed opportunity and we would seek to implement proper CD from the start if we could do it again. Instead, we manually merged dev into main and vice versa, sporadically, to ensure the branches did not become too different.
+As mentioned in [System Implementation](../System_Implementation/README.md), we did not set up an automated Continuous Deployment process of shipping our ‘dev’ code to ‘main’ once all tests had passed. This was a missed opportunity and we would seek to implement proper CD from the start if we could do it again. Instead, we manually merged dev into main and vice versa, sporadically, to ensure the branches did not become too different.
 
-In hindsight, the main blocker to CD was a lack of automatic testing in ‘dev’. Had we built in such functionality, we could be confident that when all tests passed on the ‘dev’ branch, we could automatically merge to main, the production-ready branch.
+In hindsight, the main blocker to CD was a lack of automatic testing in ‘dev’. Had we built in such functionality, we could be confident that when all tests passed on the ‘dev’ branch, we could automatically merge to main, the production-ready branch. Unfortunately the Testing workshop did not occur until the penultimate week of our project timeline, by which point we had written most of our code and so did not believe it would be a valuable use of our time to set up CD.
 
 ### Additional Git Usage and Comments
 One initial difficulty we found was with the node_modules directory being part of .gitignore. Whenever a team member wished to pull another member’s code to review it, if any changes had been made in the node_modules and package.json, whoever was pulling the code had to update their node_modules and sometimes install specific packages. However, once this resolution was identified, we were all able to pull and build each other’s code more regularly and without issues.
