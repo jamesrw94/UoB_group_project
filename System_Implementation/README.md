@@ -259,7 +259,7 @@ There are currently three known issues with the site which had not been fixed du
 
 The first of these minor issues occurs when a user has reached the results page and then refreshes the site. When they do this the paper names and statistics are all reset meaning that the paper names are no longer displayed and the graphs show their default statistics which were originally only meant as placeholders.
 
-The second is less of an error and more an inconvenience but occurs when the user has dragged the two logos into place. Once this is happened, they cannot be swapped meaning that the user has to submit what they have already inputted. If only one dropbox has been filled the user can still drag the paper logos from the field empty box to the empty empty box.
+The second is less of an error and more an inconvenience but occurs when the user has dragged the two logos into place. Once this has happened, they cannot be swapped meaning that the user has to submit what they have already inputted. If only one dropbox has been filled the user can still drag the paper logos from the field empty box to the empty empty box.
 
 The final issue is that due to the way that the website has been designed it does not respond in the way intended when a user tries to resize the browser. This means that when the user tries to resize the page elements starts to overlap and after a certain point becomes unusable. When using a computer with a monitor this is not an issue however this will almost definitely be an issue for users on mobile phones and tablets as due to the resolution of their smaller screens the app would most likely be unusable.
 # Additional elements #
