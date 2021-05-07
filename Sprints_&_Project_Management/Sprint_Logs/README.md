@@ -37,7 +37,7 @@ We were also experiencing issues using docker volumes - when members of the team
 #### Sprint Review
 
 All tickets were successfully completed. Some points to note were:
-* Routing was successfully set up using lazy child component loading. This method of routing was scalable, and child pages it was simple to route other components in this way once we had teh first working.
+* Routing was successfully set up using lazy child component loading. This method of routing was scalable, and child pages it was simple to route other components in this way once we had the first working.
 * We considered using  dockerhub to publish our docker image as we weren't sure that docker would work from github, but this turned out to be inexperience on our part and Git worked well with docker images. Additionally, we were considering using volumes to persist data, but realised that this would not work between machines. Therefore, we used a script which users must use in order to seed the database. Of course, if the app ever ended up being deployed onto a production environment server, we would be able to use volumes.
 * Show and tells were performed within our group on Thursday (please see [this link](../Meeting_Notes/21_04_09) for the meeting minutes) as follows:
   * Dan demonstrated the API connection script
