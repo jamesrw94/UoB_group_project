@@ -232,7 +232,7 @@ Whilst testing our code, we realised that users could click “Submit” before 
 
 ## Results page component ##
 
-Upon initilisation of the Results Page, the result from the last question are obtained from the date service as well as the names of the papers which were used for the last question. A message is returned to the user informing them of the result.
+Upon initilisation of the Results Page, the results from the last question are obtained from the date service as well as the names of the papers which were used for the last question. A message is returned to the user informing them of the result.
 
 The names of the correct and incorrect paper are returned to the API to update the database, where we collect data on the number of right and wrong answers per newspaper. The overall scores for the relevant newspapers are then returned to the front end, where we display the data using two pie charts.
 
