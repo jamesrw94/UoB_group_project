@@ -46,7 +46,7 @@ The survey included pre user test questions on demographics such as age, gender,
 The hope was to be able to gain insights into our target demographic, to be able to improve our design for their user needs.  Several insights were gleaned from the survey which had a direct impact on the design:
 
 1.	The survey was incredibly useful in assigning a name to our application, something we were struggling with a decision on.  
-2.	It allowed us to understand that people were having difficulties understanding the concepts within the game which led the front end to adding subtitles to add clarity.
+2.	It allowed us to understand that people were having difficulties grasping the concepts within the game, in response we added subtitles to the front end for clarity.
 3.	A lot of users were using their mobile phone to test the prototype, which led to a discussion regarding mobile compatibility of the website. 
 4.	The fact that the prototype did not have drag and drop features confused a lot of users.
 
