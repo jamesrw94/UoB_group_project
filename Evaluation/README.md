@@ -239,7 +239,7 @@ Test 2 was concerned with the user’s interaction with the question page, which
 
 Test 3 was concerned with the websites responsiveness as raised by the initial User Survey.  The website did not pass this test, only working on a standard desktop environment.  This is due to us not fully utilizing bootstrap while writing the front end.  Unfortunately this was realised quite late into development and would have required a significant amount of time to refactor.  If we had more time this would have been added into the next sprint as a priority as during research a lot of our users used mobile phones.
 
-These tests, although not technical like the Unit Testing were very useful for us as a team as they forced us to think about the design in more detail, and to think in depth about what interactions we might expect from users.
+These tests, although not technical like the Unit Testing, were very useful for us as a team as they forced us to think about the design in more detail and to think in depth about what interactions we might expect from users.
 
 ## User Acceptance Testing
 
