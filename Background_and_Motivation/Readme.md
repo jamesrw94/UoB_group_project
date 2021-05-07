@@ -14,7 +14,7 @@ One area which seems to have some traction is media bias and fake news. A few we
 <p align="center"><img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/Sprints_%26_Project_Management/Readme_Images/Facticious_Question.png" height="600"/></p>
 <p align="center"><img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/Sprints_%26_Project_Management/Readme_Images/facticious_answer.png" width="600"/></p>
 
-4.	[ClearThinking](http://factitious.augamestudio.com/#/) – A USA targeted political ideology affiliation test. A user’s political ideology is evaluated through a set of general knowledge questions surrounding areas believed to be of political significance such as environmental concerns and the economy. The user is then scored based on their answers regarding each of these categories, and this is then used to determine a user’s political leanings.
+4.	[ClearThinking](http://programs.clearerthinking.org/political_bias_test.html#.VdbziFNViko) – A USA targeted political ideology affiliation test. A user’s political ideology is evaluated through a set of general knowledge questions surrounding areas believed to be of political significance such as environmental concerns and the economy. The user is then scored based on their answers regarding each of these categories, and this is then used to determine a user’s political leanings.
 <p align="center"><img src="https://raw.githubusercontent.com/jamesrw94/UoB_group_project/main/Sprints_%26_Project_Management/Readme_Images/clearerThinking.png" width="600"/></p>
 
 ## The issue
